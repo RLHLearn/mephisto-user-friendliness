@@ -23,7 +23,7 @@ const FullInstructions = () => (
     <p>
       {" "}
       Welcome to this crowdsourcing project, where your help is needed
-      to answer a range of different kinds of questions.
+      to answer a range of different kinds of questions .
     </p>
 
     <p>
