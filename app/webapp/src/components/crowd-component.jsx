@@ -55,24 +55,21 @@ const FullInstructions = () => (
 
 
 const CrowdComponent = ({ onSubmit, taskData }) => {
-  const imageUrl = taskData.imageUrl;
   const question_text = taskData.question_text;
   const question_prompt = taskData.question_prompt;
   const question_tag = taskData.question_tag;
   const answer_format = taskData.answer_format;
-  const answer = taskData.answer;
   const pre_prompt = taskData.pre_prompt;
 
-  console.log(imageUrl);
 
   const onFormSubmit = (e) => {
     e.preventDefault();
-    const keypoints =
-      document.querySelector("crowd-keypoint").value.keypoints ||
-      document.querySelector("crowd-keypoint")._submittableValue.keypoints;
-    const submitData = Object.fromEntries(keypoints.map((item, index) => [`item${index + 1}`, item]));
+    const inputValue = document.querySelector(`crowd-input[name="${question_tag}"]`).value;
+    const submitData = { [question_tag]: inputValue };
     onSubmit?.(submitData);
   };
+
+
 
   let renderedContent;
 
@@ -82,13 +79,13 @@ const CrowdComponent = ({ onSubmit, taskData }) => {
         <h3>
         <h1>{pre_prompt}{question_prompt}</h1>
         </h3>
-        <crowd-form onSubmit>
+        <crowd-form  onSubmit={onFormSubmit}>
           <div className="indent-form">
             <div>
             <div>
             {Array.isArray(question_text) ? question_text.map((line, index) => <p key={index}>{line}</p>) : <p>{question_text}</p>}
             </div>
-              <crowd-input name={question_tag} label="Input answer here" type="text"></crowd-input>
+              <crowd-input name={question_tag} label="Input answer here" ></crowd-input>
               </div>
           </div>
         </crowd-form>
@@ -100,7 +97,8 @@ const CrowdComponent = ({ onSubmit, taskData }) => {
         <h3>
           {question_tag}
         </h3>
-        <crowd-form>
+        <crowd-form  onSubmit={onFormSubmit}>
+          <div className="indent-form">
           <div>
             <h1>{pre_prompt}{question_prompt}</h1>
           </div>
@@ -108,12 +106,13 @@ const CrowdComponent = ({ onSubmit, taskData }) => {
             {Array.isArray(question_text) ? question_text.map((line, index) => <p key={index}>{line}</p>) : <p>{question_text}</p>}
           </div>
           <div>
-            <crowd-radio-group>
-              <crowd-radio-button name="A" value="A">A</crowd-radio-button>
-              <crowd-radio-button name="B" value="B">B</crowd-radio-button>
-              <crowd-radio-button name="C" value="C">C</crowd-radio-button>
-              <crowd-radio-button name="D" value="D">D</crowd-radio-button>
+            <crowd-radio-group name="multiple_choice">
+              <crowd-radio-button name="multiple_choice" value="A">A</crowd-radio-button>
+              <crowd-radio-button name="multiple_choice" value="B">B</crowd-radio-button>
+              <crowd-radio-button name="multiple_choice" value="C">C</crowd-radio-button>
+              <crowd-radio-button name="multiple_choice" value="D">D</crowd-radio-button>
             </crowd-radio-group>
+          </div>
           </div>
         </crowd-form>
       </>
@@ -124,18 +123,20 @@ const CrowdComponent = ({ onSubmit, taskData }) => {
         <h3>
           {question_tag}
         </h3>
-        <crowd-form>
-        <div>
+        <crowd-form  onSubmit={onFormSubmit}>
+          <div className="indent-form">     
+          <div>   
         <h1>{pre_prompt}{question_prompt}</h1>
         </div>
         <div>
           {Array.isArray(question_text) ? question_text.map((line, index) => <p key={index}>{line}</p>) : <p>{question_text}</p>}
         </div>
         <div>
-        <crowd-radio-group>
-        <crowd-radio-button name="1" value="1">1</crowd-radio-button>
-        <crowd-radio-button name="2" value="2">2</crowd-radio-button>
+        <crowd-radio-group name = "binary">
+        <crowd-radio-button name="binary" value="1">1</crowd-radio-button>
+        <crowd-radio-button name="binary" value="2">2</crowd-radio-button>
         </crowd-radio-group>
+        </div>
         </div>
         </crowd-form>
       </>
@@ -143,15 +144,19 @@ const CrowdComponent = ({ onSubmit, taskData }) => {
     };
   return (
     <>
-      <div className="wrapper">
-        <div className="left-spacer"></div>
-        <div className="top-spacer"></div>
-        <div className="main-content">
-          {renderedContent}
+      <h3>
+      <h1>{pre_prompt}{question_prompt}</h1>
+      </h3>
+      <crowd-form  onSubmit={onFormSubmit}>
+        <div className="indent-form">
+          <div>
+          <div>
+          {Array.isArray(question_text) ? question_text.map((line, index) => <p key={index}>{line}</p>) : <p>{question_text}</p>}
+          </div>
+            <crowd-input name={question_tag} label="Input answer here" ></crowd-input>
+            </div>
         </div>
-
-      </div>
-
+      </crowd-form>
     </>
   );
 };
