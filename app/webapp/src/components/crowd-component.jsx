@@ -126,7 +126,8 @@ const CrowdComponent = ({ onSubmit, taskData }) => {
         <crowd-form  onSubmit={onFormSubmit}>
           <div className="indent-form">     
           <div>   
-        <h1>{pre_prompt}{question_prompt}</h1>
+        <h1>{pre_prompt}</h1>
+        <h2>{question_prompt}</h2>
         </div>
         <div>
           {Array.isArray(question_text) ? question_text.map((line, index) => <p key={index}>{line}</p>) : <p>{question_text}</p>}
@@ -145,7 +146,8 @@ const CrowdComponent = ({ onSubmit, taskData }) => {
   return (
     <>
       <h3>
-      <h1>{pre_prompt}{question_prompt}</h1>
+      <h1>{pre_prompt}</h1>
+      <h2>{question_prompt}</h2>
       </h3>
       <crowd-form  onSubmit={onFormSubmit}>
         <div className="indent-form">
