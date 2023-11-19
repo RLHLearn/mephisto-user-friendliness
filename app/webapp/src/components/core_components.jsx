@@ -69,11 +69,11 @@ function SimpleFrontend({taskData, isOnboarding, onSubmit, onError}) {
         <div style={{ flex: '50%', backgroundColor: 'white' }}>
           <CrowdComponent taskData={taskData} onSubmit={onSubmit}/>
         </div>
-        {/* <div style={{ flex: '40%', backgroundColor: 'white' }}>
+        {<div style={{ flex: '40%', backgroundColor: 'white' }}>
           <iframe
             src="http://mpt-chat-gpt.mephisto.aufederal2022.com?provider=mturk&workerId=123&assignmentId=222"
             width="100%" height="100%" frameBorder="0"></iframe>
-        </div> */}
+        </div>}
       </div>
     </>
   );
