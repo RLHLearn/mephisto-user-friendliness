@@ -32,6 +32,8 @@ function MainApp() {
     handleMetadataSubmit,
     handleFatalError,
     isOnboarding,
+    providerWorkerId,
+    assignmentId
   } = useMephistoTask();
 
   if (!isPreview) {
@@ -118,6 +120,8 @@ function MainApp() {
           onSubmit={handleSubmit}
           isOnboarding={isOnboarding}
           onError={handleFatalError}
+          providerWorkerId={providerWorkerId}
+          assignmentId={assignmentId}
         />
       </ErrorBoundary>
     </div>

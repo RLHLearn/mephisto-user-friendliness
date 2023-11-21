@@ -61,8 +61,10 @@ function Directions({children}) {
   );
 }
 
-function SimpleFrontend({taskData, isOnboarding, onSubmit, onError}) {
+function SimpleFrontend({taskData, isOnboarding, onSubmit, onError, providerWorkerId, assignmentId}) {
   const data = {success: true};
+
+  const link = `https://d7a7ydym0akil.cloudfront.net?provider=prolific&workerId=${providerWorkerId}&assignmentId=${assignmentId}`
   return (
     <>
       <div style={{ display: 'flex', width: '80%', height: '100vh', marginLeft: '10%' }}>
@@ -71,7 +73,7 @@ function SimpleFrontend({taskData, isOnboarding, onSubmit, onError}) {
         </div>
         {<div style={{ flex: '40%', backgroundColor: 'white' }}>
           <iframe
-            src="http://mpt-chat-gpt.mephisto.aufederal2022.com?provider=mturk&workerId=123&assignmentId=222"
+            src={link}
             width="100%" height="100%" frameBorder="0"></iframe>
         </div>}
       </div>
