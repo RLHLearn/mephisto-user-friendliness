@@ -1,109 +1,77 @@
 [
-  {
-      "question_text": [
-          "#Person1#: Peter, do you want to learn to play the piano?",
-          "#Person2#: No, mom. Piano is for girls.",
-          "#Person1#: Well, there are many boys that can play the piano very well, like Jay Chou.",
-          "#Person2#: No way, mom. I don't like piano.",
-          "#Person1#: OK. But you have to promise me that you will study hard in your English class.",
-          "#Person2#: All right, all right. I understand."
-      ],
-      "question_prompt": "Summarize the following dialogue: ",
-      "question_tag": "Dialogue Summary-CC11",
-      "answer_format": "plain_text",
-      "answer": "None",
-      "pre_prompt": ""
-  },
-  {
-      "question_text": [
-          "#Person1#: Hi Sweetie. Welcome home. We're ready to eat.",
-          "#Person2#: Well, there's something I ...",
-          "#Person1#: We have salmon and your favorite salad.",
-          "#Person2#: Oh, yeah. That sounds ... great.",
-          "#Person1#: Um, what's ... what's the deal? I worked really hard. Look, Look. For dessert, I made apple pie.",
-          "#Person2#: Well ... under most circumstances ...",
-          "#Person1#: Hon. What's? You ... I've never made a pie before. It took me like three hours.",
-          "#Person2#: Well, to be honest ...",
-          "#Person1#: What's wrong? [ Man laughing. ] Don't you like my cooking?",
-          "#Person2#: No, no, no.",
-          "#Person1#: I worked really hard!",
-          "#Person2#: I know, I know, I know, but to be honest, I just had a hamburger, fries, and a chocolate shake.",
-          "#Person1#: Why? WHY?",
-          "#Person2#: I'm sorry. I didn't know.",
-          "#Person1#: I told you this morning I was making something nice. Didn't you listen?",
-          "#Person2#: I'm sorry, I forgot. I mean ... Wait ...",
-          "#Person1#: Serious.",
-          "#Person2#: Yeah, wait. Wait, wait. What are you doing? Why are you putting the food in my shoes?",
-          "#Person1#: So you can enjoy it as you walk to work tomorrow.",
-          "#Person2#: Oh, no. I'm sorry!"
-      ],
-      "question_prompt": "Summarize the following dialogue: ",
-      "question_tag": "Dialogue Summary-CC12",
-      "answer_format": "plain_text",
-      "answer": "None",
-      "pre_prompt": ""
-  },
-  {
-      "question_text": [
-          "#Person1#: What courses are you going to take next year?",
-          "#Person2#: Well, I am certainly going to take chemistry and physics, but I haven't decided on the other subjects yet. I'd like to take English.",
-          "#Person1#: Why are you going to take English with chemistry and physics?",
-          "#Person2#: Because I want to study English literature. But I think chemistry is better for getting a job.",
-          "#Person1#: Of course it depends on what you are going to do when you leave college. Have you decide what you are going to do when you graduated?",
-          "#Person2#: I am going to be a, well, I hope to be a research chemist."
-      ],
-      "question_prompt": "Summarize the following dialogue: ",
-      "question_tag": "Dialogue Summary-CC13",
-      "answer_format": "plain_text",
-      "answer": "None",
-      "pre_prompt": ""
-  },
-  {
-      "question_text": "Virginia State Sen. Creigh Deeds, who was stabbed multiple times by his son, said he will work to change how mental health services are delivered so that \"other families don't have to go through what we are living.\" Deeds' son, Austin \"Gus\" Deeds, committed suicide after the fight. \"I hope we can make a positive change as a result of this tragedy,\" Deeds told The Recorder, a newspaper based in Monterey, Virginia. \"I think there may be a bigger problem here. I am alive for a reason, and I will work for change. I owe that to my precious son,\" he said. The stabbing came one day after Deeds' son was taken to a hospital under an emergency custody order. Police confirmed that Gus Deeds, 24, was brought in by the local sheriff for evaluation by mental health professionals. The young man was released after the evaluation because no open psychiatric bed could be located across a wide area of western Virginia, Dennis Cropper, executive director of the Rockbridge Area Community Services Board, told the Richmond Times-Dispatch. Cropper declined to comment on the specifics of the case but said not finding a bed was unusual for his agency. Deputies called to Deeds' home day before fatal fight . CNN later learned that at least three Virginia hospitals had psychiatric beds available the day before the stabbing and suicide. Officials at Western State, Rockingham Memorial and UVA Charlottesville hospitals said beds were available, but they had not been contacted by medical personnel who evaluated the younger Deeds. The hospitals are within an hour or two from Bath County, where the incident occurred, but it was unclear whether those who had the initial contact with Gus Deeds reached out only to hospitals closer to Bath County. \"I cry a lot. I can't focus now and talk to anyone,\" Deeds told The Recorder. \"I have very strong opinions about the CSB and feel like they are responsible. My life's work now is to make sure other families don't have to go through what we are living.\" CNN reached out to the Rockbridge Area Community Services Board for comment but did not receive an immediate reply. Deeds, 55, is well-known in Virginia political circles. A Democrat, he ran unsuccessfully for attorney general in 2005 and for governor in 2009, both times against Republican Bob McDonnell, who is now Virginia's governor. He was released from the hospital on Friday, three days after he was stabbed more than 10 times in the head and neck. Opinion: How to make mental health care work .",
-      "question_prompt": "Summarize the article:",
-      "question_tag": "CNN Summary-CC14",
-      "answer_format": "plain_text",
-      "answer": "None",
-      "pre_prompt": ""
-  },
-  {
-      "question_text": "By . Anna Edwards . PUBLISHED: . 07:31 EST, 9 October 2012 . | . UPDATED: . 12:55 EST, 9 October 2012 . Najat Hamza, Abu Hamza's wife, pictured, has been asked to leave her taxpayer-funded council house . Hate preacher Abu Hamza\u2019s wife has been asked by her local authority to move out of the five-bedroom council house she lives in. Moroccan-born Najat Mostafa is believed to live at the large Shepherd\u2019s Bush property in west London with only two of the couple's eight children after reportedly moving there in 1995. Hammersmith and Fulham Council says that in recent weeks it has corresponded with Mrs Mostafa and asked her to move to a 'more appropriate property'. But the radical cleric's Hamza\u2019s second wife is entitled to refuse the council\u2019s request, as there is no time limit on her tenancy agreement. News of the council\u2019s request comes after Mrs Mostafa\u2019s husband was extradited to the US on Friday after years of legal wrangling to face terrorism charges. The 55-year-old will appear in court in New York today for a plea hearing. A spokesman for Hammersmith and Fulham Council said: 'I can confirm that we have corresponded with Mrs Mostafa with regards to her tenancy. 'We believe this home is too big for the number of family members who currently live there and, with over 10,000 people languishing on the borough\u2019s housing waiting list, she should move to a more appropriate property.' Their demand comes after Greg Hands, the Conservative MP for Fulham . and Chelsea, told The Daily Telegraph: 'I would strongly welcome any . move by the council to take a look at Hamza's wife's status and the . large council house in one of London's wealthiest neighbourhoods to see . whether something might be done to move Hamza's family on.' This is the West London home where Abu Hamza's wife is reported to live with two of her their children . Not guilty plea: Defence lawyer Jeremy Schneider (left) and Abu Hamza (centre) in court in New York City . The spokesman could not confirm the exact value of the property, but said house prices in Hammersmith and Fulham are among the most expensive in Britain. Abu Hamza pleaded not guilty today . to charges that he conspired with U.S. men to set up a terrorist . training camp in Oregon state. He entered the plea shortly before U.S. District Judge Katherine Forrest set an August 26 trial date for him. Hamza is also accused of helping abduct 16 hostages, two of them American tourists, in Yemen in 1998. Hamza, who is missing boths hands and an eye, never officially lived in the Shepherd's Bush house but was often seen there by neighbours before his arrest in August 2004 for incitement to murder and racial hatred. In 2006 he was jailed for seven years. His wife moved into it in 1995 after claiming they had separated. Police raided his council-owned house in 2004 and found thousands of extremist video and audio tapes ready for distribution. In 2006 it emerged he had bought a four-bedroom semi in Greenford for \u00a3220,000 cash while in prison. At the same time the Islamist extremist was running up a legal aid bill which had then cost the taxpayer \u00a3250,000, and the property was later seized to\u00a0 claw back some of the cash. Hook-handed Hamza first faced an extradition request from the Americans in 2004 and was jailed in the UK in 2006 for seven years for soliciting murder and inciting racial hatred. Charges: Imam Abu Hamza al-Masri, pictured . addressing his followers near Finsbury Park mosque, north London, in . March 2004, now faces terror charges in America . The convoy of terror suspects in armoured police vans on their way to the American air base on Saturday . The former firebrand imam of Finsbury Park mosque has been charged with 11 counts of criminal conduct related to the taking of 16 hostages in Yemen in 1998, advocating violent jihad in Afghanistan in 2001, and conspiring to establish a jihad training camp in Bly, Oregon, between June 2000 and December 2001. Last week Hammersmith and Fulham council announced it is ending lifelong council houses tenancies and from April 2013 will only offer fixed-term tenancy agreements of two years or five years. New tenants will have to show that they have made a contribution to the community and demonstrate a five-year connection to the borough. The new measures will not affect existing tenants such as Mrs Mostafa.",
-      "question_prompt": "Summarize the article:",
-      "question_tag": "CNN Summary-CC15",
-      "answer_format": "plain_text",
-      "answer": "None",
-      "pre_prompt": ""
-  },
-  {
-      "question_text": "Sitting at the bar at work watching Walking Dead and all these fucking wetbacks decide to come in &amp; turn on their spic music. Jesus Christ",
-      "question_prompt": " ",
-      "question_tag": "Davidson Hatespeech-VV17",
-      "answer_format": "plain_text",
-      "answer": 1,
-      "pre_prompt": "Identify whether the following is hatespeech (1) or not hatespeech (2)"
-  },
-  {
-      "question_text": "***SPOILERS*** Whatever else can (or can't) be said about it, SURFACE is superbly crafted. The cinematography is simply stunning (to say the least) and the fx are nothing if not state-of-the-art. Conceptually, the show offers a little bit of everything- and for just about everybody (parents, kids, fantasy and/or fx fans). CLOSE ENCOUNTERS OF THE THIRD KIND by way of CREATURE FROM THE BLACK LAGOON with a bit of JAWS and GODZILLA thrown in for good measure, say. And there wasn't a single sour note struck acting-wise, either; some surprisingly solid casting, here. This series SURFACEd, seemingly, from out of nowhere and, by sheer dint of its straightforward storytelling, carried the viewer along for the better part of an entire season. All things considered, a job very well done. I only hope it reSURFACEs next season...",
-      "question_prompt": " ",
-      "question_tag": "IMDB Sentiment-VV18",
-      "answer_format": "plain_text",
-      "answer": "positive",
-      "pre_prompt": "Label the sentiment of the following as either positive (1) or negative (2)"
-  },
-  {
-      "question_text":"Wrestlemania 6, is an entertaining Wrestlemania, if not an entirely successful one. The Ultimate Challenge, is of course worth the price of admission alone, but once again as with a lot of the early Mania's, there's too much filler in between. The crowd pops for almost everything, and as always, giving us the reliable announcing team of Gorilla&The Body. Having a Face vs Face match as the main event for a Wrestlemania, was absolutely unheard of at this time, it only made things that much more tense. Matches. Koko B. Ware/W Frankie Vs The Model Rick Martel. For a 3 or so minute match, this is as good as it gets. I wish it was a tad longer, but what I got, was pretty damn good. Martel wins, with the Boston Crab.2 1/2 /5WWF Tag Team Championship. Demolition Vs Colossal Connection|C|/W Bobby Heean. HUGE Pop for Demolition. Match itself is pretty dull, I often had trouble paying attention. Andre really didn't do much, so in a way it was more like a 2 on 1. There is solid talent involved here, and it's a shame they couldn't produce better. Demolition wins that titles, with there Pattened maneuver off the top. Crowd blows the roof of for the finish.1 1/2 /5Earthquake/W Jimmy Hart. Vs Hercules I got what I expected here, a standard boring filler match, with Earthquake doing his thing. I'm not really a fan of either, so It didn't perk my interest much. Quake wins with his sit down splash.1/5Brutus Beefcake Vs Mr.Pefect/W The Genius. Deafening pop for Bruti. Really good match up, with sadly not enough time given to develop even further. It really kept my interest, and remains one of my favorites on the card. Beefcake wins with a slingshot to the post, much to the crowd's approval.3/5Roddy Piper Vs Bad News Brown. HUGE pop for Piper. Nothing more than a boring brawl, that does not know what it wants to be. Some entertaining antics from The Hot Rod, but nothing else. Noteworthy for Roddy painting himself half black, and calling himself Hot Scott 1/5The Hart Foundation Vs The Bolsheviks. Record breaking, but other than that, nothing to see here. Harts win with, The Hart Attack.0/5The Barbarian/W Bobby Heenan. Vs Tito Santana. Average for the time it got, but watchable nonetheless. Crowd was rather dead for it, except for Heenan's interference. Jessie's hilarious cracks, about Tito's food is more entertaining, then the match itself. Barbarian wins with a nasty looking, flying clothesline off the top.2/5Mixed Tag Match. Dusty&Sapphire/W Elizabeth. Vs Macho King&Sherri. Big pop for Dusty, and an even bigger one for Elizabeth, who looks absolutely stunning, might I add. I thought it was OK. It was lively at least, if nothing that great. I'm not a fan of Dusty' so. Dusty and Sapphire win, when She rolls up Sherri.2/5The Orient Express/W Fuji. Vs The Rockers. Crowd is rather anemic for this, surprisingly. Decent no doubt, but with these guys involved, it should have been better. The constant focus with Fuji, kinda detracts from the match. Express wins by count out, when Janetty gets nailed with salt.2 1/2 /5Jim Duggan Vs Dino Bravo/W Earthquake&Jimmy Hart. Duggan like an idiot, brings out The American flag in Canada. Duggan gets some solid boo's for it too, but that also may be due to Bravo's Canadian heritage. Crappy match all around, I don't care for Duggan, but that's not why it sucked. Too short in the end, to really matter. Duggan wins when he whacks Bravo in the back, with the two by four. Duggan gets splashed for his troubles.0/5Million Dollar Championship. Ted Dibiase|C|/W Virgil. Vs Jake Robers/W Damien. Some slow spots, but when all was said and done, I had a good time. Two solid wrestlers giving it there all, resulted in an entertaining match up. Crowd noticeably gets Ancy during parts of it though, by doing the wave. Dibiase wins by count out. Jake has the last laugh, by giving away some of his money, much to the crowd's delight.3/5Big Bossman Vs Akeem/W Slick. Nice pop for The Bossman. Too routine, and too short to really mean anything, in the end. Akeem was a gimmick, I was never too fond of. Bossman wins with his slam.0/5The Rhythm&Blues segment was pretty much a failure. Crowd wasn't into itRick Rude/W Bobby Heenan. Vs Jimmy Snuka. For a filler match, before the main event, this wasn't too bad. If it had time to get going more, it would have been excellent, for sure. Rude wins, with the Rude Awakening.2/5Title For Title. Ultimate Warrior|IC Champ| Vs Hulk Hogan|WWF Champ| This one is all about the atmosphere from the crowd, and the split crowd reaction, for the most part. Warrior got a pretty decent pop, but in my opinion it was a little underwhelming. Hogan dwarfs it completely,with his. It's one of Wrestlemania's best matches in history. With two people, who aren't really known for there wrestling, they managed to create an amazing match up that was talked about for ages. I have seen this many times, and my respect level grows higher for each one, for their effort, considering i'm not a fan of either. Even die-hard fanatics who crave pure wrestling, can't bitch about this one!. Warrior wins with his splash. 5/5Bottom line. Wrestlemania 6 is an entertaining entry, if nothing overly special. It's memorable for the main event, the location, and the crowd, but it's not one of the best if you ask me. That being said I do enjoy it, and I give it my recommendation to fellow wrestling fans.7/10",
-      "question_prompt": " ",
-      "question_tag": "IMDB Sentiment-VV19",
-      "answer_format": "binary",
-      "answer": "positive",
-      "pre_prompt": "Label the sentiment of the following as either positive (1) or negative (2)"
-  },
-  {
-      "question_text": "This is the first time I ever saw a movie with Jamie Foxx, and I bet it will be my last. I failed to see why he was funny, although people in the audience thought it was very funny when he made a face to the camera, or for saying \"I am going to take a shower\".The plot is completely predictable. The bad guy comes after the good guy. The good guy has a woman, so the bad guy uses her. In between, the officials screwing up. The final scenes are utterly unbelievable. You spend 2 years and millions of dollars chasing a guy, but you don't do your home work to solve a trivial riddle? There's no great acting, there isn't much of a plot or storyline, and the shooting is done MTV style. Don't waste your money on this one.",
-      "question_prompt": " ",
-      "question_tag": "IMDB Sentiment-VV20",
-      "answer_format": "binary",
-      "answer": "negative",
-      "pre_prompt": "Label the sentiment of the following as either positive (1) or negative (2)"
-  }
-]
+    {
+        "question_text": [
+            "#Person1#: Peter, do you want to learn to play the piano?",
+            "#Person2#: No, mom. Piano is for girls.",
+            "#Person1#: Well, there are many boys that can play the piano very well, like Jay Chou.",
+            "#Person2#: No way, mom. I don't like piano.",
+            "#Person1#: OK. But you have to promise me that you will study hard in your English class.",
+            "#Person2#: All right, all right. I understand."
+        ],
+        "question_prompt": "Thoroughly summarize the following dialogue: ",
+        "question_tag": "Dialogue Summary-CC11",
+        "answer_format": "plain_text",
+        "answer": "None",
+        "pre_prompt": ""
+    },
+    {
+        "question_text": [
+            "#Person1#: Hi Sweetie. Welcome home. We're ready to eat.",
+            "#Person2#: Well, there's something I ...",
+            "#Person1#: We have salmon and your favorite salad.",
+            "#Person2#: Oh, yeah. That sounds ... great.",
+            "#Person1#: Um, what's ... what's the deal? I worked really hard. Look, Look. For dessert, I made apple pie.",
+            "#Person2#: Well ... under most circumstances ...",
+            "#Person1#: Hon. What's? You ... I've never made a pie before. It took me like three hours.",
+            "#Person2#: Well, to be honest ...",
+            "#Person1#: What's wrong? [ Man laughing. ] Don't you like my cooking?",
+            "#Person2#: No, no, no.",
+            "#Person1#: I worked really hard!",
+            "#Person2#: I know, I know, I know, but to be honest, I just had a hamburger, fries, and a chocolate shake.",
+            "#Person1#: Why? WHY?",
+            "#Person2#: I'm sorry. I didn't know.",
+            "#Person1#: I told you this morning I was making something nice. Didn't you listen?",
+            "#Person2#: I'm sorry, I forgot. I mean ... Wait ...",
+            "#Person1#: Serious.",
+            "#Person2#: Yeah, wait. Wait, wait. What are you doing? Why are you putting the food in my shoes?",
+            "#Person1#: So you can enjoy it as you walk to work tomorrow.",
+            "#Person2#: Oh, no. I'm sorry!"
+        ],
+        "question_prompt": "Thoroughly summarize the following dialogue: ",
+        "question_tag": "Dialogue Summary-CC12",
+        "answer_format": "plain_text",
+        "answer": "None",
+        "pre_prompt": ""
+    },
+    {
+        "question_text": [
+            "#Person1#: What courses are you going to take next year?",
+            "#Person2#: Well, I am certainly going to take chemistry and physics, but I haven't decided on the other subjects yet. I'd like to take English.",
+            "#Person1#: Why are you going to take English with chemistry and physics?",
+            "#Person2#: Because I want to study English literature. But I think chemistry is better for getting a job.",
+            "#Person1#: Of course it depends on what you are going to do when you leave college. Have you decide what you are going to do when you graduated?",
+            "#Person2#: I am going to be a, well, I hope to be a research chemist."
+        ],
+        "question_prompt": "Thoroughly summarize the following dialogue: ",
+        "question_tag": "Dialogue Summary-CC13",
+        "answer_format": "plain_text",
+        "answer": "None",
+        "pre_prompt": ""
+    },
+    {
+        "question_text": "Virginia State Sen. Creigh Deeds, who was stabbed multiple times by his son, said he will work to change how mental health services are delivered so that \"other families don't have to go through what we are living.\" Deeds' son, Austin \"Gus\" Deeds, committed suicide after the fight. \"I hope we can make a positive change as a result of this tragedy,\" Deeds told The Recorder, a newspaper based in Monterey, Virginia. \"I think there may be a bigger problem here. I am alive for a reason, and I will work for change. I owe that to my precious son,\" he said. The stabbing came one day after Deeds' son was taken to a hospital under an emergency custody order. Police confirmed that Gus Deeds, 24, was brought in by the local sheriff for evaluation by mental health professionals. The young man was released after the evaluation because no open psychiatric bed could be located across a wide area of western Virginia, Dennis Cropper, executive director of the Rockbridge Area Community Services Board, told the Richmond Times-Dispatch. Cropper declined to comment on the specifics of the case but said not finding a bed was unusual for his agency. Deputies called to Deeds' home day before fatal fight . CNN later learned that at least three Virginia hospitals had psychiatric beds available the day before the stabbing and suicide. Officials at Western State, Rockingham Memorial and UVA Charlottesville hospitals said beds were available, but they had not been contacted by medical personnel who evaluated the younger Deeds. The hospitals are within an hour or two from Bath County, where the incident occurred, but it was unclear whether those who had the initial contact with Gus Deeds reached out only to hospitals closer to Bath County. \"I cry a lot. I can't focus now and talk to anyone,\" Deeds told The Recorder. \"I have very strong opinions about the CSB and feel like they are responsible. My life's work now is to make sure other families don't have to go through what we are living.\" CNN reached out to the Rockbridge Area Community Services Board for comment but did not receive an immediate reply. Deeds, 55, is well-known in Virginia political circles. A Democrat, he ran unsuccessfully for attorney general in 2005 and for governor in 2009, both times against Republican Bob McDonnell, who is now Virginia's governor. He was released from the hospital on Friday, three days after he was stabbed more than 10 times in the head and neck. Opinion: How to make mental health care work .",
+        "question_prompt": "Thoroughly summarize the article:",
+        "question_tag": "CNN Summary-CC14",
+        "answer_format": "plain_text",
+        "answer": "None",
+        "pre_prompt": ""
+    },
+    {
+        "question_text": "By . Anna Edwards . PUBLISHED: . 07:31 EST, 9 October 2012 . | . UPDATED: . 12:55 EST, 9 October 2012 . Najat Hamza, Abu Hamza's wife, pictured, has been asked to leave her taxpayer-funded council house . Hate preacher Abu Hamza\u2019s wife has been asked by her local authority to move out of the five-bedroom council house she lives in. Moroccan-born Najat Mostafa is believed to live at the large Shepherd\u2019s Bush property in west London with only two of the couple's eight children after reportedly moving there in 1995. Hammersmith and Fulham Council says that in recent weeks it has corresponded with Mrs Mostafa and asked her to move to a 'more appropriate property'. But the radical cleric's Hamza\u2019s second wife is entitled to refuse the council\u2019s request, as there is no time limit on her tenancy agreement. News of the council\u2019s request comes after Mrs Mostafa\u2019s husband was extradited to the US on Friday after years of legal wrangling to face terrorism charges. The 55-year-old will appear in court in New York today for a plea hearing. A spokesman for Hammersmith and Fulham Council said: 'I can confirm that we have corresponded with Mrs Mostafa with regards to her tenancy. 'We believe this home is too big for the number of family members who currently live there and, with over 10,000 people languishing on the borough\u2019s housing waiting list, she should move to a more appropriate property.' Their demand comes after Greg Hands, the Conservative MP for Fulham . and Chelsea, told The Daily Telegraph: 'I would strongly welcome any . move by the council to take a look at Hamza's wife's status and the . large council house in one of London's wealthiest neighbourhoods to see . whether something might be done to move Hamza's family on.' This is the West London home where Abu Hamza's wife is reported to live with two of her their children . Not guilty plea: Defence lawyer Jeremy Schneider (left) and Abu Hamza (centre) in court in New York City . The spokesman could not confirm the exact value of the property, but said house prices in Hammersmith and Fulham are among the most expensive in Britain. Abu Hamza pleaded not guilty today . to charges that he conspired with U.S. men to set up a terrorist . training camp in Oregon state. He entered the plea shortly before U.S. District Judge Katherine Forrest set an August 26 trial date for him. Hamza is also accused of helping abduct 16 hostages, two of them American tourists, in Yemen in 1998. Hamza, who is missing boths hands and an eye, never officially lived in the Shepherd's Bush house but was often seen there by neighbours before his arrest in August 2004 for incitement to murder and racial hatred. In 2006 he was jailed for seven years. His wife moved into it in 1995 after claiming they had separated. Police raided his council-owned house in 2004 and found thousands of extremist video and audio tapes ready for distribution. In 2006 it emerged he had bought a four-bedroom semi in Greenford for \u00a3220,000 cash while in prison. At the same time the Islamist extremist was running up a legal aid bill which had then cost the taxpayer \u00a3250,000, and the property was later seized to\u00a0 claw back some of the cash. Hook-handed Hamza first faced an extradition request from the Americans in 2004 and was jailed in the UK in 2006 for seven years for soliciting murder and inciting racial hatred. Charges: Imam Abu Hamza al-Masri, pictured . addressing his followers near Finsbury Park mosque, north London, in . March 2004, now faces terror charges in America . The convoy of terror suspects in armoured police vans on their way to the American air base on Saturday . The former firebrand imam of Finsbury Park mosque has been charged with 11 counts of criminal conduct related to the taking of 16 hostages in Yemen in 1998, advocating violent jihad in Afghanistan in 2001, and conspiring to establish a jihad training camp in Bly, Oregon, between June 2000 and December 2001. Last week Hammersmith and Fulham council announced it is ending lifelong council houses tenancies and from April 2013 will only offer fixed-term tenancy agreements of two years or five years. New tenants will have to show that they have made a contribution to the community and demonstrate a five-year connection to the borough. The new measures will not affect existing tenants such as Mrs Mostafa.",
+        "question_prompt": "Thoroughly summarize the article:",
+        "question_tag": "CNN Summary-CC15",
+        "answer_format": "plain_text",
+        "answer": "None",
+        "pre_prompt": ""
+    }
+  ]
