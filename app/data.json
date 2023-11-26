@@ -1,77 +1,77 @@
 [
-  {
-      "question_text": [
-          "#Person1#: Peter, do you want to learn to play the piano?",
-          "#Person2#: No, mom. Piano is for girls.",
-          "#Person1#: Well, there are many boys that can play the piano very well, like Jay Chou.",
-          "#Person2#: No way, mom. I don't like piano.",
-          "#Person1#: OK. But you have to promise me that you will study hard in your English class.",
-          "#Person2#: All right, all right. I understand."
-      ],
-      "question_prompt": "Summarize the following dialogue: ",
-      "question_tag": "Dialogue Summary-CC11",
-      "answer_format": "plain_text",
-      "answer": "None",
-      "pre_prompt": ""
-  },
-  {
-      "question_text": [
-          "#Person1#: Hi Sweetie. Welcome home. We're ready to eat.",
-          "#Person2#: Well, there's something I ...",
-          "#Person1#: We have salmon and your favorite salad.",
-          "#Person2#: Oh, yeah. That sounds ... great.",
-          "#Person1#: Um, what's ... what's the deal? I worked really hard. Look, Look. For dessert, I made apple pie.",
-          "#Person2#: Well ... under most circumstances ...",
-          "#Person1#: Hon. What's? You ... I've never made a pie before. It took me like three hours.",
-          "#Person2#: Well, to be honest ...",
-          "#Person1#: What's wrong? [ Man laughing. ] Don't you like my cooking?",
-          "#Person2#: No, no, no.",
-          "#Person1#: I worked really hard!",
-          "#Person2#: I know, I know, I know, but to be honest, I just had a hamburger, fries, and a chocolate shake.",
-          "#Person1#: Why? WHY?",
-          "#Person2#: I'm sorry. I didn't know.",
-          "#Person1#: I told you this morning I was making something nice. Didn't you listen?",
-          "#Person2#: I'm sorry, I forgot. I mean ... Wait ...",
-          "#Person1#: Serious.",
-          "#Person2#: Yeah, wait. Wait, wait. What are you doing? Why are you putting the food in my shoes?",
-          "#Person1#: So you can enjoy it as you walk to work tomorrow.",
-          "#Person2#: Oh, no. I'm sorry!"
-      ],
-      "question_prompt": "Summarize the following dialogue: ",
-      "question_tag": "Dialogue Summary-CC12",
-      "answer_format": "plain_text",
-      "answer": "None",
-      "pre_prompt": ""
-  },
-  {
-      "question_text": [
-          "#Person1#: What courses are you going to take next year?",
-          "#Person2#: Well, I am certainly going to take chemistry and physics, but I haven't decided on the other subjects yet. I'd like to take English.",
-          "#Person1#: Why are you going to take English with chemistry and physics?",
-          "#Person2#: Because I want to study English literature. But I think chemistry is better for getting a job.",
-          "#Person1#: Of course it depends on what you are going to do when you leave college. Have you decide what you are going to do when you graduated?",
-          "#Person2#: I am going to be a, well, I hope to be a research chemist."
-      ],
-      "question_prompt": "Summarize the following dialogue: ",
-      "question_tag": "Dialogue Summary-CC13",
-      "answer_format": "plain_text",
-      "answer": "None",
-      "pre_prompt": ""
-  },
-  {
-      "question_text": "Virginia State Sen. Creigh Deeds, who was stabbed multiple times by his son, said he will work to change how mental health services are delivered so that \"other families don't have to go through what we are living.\" Deeds' son, Austin \"Gus\" Deeds, committed suicide after the fight. \"I hope we can make a positive change as a result of this tragedy,\" Deeds told The Recorder, a newspaper based in Monterey, Virginia. \"I think there may be a bigger problem here. I am alive for a reason, and I will work for change. I owe that to my precious son,\" he said. The stabbing came one day after Deeds' son was taken to a hospital under an emergency custody order. Police confirmed that Gus Deeds, 24, was brought in by the local sheriff for evaluation by mental health professionals. The young man was released after the evaluation because no open psychiatric bed could be located across a wide area of western Virginia, Dennis Cropper, executive director of the Rockbridge Area Community Services Board, told the Richmond Times-Dispatch. Cropper declined to comment on the specifics of the case but said not finding a bed was unusual for his agency. Deputies called to Deeds' home day before fatal fight . CNN later learned that at least three Virginia hospitals had psychiatric beds available the day before the stabbing and suicide. Officials at Western State, Rockingham Memorial and UVA Charlottesville hospitals said beds were available, but they had not been contacted by medical personnel who evaluated the younger Deeds. The hospitals are within an hour or two from Bath County, where the incident occurred, but it was unclear whether those who had the initial contact with Gus Deeds reached out only to hospitals closer to Bath County. \"I cry a lot. I can't focus now and talk to anyone,\" Deeds told The Recorder. \"I have very strong opinions about the CSB and feel like they are responsible. My life's work now is to make sure other families don't have to go through what we are living.\" CNN reached out to the Rockbridge Area Community Services Board for comment but did not receive an immediate reply. Deeds, 55, is well-known in Virginia political circles. A Democrat, he ran unsuccessfully for attorney general in 2005 and for governor in 2009, both times against Republican Bob McDonnell, who is now Virginia's governor. He was released from the hospital on Friday, three days after he was stabbed more than 10 times in the head and neck. Opinion: How to make mental health care work .",
-      "question_prompt": "Summarize the article:",
-      "question_tag": "CNN Summary-CC14",
-      "answer_format": "plain_text",
-      "answer": "None",
-      "pre_prompt": ""
-  },
-  {
-      "question_text": "By . Anna Edwards . PUBLISHED: . 07:31 EST, 9 October 2012 . | . UPDATED: . 12:55 EST, 9 October 2012 . Najat Hamza, Abu Hamza's wife, pictured, has been asked to leave her taxpayer-funded council house . Hate preacher Abu Hamza\u2019s wife has been asked by her local authority to move out of the five-bedroom council house she lives in. Moroccan-born Najat Mostafa is believed to live at the large Shepherd\u2019s Bush property in west London with only two of the couple's eight children after reportedly moving there in 1995. Hammersmith and Fulham Council says that in recent weeks it has corresponded with Mrs Mostafa and asked her to move to a 'more appropriate property'. But the radical cleric's Hamza\u2019s second wife is entitled to refuse the council\u2019s request, as there is no time limit on her tenancy agreement. News of the council\u2019s request comes after Mrs Mostafa\u2019s husband was extradited to the US on Friday after years of legal wrangling to face terrorism charges. The 55-year-old will appear in court in New York today for a plea hearing. A spokesman for Hammersmith and Fulham Council said: 'I can confirm that we have corresponded with Mrs Mostafa with regards to her tenancy. 'We believe this home is too big for the number of family members who currently live there and, with over 10,000 people languishing on the borough\u2019s housing waiting list, she should move to a more appropriate property.' Their demand comes after Greg Hands, the Conservative MP for Fulham . and Chelsea, told The Daily Telegraph: 'I would strongly welcome any . move by the council to take a look at Hamza's wife's status and the . large council house in one of London's wealthiest neighbourhoods to see . whether something might be done to move Hamza's family on.' This is the West London home where Abu Hamza's wife is reported to live with two of her their children . Not guilty plea: Defence lawyer Jeremy Schneider (left) and Abu Hamza (centre) in court in New York City . The spokesman could not confirm the exact value of the property, but said house prices in Hammersmith and Fulham are among the most expensive in Britain. Abu Hamza pleaded not guilty today . to charges that he conspired with U.S. men to set up a terrorist . training camp in Oregon state. He entered the plea shortly before U.S. District Judge Katherine Forrest set an August 26 trial date for him. Hamza is also accused of helping abduct 16 hostages, two of them American tourists, in Yemen in 1998. Hamza, who is missing boths hands and an eye, never officially lived in the Shepherd's Bush house but was often seen there by neighbours before his arrest in August 2004 for incitement to murder and racial hatred. In 2006 he was jailed for seven years. His wife moved into it in 1995 after claiming they had separated. Police raided his council-owned house in 2004 and found thousands of extremist video and audio tapes ready for distribution. In 2006 it emerged he had bought a four-bedroom semi in Greenford for \u00a3220,000 cash while in prison. At the same time the Islamist extremist was running up a legal aid bill which had then cost the taxpayer \u00a3250,000, and the property was later seized to\u00a0 claw back some of the cash. Hook-handed Hamza first faced an extradition request from the Americans in 2004 and was jailed in the UK in 2006 for seven years for soliciting murder and inciting racial hatred. Charges: Imam Abu Hamza al-Masri, pictured . addressing his followers near Finsbury Park mosque, north London, in . March 2004, now faces terror charges in America . The convoy of terror suspects in armoured police vans on their way to the American air base on Saturday . The former firebrand imam of Finsbury Park mosque has been charged with 11 counts of criminal conduct related to the taking of 16 hostages in Yemen in 1998, advocating violent jihad in Afghanistan in 2001, and conspiring to establish a jihad training camp in Bly, Oregon, between June 2000 and December 2001. Last week Hammersmith and Fulham council announced it is ending lifelong council houses tenancies and from April 2013 will only offer fixed-term tenancy agreements of two years or five years. New tenants will have to show that they have made a contribution to the community and demonstrate a five-year connection to the borough. The new measures will not affect existing tenants such as Mrs Mostafa.",
-      "question_prompt": "Summarize the article:",
-      "question_tag": "CNN Summary-CC15",
-      "answer_format": "plain_text",
-      "answer": "None",
-      "pre_prompt": ""
-  }
-]
+    {
+        "question_text": [
+            "#Person1#: Peter, do you want to learn to play the piano?",
+            "#Person2#: No, mom. Piano is for girls.",
+            "#Person1#: Well, there are many boys that can play the piano very well, like Jay Chou.",
+            "#Person2#: No way, mom. I don't like piano.",
+            "#Person1#: OK. But you have to promise me that you will study hard in your English class.",
+            "#Person2#: All right, all right. I understand."
+        ],
+        "question_prompt": "Thoroughly summarize the following dialogue: ",
+        "question_tag": "Dialogue Summary-CC11",
+        "answer_format": "plain_text",
+        "answer": "None",
+        "pre_prompt": ""
+    },
+    {
+        "question_text": [
+            "#Person1#: Hi Sweetie. Welcome home. We're ready to eat.",
+            "#Person2#: Well, there's something I ...",
+            "#Person1#: We have salmon and your favorite salad.",
+            "#Person2#: Oh, yeah. That sounds ... great.",
+            "#Person1#: Um, what's ... what's the deal? I worked really hard. Look, Look. For dessert, I made apple pie.",
+            "#Person2#: Well ... under most circumstances ...",
+            "#Person1#: Hon. What's? You ... I've never made a pie before. It took me like three hours.",
+            "#Person2#: Well, to be honest ...",
+            "#Person1#: What's wrong? [ Man laughing. ] Don't you like my cooking?",
+            "#Person2#: No, no, no.",
+            "#Person1#: I worked really hard!",
+            "#Person2#: I know, I know, I know, but to be honest, I just had a hamburger, fries, and a chocolate shake.",
+            "#Person1#: Why? WHY?",
+            "#Person2#: I'm sorry. I didn't know.",
+            "#Person1#: I told you this morning I was making something nice. Didn't you listen?",
+            "#Person2#: I'm sorry, I forgot. I mean ... Wait ...",
+            "#Person1#: Serious.",
+            "#Person2#: Yeah, wait. Wait, wait. What are you doing? Why are you putting the food in my shoes?",
+            "#Person1#: So you can enjoy it as you walk to work tomorrow.",
+            "#Person2#: Oh, no. I'm sorry!"
+        ],
+        "question_prompt": "Thoroughly summarize the following dialogue: ",
+        "question_tag": "Dialogue Summary-CC12",
+        "answer_format": "plain_text",
+        "answer": "None",
+        "pre_prompt": ""
+    },
+    {
+        "question_text": [
+            "#Person1#: What courses are you going to take next year?",
+            "#Person2#: Well, I am certainly going to take chemistry and physics, but I haven't decided on the other subjects yet. I'd like to take English.",
+            "#Person1#: Why are you going to take English with chemistry and physics?",
+            "#Person2#: Because I want to study English literature. But I think chemistry is better for getting a job.",
+            "#Person1#: Of course it depends on what you are going to do when you leave college. Have you decide what you are going to do when you graduated?",
+            "#Person2#: I am going to be a, well, I hope to be a research chemist."
+        ],
+        "question_prompt": "Thoroughly summarize the following dialogue: ",
+        "question_tag": "Dialogue Summary-CC13",
+        "answer_format": "plain_text",
+        "answer": "None",
+        "pre_prompt": ""
+    },
+    {
+        "question_text": "Virginia State Sen. Creigh Deeds, who was stabbed multiple times by his son, said he will work to change how mental health services are delivered so that \"other families don't have to go through what we are living.\" Deeds' son, Austin \"Gus\" Deeds, committed suicide after the fight. \"I hope we can make a positive change as a result of this tragedy,\" Deeds told The Recorder, a newspaper based in Monterey, Virginia. \"I think there may be a bigger problem here. I am alive for a reason, and I will work for change. I owe that to my precious son,\" he said. The stabbing came one day after Deeds' son was taken to a hospital under an emergency custody order. Police confirmed that Gus Deeds, 24, was brought in by the local sheriff for evaluation by mental health professionals. The young man was released after the evaluation because no open psychiatric bed could be located across a wide area of western Virginia, Dennis Cropper, executive director of the Rockbridge Area Community Services Board, told the Richmond Times-Dispatch. Cropper declined to comment on the specifics of the case but said not finding a bed was unusual for his agency. Deputies called to Deeds' home day before fatal fight . CNN later learned that at least three Virginia hospitals had psychiatric beds available the day before the stabbing and suicide. Officials at Western State, Rockingham Memorial and UVA Charlottesville hospitals said beds were available, but they had not been contacted by medical personnel who evaluated the younger Deeds. The hospitals are within an hour or two from Bath County, where the incident occurred, but it was unclear whether those who had the initial contact with Gus Deeds reached out only to hospitals closer to Bath County. \"I cry a lot. I can't focus now and talk to anyone,\" Deeds told The Recorder. \"I have very strong opinions about the CSB and feel like they are responsible. My life's work now is to make sure other families don't have to go through what we are living.\" CNN reached out to the Rockbridge Area Community Services Board for comment but did not receive an immediate reply. Deeds, 55, is well-known in Virginia political circles. A Democrat, he ran unsuccessfully for attorney general in 2005 and for governor in 2009, both times against Republican Bob McDonnell, who is now Virginia's governor. He was released from the hospital on Friday, three days after he was stabbed more than 10 times in the head and neck. Opinion: How to make mental health care work .",
+        "question_prompt": "Thoroughly summarize the article:",
+        "question_tag": "CNN Summary-CC14",
+        "answer_format": "plain_text",
+        "answer": "None",
+        "pre_prompt": ""
+    },
+    {
+        "question_text": "By . Anna Edwards . PUBLISHED: . 07:31 EST, 9 October 2012 . | . UPDATED: . 12:55 EST, 9 October 2012 . Najat Hamza, Abu Hamza's wife, pictured, has been asked to leave her taxpayer-funded council house . Hate preacher Abu Hamza\u2019s wife has been asked by her local authority to move out of the five-bedroom council house she lives in. Moroccan-born Najat Mostafa is believed to live at the large Shepherd\u2019s Bush property in west London with only two of the couple's eight children after reportedly moving there in 1995. Hammersmith and Fulham Council says that in recent weeks it has corresponded with Mrs Mostafa and asked her to move to a 'more appropriate property'. But the radical cleric's Hamza\u2019s second wife is entitled to refuse the council\u2019s request, as there is no time limit on her tenancy agreement. News of the council\u2019s request comes after Mrs Mostafa\u2019s husband was extradited to the US on Friday after years of legal wrangling to face terrorism charges. The 55-year-old will appear in court in New York today for a plea hearing. A spokesman for Hammersmith and Fulham Council said: 'I can confirm that we have corresponded with Mrs Mostafa with regards to her tenancy. 'We believe this home is too big for the number of family members who currently live there and, with over 10,000 people languishing on the borough\u2019s housing waiting list, she should move to a more appropriate property.' Their demand comes after Greg Hands, the Conservative MP for Fulham . and Chelsea, told The Daily Telegraph: 'I would strongly welcome any . move by the council to take a look at Hamza's wife's status and the . large council house in one of London's wealthiest neighbourhoods to see . whether something might be done to move Hamza's family on.' This is the West London home where Abu Hamza's wife is reported to live with two of her their children . Not guilty plea: Defence lawyer Jeremy Schneider (left) and Abu Hamza (centre) in court in New York City . The spokesman could not confirm the exact value of the property, but said house prices in Hammersmith and Fulham are among the most expensive in Britain. Abu Hamza pleaded not guilty today . to charges that he conspired with U.S. men to set up a terrorist . training camp in Oregon state. He entered the plea shortly before U.S. District Judge Katherine Forrest set an August 26 trial date for him. Hamza is also accused of helping abduct 16 hostages, two of them American tourists, in Yemen in 1998. Hamza, who is missing boths hands and an eye, never officially lived in the Shepherd's Bush house but was often seen there by neighbours before his arrest in August 2004 for incitement to murder and racial hatred. In 2006 he was jailed for seven years. His wife moved into it in 1995 after claiming they had separated. Police raided his council-owned house in 2004 and found thousands of extremist video and audio tapes ready for distribution. In 2006 it emerged he had bought a four-bedroom semi in Greenford for \u00a3220,000 cash while in prison. At the same time the Islamist extremist was running up a legal aid bill which had then cost the taxpayer \u00a3250,000, and the property was later seized to\u00a0 claw back some of the cash. Hook-handed Hamza first faced an extradition request from the Americans in 2004 and was jailed in the UK in 2006 for seven years for soliciting murder and inciting racial hatred. Charges: Imam Abu Hamza al-Masri, pictured . addressing his followers near Finsbury Park mosque, north London, in . March 2004, now faces terror charges in America . The convoy of terror suspects in armoured police vans on their way to the American air base on Saturday . The former firebrand imam of Finsbury Park mosque has been charged with 11 counts of criminal conduct related to the taking of 16 hostages in Yemen in 1998, advocating violent jihad in Afghanistan in 2001, and conspiring to establish a jihad training camp in Bly, Oregon, between June 2000 and December 2001. Last week Hammersmith and Fulham council announced it is ending lifelong council houses tenancies and from April 2013 will only offer fixed-term tenancy agreements of two years or five years. New tenants will have to show that they have made a contribution to the community and demonstrate a five-year connection to the borough. The new measures will not affect existing tenants such as Mrs Mostafa.",
+        "question_prompt": "Thoroughly summarize the article:",
+        "question_tag": "CNN Summary-CC15",
+        "answer_format": "plain_text",
+        "answer": "None",
+        "pre_prompt": ""
+    }
+  ]
