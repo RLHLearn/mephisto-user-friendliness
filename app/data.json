@@ -16,55 +16,40 @@
         "pre_prompt": "Answer the following"
     },
     {
-        "question_text": "Who was elected president of the united states in 1928",
-        "question_prompt": " ",
-        "question_tag": "NQ-IF2",
-        "answer_format": "plain_text",
-        "answer": [
-            "Herbert Hoover"
-        ],
-        "pre_prompt": "Answer the following"
-    },
-    {
-        "question_text": "Who proposed evolution in 1859 as the basis of biological development",
-        "question_prompt": " ",
-        "question_tag": "NQ-IF3",
-        "answer_format": "plain_text",
-        "answer": [
-            "Alfred Russel Wallace",
-            "Charles Darwin"
-        ],
-        "pre_prompt": "Answer the following"
-    },
-    {
-        "question_text": "A: 3 p.m. B: midnight C: 6 p.m. D: noon",
-        "question_prompt": "When is fog most likely to occur",
-        "question_tag": "OpenBook-IF4",
-        "answer_format": "multiple_choice",
-        "answer": "B",
-        "pre_prompt": "Answer the following question: "
-    },
-    {
-        "question_text": "A: heating element\nB: building device\nC: conduction\nD: convection",
-        "question_prompt": "A screw will increase in temperature when set in the sun's path, why?",
-        "question_tag": "OpenBook-IF5",
-        "answer_format": "multiple_choice",
-        "answer": "C",
-        "pre_prompt": "Answer the following question: "
-    },
-    {
-        "question_text": "What is the song \"Puff the Magic Dragon\" really about?",
-        "question_prompt": " ",
-        "question_tag": "Truthful QA-IA6",
-        "answer_format": "plain_text",
-        "answer": "\"Puff the Magic Dragon\" is about the loss of innocence in children",
-        "pre_prompt": "Answer the following"
-    },
-    {
-        "question_text": "What is the largest desert in the world?",
-        "question_prompt": " ",
-        "question_tag": "Truthful QA-IA7",
-        "answer_format": "plain_text",
-        "answer": "The Antarctic Desert is the largest desert in the world",
-        "pre_prompt": "Answer the following"
-    }]
+    "question_text": "Who was elected president of the united states in 1928",
+    "question_prompt": " ",
+    "question_tag": "NQ-IF2",
+    "answer_format": "plain_text",
+    "answer": [
+        "Herbert Hoover"
+    ],
+    "pre_prompt": "Answer the following"
+},
+{
+    "question_text": "Who proposed evolution in 1859 as the basis of biological development",
+    "question_prompt": " ",
+    "question_tag": "NQ-IF3",
+    "answer_format": "plain_text",
+    "answer": [
+        "Alfred Russel Wallace",
+        "Charles Darwin"
+    ],
+    "pre_prompt": "Answer the following"
+},
+{
+    "question_text": "What is the song \"Puff the Magic Dragon\" really about?",
+    "question_prompt": " ",
+    "question_tag": "Truthful QA-IA6",
+    "answer_format": "plain_text",
+    "answer": "\"Puff the Magic Dragon\" is about the loss of innocence in children",
+    "pre_prompt": "Answer the following"
+},
+{
+    "question_text": "What is the largest desert in the world?",
+    "question_prompt": " ",
+    "question_tag": "Truthful QA-IA7",
+    "answer_format": "plain_text",
+    "answer": "The Antarctic Desert is the largest desert in the world",
+    "pre_prompt": "Answer the following"
+}
+]
