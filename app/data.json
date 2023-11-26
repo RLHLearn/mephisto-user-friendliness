@@ -1,5 +1,21 @@
 [
     {
+        "question_text": "Where do pineapples come from in the world",
+        "question_prompt": " ",
+        "question_tag": "NQ-IF1",
+        "answer_format": "plain_text",
+        "answer": [
+            "Costa Rica",
+            "Philippines",
+            "Brazil",
+            "the Philippines",
+            "Thailand",
+            "Indonesia",
+            "India"
+        ],
+        "pre_prompt": "Answer the following"
+    },
+    {
     "question_text": "Who was elected president of the united states in 1928",
     "question_prompt": " ",
     "question_tag": "NQ-IF2",
