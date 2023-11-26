@@ -67,90 +67,36 @@ const CrowdComponent = ({ onSubmit, taskData }) => {
 
   const onFormSubmit = (e) => {
     e.preventDefault();
-    const keypoints =
-      document.querySelector("crowd-keypoint").value.keypoints ||
-      document.querySelector("crowd-keypoint")._submittableValue.keypoints;
-    const submitData = Object.fromEntries(keypoints.map((item, index) => [`item${index + 1}`, item]));
+    const radio_true =  document.querySelector(`crowd-radio-button[name="binary_1"]`).checked
+    const radio_false =  document.querySelector(`crowd-radio-button[name="binary_2"]`).checked
+    const submitData = {"true" : radio_true, 
+                       "false" : radio_false};
     onSubmit?.(submitData);
   };
 
-  let renderedContent;
-
-  if (answer_format === "plain_text") {
-    renderedContent = (
-      <>
-        <h3>
-        <h1>{pre_prompt}{question_prompt}</h1>
-        </h3>
-        <crowd-form onSubmit>
-          <div className="indent-form">
-            <div>
-            <div>
-            {Array.isArray(question_text) ? question_text.map((line, index) => <p key={index}>{line}</p>) : <p>{question_text}</p>}
-            </div>
-              <crowd-input name={question_tag} label="Input answer here" type="text"></crowd-input>
-              </div>
-          </div>
-        </crowd-form>
-      </>
-    );
-  } else if (answer_format === "multiple_choice") {
-    renderedContent = (
-      <>
-        <h3>
-          {question_tag}
-        </h3>
-        <crowd-form>
-          <div>
-            <h1>{pre_prompt}{question_prompt}</h1>
-          </div>
-          <div>
-            {Array.isArray(question_text) ? question_text.map((line, index) => <p key={index}>{line}</p>) : <p>{question_text}</p>}
-          </div>
-          <div>
-            <crowd-radio-group>
-              <crowd-radio-button name="A" value="A">A</crowd-radio-button>
-              <crowd-radio-button name="B" value="B">B</crowd-radio-button>
-              <crowd-radio-button name="C" value="C">C</crowd-radio-button>
-              <crowd-radio-button name="D" value="D">D</crowd-radio-button>
-            </crowd-radio-group>
-          </div>
-        </crowd-form>
-      </>
-    );
-  } else if (answer_format === "binary") {
-    renderedContent = (
-      <>
-        <h3>
-          {question_tag}
-        </h3>
-        <crowd-form>
+  return (
+    <>
         <div>
-        <h1>{pre_prompt}{question_prompt}</h1>
-        </div>
+        <h2>
+          {pre_prompt}
+        </h2>
         <div>
           {Array.isArray(question_text) ? question_text.map((line, index) => <p key={index}>{line}</p>) : <p>{question_text}</p>}
         </div>
+
         <div>
-        <crowd-radio-group>
-        <crowd-radio-button name="1" value="1">1</crowd-radio-button>
-        <crowd-radio-button name="2" value="2">2</crowd-radio-button>
-        </crowd-radio-group>
+          {question_prompt}
+
         </div>
+        <crowd-form onSubmit={onFormSubmit}>
+        <crowd-radio-group>
+          <crowd-radio-button name="binary_1" value="1">1</crowd-radio-button>
+          <crowd-radio-button name="binary_2" value="2">2</crowd-radio-button>
+        </crowd-radio-group>
         </crowd-form>
-      </>
-    );
-    };
-  return (
-    <>
-      <div className="wrapper">
-        <div className="left-spacer"></div>
-        <div className="top-spacer"></div>
-        <div className="main-content">
-          {renderedContent}
         </div>
 
-      </div>
+
 
     </>
   );
