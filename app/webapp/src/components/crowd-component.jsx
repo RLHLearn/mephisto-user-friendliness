@@ -70,98 +70,48 @@ const CrowdComponent = ({ onSubmit, taskData }) => {
   };
 
 
-
-  let renderedContent;
-
-  if (answer_format === "plain_text") {
-    renderedContent = (
-      <>
-        <h3>
-        <h1>{pre_prompt}{question_prompt}</h1>
-        </h3>
-        <crowd-form  onSubmit={onFormSubmit}>
-          <div className="indent-form">
-            <div>
-            <div>
-            {Array.isArray(question_text) ? question_text.map((line, index) => <p key={index}>{line}</p>) : <p>{question_text}</p>}
-            </div>
-              <crowd-input name={question_tag} label="Input answer here" ></crowd-input>
-              </div>
-          </div>
-        </crowd-form>
-      </>
-    );
-  } else if (answer_format === "multiple_choice") {
-    renderedContent = (
-      <>
-        <h3>
-          {question_tag}
-        </h3>
-        <crowd-form  onSubmit={onFormSubmit}>
-          <div className="indent-form">
-          <div>
-            <h1>{pre_prompt}{question_prompt}</h1>
-          </div>
-          <div>
-            {Array.isArray(question_text) ? question_text.map((line, index) => <p key={index}>{line}</p>) : <p>{question_text}</p>}
-          </div>
-          <div>
-            <crowd-radio-group name="multiple_choice">
-              <crowd-radio-button name="multiple_choice" value="A">A</crowd-radio-button>
-              <crowd-radio-button name="multiple_choice" value="B">B</crowd-radio-button>
-              <crowd-radio-button name="multiple_choice" value="C">C</crowd-radio-button>
-              <crowd-radio-button name="multiple_choice" value="D">D</crowd-radio-button>
-            </crowd-radio-group>
-          </div>
-          </div>
-        </crowd-form>
-      </>
-    );
-  } else if (answer_format === "binary") {
-    renderedContent = (
-      <>
-        <h3>
-          {question_tag}
-        </h3>
-        <crowd-form  onSubmit={onFormSubmit}>
-          <div className="indent-form">     
-          <div>   
-        <h1>{pre_prompt}</h1>
-        <h2>{question_prompt}</h2>
-        </div>
-        <div>
-          {Array.isArray(question_text) ? question_text.map((line, index) => <p key={index}>{line}</p>) : <p>{question_text}</p>}
-        </div>
-        <div>
-        <crowd-radio-group name = "binary">
-        <crowd-radio-button name="binary" value="1">1</crowd-radio-button>
-        <crowd-radio-button name="binary" value="2">2</crowd-radio-button>
-        </crowd-radio-group>
-        </div>
-        </div>
-        </crowd-form>
-      </>
-    );
     };
-  return (
-    <>
-      <h3>
-      <h1>{pre_prompt}</h1>
-      <h2>{question_prompt}</h2>
-      </h3>
-      <crowd-form  onSubmit={onFormSubmit}>
-        <div className="indent-form">
+    return (
+
+          <crowd-form onSubmit={onFormSubmit}>
+          <h1>
+            {"Part 1: User Background"}
+          </h1>
           <div>
-          <div>
-          {Array.isArray(question_text) ? question_text.map((line, index) => <p key={index}>{line}</p>) : <p>{question_text}</p>}
+          <h2>{"Rate your fluency with English from 1-5 with 1 being very basic and 5 native"}</h2>
+            
+  
+            <crowd-radio-group>
+            <crowd-radio-button name="english_1" value="1">1</crowd-radio-button>
+            <crowd-radio-button name="english_2" value="2">2</crowd-radio-button>
+            <crowd-radio-button name="english_3" value="3">3</crowd-radio-button>
+            <crowd-radio-button name="english_4" value="4">4</crowd-radio-button>
+            <crowd-radio-button name="english_5" value="5">5</crowd-radio-button>
+          </crowd-radio-group>
           </div>
-            <crowd-input name={question_tag} label="Input answer here" ></crowd-input>
-            </div>
-        </div>
-      </crowd-form>
-    </>
-  );
-};
+  
+          <div>
+            <h2>{"Rate your familiarity with/ use of AI agents like chat GPT"}</h2>
+  
+            <crowd-radio-group>
+            <crowd-radio-button name="GPT_1" value="1">1 never </crowd-radio-button>
+            <crowd-radio-button name="GPT_2" value="2">2 rarely</crowd-radio-button>
+            <crowd-radio-button name="GPT_3" value="3">3 monthly</crowd-radio-button>
+            <crowd-radio-button name="GPT_4" value="4">4 weekly</crowd-radio-button>
+            <crowd-radio-button name="GPT_5" value="5">5 daily</crowd-radio-button>
+          </crowd-radio-group>
+          </div>
+          <h1>
+            {"Part 2: Working Task"}
+          </h1>
+          <h2>
+            {pre_prompt}
+          </h2>
+          <div>
+            {Array.isArray(question_text) ? question_text.map((line, index) => <p key={index}>{line}</p>) : <p>{question_text}</p>}
+          </div>
+          </crowd-form>
+    );
 
 
 export default CrowdComponent;
