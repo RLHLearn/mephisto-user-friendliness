@@ -17,7 +17,7 @@ mephisto:
   log_level: "debug"
   task:
     task_name: "llm-user-binary-gpt-p"
-    task_title: "LLM User Friendliness Task Binary GPT"
+    task_title: "LLM User Friendliness Task Binary GPT "
     task_description: "This task tests the collaboration between users and LLMs."
     task_reward: 10
     task_tags: "static,task,testing"
