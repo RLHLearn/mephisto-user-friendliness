@@ -7,7 +7,7 @@ mephisto:
   architect:
     _architect_type: ec2
     profile_name: mpt
-    subdomain: "llm-user-p.mpt"
+    subdomain: "llm-user-binary-gpt-p.mpt"
   blueprint:
     data_json: ${task_dir}/data.json
     task_source: ${task_dir}/webapp/build/bundle.js
@@ -16,8 +16,8 @@ mephisto:
     units_per_assignment: 1
   log_level: "debug"
   task:
-    task_name: "llm-user-p"
-    task_title: "LLM User Friendliness Task"
+    task_name: "llm-user-binary-gpt-p"
+    task_title: "LLM User Friendliness Task Binary GPT"
     task_description: "This task tests the collaboration between users and LLMs."
     task_reward: 10
     task_tags: "static,task,testing"
@@ -27,7 +27,7 @@ mephisto:
     prolific_id_option: "url_parameters"
     prolific_workspace_name: "UQ Workspace"
     prolific_project_name: "Big5_LLM"
-    prolific_estimated_completion_time_in_minutes: 15
+    prolific_estimated_completion_time_in_minutes: 10
 #    prolific_allow_list_group_name: "Allow list"
 #    prolific_block_list_group_name: "Block list"
 #    prolific_eligibility_requirements:
