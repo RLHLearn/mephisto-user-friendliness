@@ -27,7 +27,7 @@ mephisto:
     prolific_id_option: "url_parameters"
     prolific_workspace_name: "UQ Workspace"
     prolific_project_name: "Big5_LLM"
-    prolific_estimated_completion_time_in_minutes: 15
+    prolific_estimated_completion_time_in_minutes: 3
 #    prolific_allow_list_group_name: "Allow list"
 #    prolific_block_list_group_name: "Block list"
 #    prolific_eligibility_requirements:
