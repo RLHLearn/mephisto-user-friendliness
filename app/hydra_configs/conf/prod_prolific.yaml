@@ -7,7 +7,7 @@ mephisto:
   architect:
     _architect_type: ec2
     profile_name: mpt
-    subdomain: "llm-user-p.mpt"
+    subdomain: "llm-user-hard-p.mpt"
   blueprint:
     data_json: ${task_dir}/data.json
     task_source: ${task_dir}/webapp/build/bundle.js
@@ -16,7 +16,7 @@ mephisto:
     units_per_assignment: 1
   log_level: "debug"
   task:
-    task_name: "llm-user-p"
+    task_name: "llm-user-hard-p"
     task_title: "LLM User Friendliness Task"
     task_description: "This task tests the collaboration between users and LLMs."
     task_reward: 30
