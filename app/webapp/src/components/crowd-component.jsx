@@ -97,13 +97,13 @@ const CrowdComponent = ({ onSubmit, taskData }) => {
   };
   return (
     <>
-        <crowd-form onSubmit={onFormSubmit}>
+      <crowd-form onSubmit={onFormSubmit}>
         <h1>
           {"Part 1: User Background"}
         </h1>
         <div>
         <h2>{"Rate your fluency with English from 1-5 with 1 being very basic and 5 native"}</h2>
-          <crowd-radio-group required>
+        <crowd-radio-group name="english_fluency" required>
           <crowd-radio-button name="english_1" value="1">1</crowd-radio-button>
           <crowd-radio-button name="english_2" value="2">2</crowd-radio-button>
           <crowd-radio-button name="english_3" value="3">3</crowd-radio-button>
@@ -114,7 +114,7 @@ const CrowdComponent = ({ onSubmit, taskData }) => {
 
         <div>
           <h2>{"Rate your familiarity with/ use of AI agents like chat GPT"}</h2>
-          <crowd-radio-group required>
+          <crowd-radio-group name="ai_familiarity" required>
           <crowd-radio-button name="GPT_1" value="1">1 never </crowd-radio-button>
           <crowd-radio-button name="GPT_2" value="2">2 rarely</crowd-radio-button>
           <crowd-radio-button name="GPT_3" value="3">3 monthly</crowd-radio-button>
@@ -136,11 +136,11 @@ const CrowdComponent = ({ onSubmit, taskData }) => {
           {question_prompt}
         </div>
  
-        <crowd-radio-group required>
+        <crowd-radio-group name="binary_choice" required>
           <crowd-radio-button name="binary_1" value="1">1</crowd-radio-button>
           <crowd-radio-button name="binary_2" value="2">2</crowd-radio-button>
         </crowd-radio-group>
-        </crowd-form>
+      </crowd-form>
     </>
   );
 };
