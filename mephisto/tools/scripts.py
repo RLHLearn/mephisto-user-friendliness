@@ -42,6 +42,8 @@ from rich import print
 if TYPE_CHECKING:
     from mephisto.abstractions.database import MephistoDB
 
+APP_NAME = os.getenv('APP_NAME', 'temp')
+APP_ENV = os.getenv('APP_ENV', 'dev')
 
 def load_db_and_process_config(
     cfg: DictConfig, print_config=False
@@ -261,7 +263,7 @@ def build_custom_bundle(
                     break
                 for fname in files:
                     path = os.path.join(root, fname)
-                    if os.path.getmtime(path) > created_date:
+                    if os.path.exists(path) and os.path.getmtime(path) > created_date:
                         up_to_date = False
                         break
             if up_to_date:
@@ -286,7 +288,11 @@ def build_custom_bundle(
                 "The script should be able to be ran with bash"
             )
 
-    webpack_complete = subprocess.call(["npm", "run", "dev"])
+    if APP_ENV == 'prod':
+        webpack_complete = subprocess.call(["npm", "run", "build"])
+    else:
+        webpack_complete = subprocess.call(["npm", "run", "dev"])
+
     if webpack_complete != 0:
         raise Exception(
             "Webpack appears to have failed to build your "
