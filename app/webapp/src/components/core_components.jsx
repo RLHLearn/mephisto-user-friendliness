@@ -8,9 +8,6 @@
 
 import React from 'react';
 import CrowdComponent from './crowd-component.jsx';
-import {
-    ChatGPT,
-} from "./ChatGPT.jsx";
 
 function OnboardingComponent({onSubmit}) {
   return (
@@ -64,18 +61,21 @@ function Directions({children}) {
   );
 }
 
-function SimpleFrontend({taskData, fullData, isOnboarding, onSubmit, onError, getAgentRegistration}) {
+function SimpleFrontend({taskData, isOnboarding, onSubmit, onError, providerWorkerId, assignmentId}) {
   const data = {success: true};
 
+  const link = `https://d7a7ydym0akil.cloudfront.net?provider=prolific&workerId=${providerWorkerId}&assignmentId=${assignmentId}`
   return (
     <>
       <div style={{ display: 'flex', width: '80%', height: '100vh', marginLeft: '10%' }}>
         <div style={{ flex: '50%', backgroundColor: 'white' }}>
           <CrowdComponent taskData={taskData} onSubmit={onSubmit}/>
         </div>
-        {<div style={{ flex: '40%', backgroundColor: 'white' }}>
-            <ChatGPT fullData={fullData} getAgentRegistration={getAgentRegistration}/>
-        </div>}
+        {/* {<div style={{ flex: '40%', backgroundColor: 'white' }}>
+          <iframe
+            src={link}
+            width="100%" height="100%" frameBorder="0"></iframe>
+        </div>} */}
       </div>
     </>
   );
