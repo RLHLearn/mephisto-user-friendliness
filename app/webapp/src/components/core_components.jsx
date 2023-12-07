@@ -8,6 +8,9 @@
 
 import React from 'react';
 import CrowdComponent from './crowd-component.jsx';
+import {
+    ChatGPT,
+} from "./ChatGPT.jsx";
 
 function OnboardingComponent({onSubmit}) {
   return (
@@ -61,19 +64,18 @@ function Directions({children}) {
   );
 }
 
-function SimpleFrontend({taskData, isOnboarding, onSubmit, onError}) {
+function SimpleFrontend({taskData, fullData, isOnboarding, onSubmit, onError, getAgentRegistration}) {
   const data = {success: true};
+
   return (
     <>
       <div style={{ display: 'flex', width: '80%', height: '100vh', marginLeft: '10%' }}>
         <div style={{ flex: '50%', backgroundColor: 'white' }}>
           <CrowdComponent taskData={taskData} onSubmit={onSubmit}/>
         </div>
-        {/* <div style={{ flex: '40%', backgroundColor: 'white' }}>
-          <iframe
-            src="http://mpt-chat-gpt.mephisto.aufederal2022.com?provider=mturk&workerId=123&assignmentId=222"
-            width="100%" height="100%" frameBorder="0"></iframe>
-        </div> */}
+        {<div style={{ flex: '40%', backgroundColor: 'white' }}>
+            <ChatGPT fullData={fullData} getAgentRegistration={getAgentRegistration}/>
+        </div>}
       </div>
     </>
   );
