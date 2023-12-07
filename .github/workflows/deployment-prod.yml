@@ -13,7 +13,7 @@ env:
   USER_EMAIL: jaythaiduong.huynh@uq.edu.au
   USER_NAME: jaythaiduong.huynh
   REPO_DIR: ~/${{ github.event.repository.name }}-${{ github.ref_name }}
-  APP_NAME: mpt-user-fri-dep-prod-GPT-binary
+  APP_NAME: mpt-user-fri-dep-prod-binary
   APP_ENV: prod
   AWS_REGION: ap-southeast-2
   SVLD_VERSION: main
