@@ -7,6 +7,7 @@
  */
 
 import React from 'react';
+import CrowdComponent from './crowd-component.jsx';
 import {
     ChatGPT,
 } from "./ChatGPT.jsx";
@@ -64,44 +65,17 @@ function Directions({children}) {
 }
 
 function SimpleFrontend({taskData, fullData, isOnboarding, onSubmit, onError, getAgentRegistration}) {
-    const [answers, setAnswers] = React.useState({
-        answer1: 'sample1',
-        answer2: '',
-    });
-    const handleInputChange = (event) => {
-        const {name, value} = event.target;
-        setAnswers({...answers, [name]: value});
-    };
-    return (
-        <div className="p-14 grid grid-cols-12">
-            <div className="p-4 col-span-6">
-                <h2 className="text-2xl font-semibold mb-4">This is sample task</h2>
-                <div>
-                    <label htmlFor="answer2"
-                           className="block text-sm font-medium text-gray-700">Input the number you see here to the box below and submit: <strong>{taskData.data.value}</strong></label>
-                    <input
-                        type="text"
-                        id="answer2"
-                        name="answer2"
-                        value={answers.answer2}
-                        onChange={handleInputChange}
-                        className="w-full px-3 py-2 border rounded-lg focus:outline-none focus:ring focus:border-blue-300"
-                    />
-                </div>
-                <button className="btn btn-outline mt-5" onClick={() => {
-                    onSubmit(answers);
-                }}>Submit
-                </button>
-            </div>
-            <div className="p-4 col-span-6 h-96">
-                <ChatGPT fullData={fullData} getAgentRegistration={getAgentRegistration}/>
-            </div>
+  const data = {success: true};
+
+  return (
+    <>
+      <div style={{ display: 'flex', width: '80%', height: '100vh', marginLeft: '10%' }}>
+        <div style={{ flex: '50%', backgroundColor: 'white' }}>
+          <CrowdComponent taskData={taskData} onSubmit={onSubmit}/>
         </div>
-        {/* <div style={{ flex: '40%', backgroundColor: 'white' }}>
-          <iframe
-            src="http://mpt-chat-gpt.mephisto.aufederal2022.com?provider=mturk&workerId=123&assignmentId=222"
-            width="100%" height="100%" frameBorder="0"></iframe>
-        </div> */}
+        {<div style={{ flex: '40%', backgroundColor: 'white' }}>
+            <ChatGPT fullData={fullData} getAgentRegistration={getAgentRegistration}/>
+        </div>}
       </div>
     </>
   );
