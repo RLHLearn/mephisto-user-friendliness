@@ -21,7 +21,8 @@ env:
   CONT_PORT: 3000
   VPC_ID: 'vpc-02e937c4efdd7541b'
   DOMAIN: 'aufederal2022.com'
-
+  STOP_TIMEOUT: 120
+  
 jobs:
   build-container:
     name: build-container
