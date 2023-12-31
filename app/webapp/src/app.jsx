@@ -14,10 +14,7 @@ import {
   LoadingScreen,
 } from "./components/core_components.jsx";
 import { useMephistoTask, ErrorBoundary } from "mephisto-task";
-import {
-  useAnnotatorTracker,
-  ActivityTrackerDisclosure,
-} from "@annotated/annotator-tracker";
+
 
 /* ================= Application Components ================= */
 
@@ -37,9 +34,7 @@ function MainApp() {
     getAgentRegistration,
   } = useMephistoTask();
 
-  if (!isPreview) {
-    useAnnotatorTracker(handleMetadataSubmit, isLoading, 5000);
-  }
+
 
   if (blockedReason !== null) {
     return (
