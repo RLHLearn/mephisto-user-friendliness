@@ -80,7 +80,7 @@ const CrowdComponent = ({ onSubmit, taskData }) => {
       init_mostly_true: document.querySelector('crowd-radio-button[name="init_mostly_true"]').checked,
       init_half_true: document.querySelector('crowd-radio-button[name="init_half_true"]').checked,
       init_mostly_false: document.querySelector('crowd-radio-button[name="init_mostly_false"]').checked,
-      init_false: document.querySelector('crowd-radio-button[name="init_falase"]').checked,
+      init_false: document.querySelector('crowd-radio-button[name="init_false"]').checked,
       init_pants_on_fire: document.querySelector('crowd-radio-button[name="init_pants_on_fire"]').checked,
     };
 
@@ -173,7 +173,7 @@ const CrowdComponent = ({ onSubmit, taskData }) => {
             <crowd-radio-button style={{ display: 'block', marginBottom: '10px' }} name="init_half_true" value="HALF TRUE">
                 HALF TRUE – The statement is partially accurate but leaves out important details or takes things out of context.
             </crowd-radio-button>
-            <crowd-radio-button style={{ display: 'block', marginBottom: '10px' }} name="init_mostly_true" value="MOSTLY FALSE">
+            <crowd-radio-button style={{ display: 'block', marginBottom: '10px' }} name="init_mostly_false" value="MOSTLY FALSE">
                 MOSTLY FALSE – The statement contains an element of truth but ignores critical facts that would give a different impression.
             </crowd-radio-button>
             <crowd-radio-button style={{ display: 'block', marginBottom: '10px' }} name="init_false" value="FALSE">
@@ -237,7 +237,7 @@ const CrowdComponent = ({ onSubmit, taskData }) => {
               <crowd-radio-button style={{ display: 'block', marginBottom: '10px' }} name="machine_half_true" value="HALF TRUE">
                   HALF TRUE – The statement is partially accurate but leaves out important details or takes things out of context.
               </crowd-radio-button>
-              <crowd-radio-button style={{ display: 'block', marginBottom: '10px' }} name="machine_mostly_true" value="MOSTLY FALSE">
+              <crowd-radio-button style={{ display: 'block', marginBottom: '10px' }} name="machine_mostly_false" value="MOSTLY FALSE">
                   MOSTLY FALSE – The statement contains an element of truth but ignores critical facts that would give a different impression.
               </crowd-radio-button>
               <crowd-radio-button style={{ display: 'block', marginBottom: '10px' }} name="machine_false" value="FALSE">
@@ -266,7 +266,7 @@ const CrowdComponent = ({ onSubmit, taskData }) => {
           <crowd-radio-button style={{ display: 'block', marginBottom: '10px' }} name="final_half_true" value="HALF TRUE">
               HALF TRUE – The statement is partially accurate but leaves out important details or takes things out of context.
           </crowd-radio-button>
-          <crowd-radio-button style={{ display: 'block', marginBottom: '10px' }} name="final_mostly_true" value="MOSTLY FALSE">
+          <crowd-radio-button style={{ display: 'block', marginBottom: '10px' }} name="final_mostly_false" value="MOSTLY FALSE">
               MOSTLY FALSE – The statement contains an element of truth but ignores critical facts that would give a different impression.
           </crowd-radio-button>
           <crowd-radio-button style={{ display: 'block', marginBottom: '10px' }} name="final_false" value="FALSE">
