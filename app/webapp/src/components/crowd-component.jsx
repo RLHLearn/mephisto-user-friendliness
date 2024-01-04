@@ -57,22 +57,20 @@ const FullInstructions = () => (
 const CrowdComponent = ({ onSubmit, taskData }) => {
   const imageUrl = taskData.imageUrl;
   const question_text = taskData.question_text;
-  const question_prompt = taskData.question_prompt;
-  const question_tag = taskData.question_tag;
-  const answer_format = taskData.answer_format;
-  const answer = taskData.answer;
-  const pre_prompt = taskData.pre_prompt;
+  const subjects = taskData.subjects;
+  const speaker = taskData.speaker;
+  const context = taskData.context;
 
-  console.log(imageUrl);
+
 
   const onFormSubmit = (e) => {
     e.preventDefault();
     const vetting = {
       vetting_1: document.querySelector('crowd-radio-button[name="vetting_1"]').checked,
-      vetting_1: document.querySelector('crowd-radio-button[name="vetting_2"]').checked,
-      vetting_1: document.querySelector('crowd-radio-button[name="vetting_3"]').checked,
-      vetting_1: document.querySelector('crowd-radio-button[name="vetting_4"]').checked,
-      vetting_1: document.querySelector('crowd-radio-button[name="vetting_5"]').checked,
+      vetting_2: document.querySelector('crowd-radio-button[name="vetting_2"]').checked,
+      vetting_3: document.querySelector('crowd-radio-button[name="vetting_3"]').checked,
+      vetting_4: document.querySelector('crowd-radio-button[name="vetting_4"]').checked,
+      vetting_5: document.querySelector('crowd-radio-button[name="vetting_5"]').checked,
     };
   
     const init_judgement = {
@@ -161,7 +159,9 @@ const CrowdComponent = ({ onSubmit, taskData }) => {
         <h2>{"Make your own judgement as to whether the following is fake news"}</h2>
           
         <div>
-          {Array.isArray(question_text) ? question_text.map((line, index) => <p key={index}>{line}</p>) : <p>{question_text}</p>}
+          {question_text}
+
+
         </div>
         <crowd-radio-group required>
             <crowd-radio-button style={{ display: 'block', marginBottom: '10px' }} name="init_true" value="TRUE">
@@ -216,7 +216,7 @@ const CrowdComponent = ({ onSubmit, taskData }) => {
                   <li><strong>PANTS ON FIRE:</strong> The statement is not accurate and makes a ridiculous claim.</li>
               </ul>
               <h3>Statement: </h3>
-              <p>{Array.isArray(question_text) ? question_text.map((line, index) => <p key={index}>{line}</p>) : <p>{question_text}</p>}</p>
+              <p>{question_text}</p>
               <h3>Task Instructions</h3>
               <ol>
                   <li>Summary of Analysis: <em>[Provide logical summary here]</em></li>
