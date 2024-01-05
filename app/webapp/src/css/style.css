@@ -64,6 +64,12 @@ code {
   margin: 20px 0 5px 0;
 }
 
+.crowd-radio-button {
+  margin: 5px; /* Adds space around each button */
+  flex: 1; /* Allows buttons to grow and take up equal space */
+  min-width: 120px; /* Sets a minimum width for each button */
+}
+
 p {
   margin: 5px 0 5px 0;
 }

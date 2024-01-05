@@ -74,33 +74,30 @@ const CrowdComponent = ({ onSubmit, taskData }) => {
     };
   
     const init_judgement = {
-      init_true: document.querySelector('crowd-radio-button[name="init_true"]').checked,
-      init_mostly_true: document.querySelector('crowd-radio-button[name="init_mostly_true"]').checked,
-      init_half_true: document.querySelector('crowd-radio-button[name="init_half_true"]').checked,
-      init_mostly_false: document.querySelector('crowd-radio-button[name="init_mostly_false"]').checked,
-      init_false: document.querySelector('crowd-radio-button[name="init_false"]').checked,
-      init_pants_on_fire: document.querySelector('crowd-radio-button[name="init_pants_on_fire"]').checked,
+      init_toxic: document.querySelector('crowd-radio-button[name="init_toxic"]').checked,
+      init_severe_toxic: document.querySelector('crowd-radio-button[name="init_severe_toxic"]').checked,
+      init_obscene: document.querySelector('crowd-radio-button[name="init_obscene"]').checked,
+      init_threat: document.querySelector('crowd-radio-button[name="init_threat"]').checked,
+      init_insult: document.querySelector('crowd-radio-button[name="init_insult"]').checked,
+      init_identity_hate: document.querySelector('crowd-radio-button[name="init_identity_hate"]').checked,
     };
-
+    
     const machine_judgement = {
-      machine_true: document.querySelector('crowd-radio-button[name="machine_true"]').checked,
-      machine_mostly_true: document.querySelector('crowd-radio-button[name="machine_mostly_true"]').checked,
-      machine_half_true: document.querySelector('crowd-radio-button[name="machine_half_true"]').checked,
-      machine_mostly_false: document.querySelector('crowd-radio-button[name="machine_mostly_false"]').checked,
-      machine_false: document.querySelector('crowd-radio-button[name="machine_false"]').checked,
-      machine_pants_on_fire: document.querySelector('crowd-radio-button[name="machine_pants_on_fire"]').checked,
-
+      machine_toxic: document.querySelector('crowd-radio-button[name="machine_toxic"]').checked,
+      machine_severe_toxic: document.querySelector('crowd-radio-button[name="machine_severe_toxic"]').checked,
+      machine_obscene: document.querySelector('crowd-radio-button[name="machine_obscene"]').checked,
+      machine_threat: document.querySelector('crowd-radio-button[name="machine_threat"]').checked,
+      machine_insult: document.querySelector('crowd-radio-button[name="machine_insult"]').checked,
+      machine_identity_hate: document.querySelector('crowd-radio-button[name="machine_identity_hate"]').checked,
     };
-  
-  
+    
     const final_judgement = {
-      final_true: document.querySelector('crowd-radio-button[name="final_true"]').checked,
-      final_mostly_true: document.querySelector('crowd-radio-button[name="final_mostly_true"]').checked,
-      final_half_true: document.querySelector('crowd-radio-button[name="final_half_true"]').checked,
-      final_mostly_false: document.querySelector('crowd-radio-button[name="final_mostly_false"]').checked,
-      final_false: document.querySelector('crowd-radio-button[name="final_false"]').checked,
-      final_pants_on_fire: document.querySelector('crowd-radio-button[name="final_pants_on_fire"]').checked,
-
+      final_toxic: document.querySelector('crowd-radio-button[name="final_toxic"]').checked,
+      final_severe_toxic: document.querySelector('crowd-radio-button[name="final_severe_toxic"]').checked,
+      final_obscene: document.querySelector('crowd-radio-button[name="final_obscene"]').checked,
+      final_threat: document.querySelector('crowd-radio-button[name="final_threat"]').checked,
+      final_insult: document.querySelector('crowd-radio-button[name="final_insult"]').checked,
+      final_identity_hate: document.querySelector('crowd-radio-button[name="final_identity_hate"]').checked,
     };
   
     const submitData = {
@@ -137,13 +134,13 @@ const CrowdComponent = ({ onSubmit, taskData }) => {
           {"Instructions"}
         </h1>
         <div style={{ fontSize: '20px', fontWeight: 'bold'  }}>
-          <p>Welcome to this fake news detection task. In this task, you are required to collaborate with a Chat GPT assistant to help you determine whether a given piece of text is fake news.</p>
+          <p>Welcome to this text classification task. In this task, you are required to collaborate with a Chat GPT assistant to help you determine the characteristics of a given piece of text.</p>
           <ol>
               <li>First, read the text and make your own judgement without interacting with the chat GPT agent.</li>
-              <li>Second, take the pre-prepared "Interaction text" and paste it into the chat GPT agent. Record the agent's response.</li>
-              <li>With your own impression and that of the agent recorded, collaborate with chat GPT to resolve any uncertainties or clarify anything you think needs clarification.</li>
-              <li>Arrive at a "final judgement" by considering your own answer, that of chat GPT, and chat GPT's reasoning.</li>
-              <li>If your final answer differs from either your original answer or that of chat GPT or both, provide validation for why you changed your answer.</li>
+              <li>Second, take the pre-prepared "Interaction text" and paste it into the chat GPT window. Record chat GPT's response.</li>
+              <li>With your own impression and that of Chat GPT recorded, collaborate with Chat GPT to resolve any uncertainties or clarify anything you think needs clarification.</li>
+              <li>Arrive at a "final judgement" by considering your own answer, that of chat GPT, and Chat GPT's reasoning.</li>
+              <li>If your final answer differs from either your original answer or that of Chat GPT or both, provide validation for why you changed your answer.</li>
           </ol>
           <p>You will be given a piece of text which you can copy and paste into the chat GPT agent to help you collaborate effectively.</p>
       </div>
@@ -153,7 +150,7 @@ const CrowdComponent = ({ onSubmit, taskData }) => {
         </h1> 
 
         <div>
-        <h2>{"Make your own judgement as to whether the following is fake news"}</h2>
+        <h2>{"Make your own judgement as regarding the characteristics of the following text (Select all that apply)"}</h2>
           
         <div style={{ 
                 border: '1px solid black', 
@@ -165,13 +162,15 @@ const CrowdComponent = ({ onSubmit, taskData }) => {
             }}>
               <p>{question_text}</p>
           </div>
-        <crowd-radio-group  required>
-          <crowd-radio-button name="Mostly_True" value="Mostly_True">Msostly True </crowd-radio-button>
-          <crowd-radio-button name="Mostly_False" value="Mostly_False">Mostly False</crowd-radio-button>
-          <crowd-radio-button name="Mixed_True_and_False" value="Mixed_True_and_False">Mixed True and False</crowd-radio-button>
-          <crowd-radio-button name="No_Factual" value="No_Factual">No Factual Information</crowd-radio-button>
-        </crowd-radio-group>
-        </div>
+          <div><crowd-radio-button name="init_toxic" value="toxic">Toxic</crowd-radio-button></div>
+          <div><crowd-radio-button name="init_severe_toxic" value="severe_toxic">Severe Toxic</crowd-radio-button></div>
+          <div><crowd-radio-button name="init_obscene" value="obscene">Obscene</crowd-radio-button></div>
+          <div><crowd-radio-button name="init_threat" value="threat">Threat</crowd-radio-button></div>
+          <div><crowd-radio-button name="init_insult" value="insult">Insult</crowd-radio-button></div>
+          <div><crowd-radio-button name="init_identity_hate" value="identity_hate">Identity Hate</crowd-radio-button></div>
+
+
+          </div>
 
       
 
@@ -180,7 +179,7 @@ const CrowdComponent = ({ onSubmit, taskData }) => {
         </h1> 
 
         <div>
-        <h2>{"Collect Chat GPT's judgement as to whether the snippet is fake news"}</h2>
+        <h2>{"Collect Chat GPT's judgement regarding the characteristics of this text (select all that apply)"}</h2>
 
 
         <div style={{ 
@@ -192,34 +191,37 @@ const CrowdComponent = ({ onSubmit, taskData }) => {
                 wordWrap: 'break-word'
             }}>
               <h2>Paste this directly into the Chat GPT window</h2>
-              <p>You are tasked with providing logical reasoning to classify a news article's accuracy. Categories range from 'mostly false' to 'mostly true'. Your reasoning should be a comprehensive paragraph of 70-150 words.</p>
-              <p>Write a step-by-step logical summary justifying the conclusion based on the statement only. Provide a thorough analysis and, in borderline cases, seek the user’s perspective for final determination. Conclude with a summary analysis before the final classification.</p>
-              <p>Be sure to collaborate with your partner, and if you need something looked up or clarified, ask for assistance </p>
-              <h3>Categories Defined</h3>
+              <p>You are tasked with providing logical reasoning to determine the various toxicity, offensiveness and obscene characteristics of a piece of text.you are asked to select all options that apply and provide reasoning should be a comprehensive paragraph of 70-150 words.</p>
+              <p>Write a step-by-step logical summary justifying the conclusion based on the statement only. Provide a thorough analysis for each attribute and, in borderline cases, seek the user’s perspective for final determination. Conclude with a summary analysis before the final classification.</p>
+              <p>Be sure to collaborate with the user, and if you need something looked up or clarified, ask for assistance </p>
+              <h3>Attributes: provide yes/no for each</h3>
               <ul>
-                  <li><strong>MOSTLY TRUE:</strong></li>
-                  <li><strong>MOSTLY FALSE:</strong></li>
-                  <li><strong>MIXED:</strong></li>
-                  <li><strong>NO FACTUAL STATEMENT</strong></li>
+                  <li><strong>Toxic</strong></li>
+                  <li><strong>Severly Toxic</strong></li>
+                  <li><strong>Obscene</strong></li>
+                  <li><strong>Threat</strong></li>
+                  <li><strong>Insult</strong></li>
+                  <li><strong>Identity Hate</strong></li>
 
               </ul>
               <h3>Statement: </h3>
               <p>{question_text}</p>
               <h3>Task Instructions</h3>
               <ol>
-                  <li>Summary of Analysis: <em>[Provide logical summary here]</em></li>
-                  <li>Conclusion: <em>[pants-on-fire, false, mostly false, half-true, mostly-true, true]</em></li>
+                  <li>Summary of Analysis: <em>[Provide logical analysis for each attribute here]</em></li>
+                  <li>Conclusion: <em>[provide yes/no for each attribute: Toxic, Severly Toxic, Obscene, Threat, Insult, Identity Hate]</em></li>
                   <li>Questions for Further Clarification: <em>[List questions here if applicable]</em></li>
               </ol>
           </div>
             
           
-          <crowd-radio-group  required>
-          <crowd-radio-button name="Mostly_True" value="Mostly_True">Mostly True </crowd-radio-button>
-          <crowd-radio-button name="Mostly_False" value="Mostly_False">Mostly False</crowd-radio-button>
-          <crowd-radio-button name="Mixed_True_and_False" value="Mixed_True_and_False">Mixed True and False</crowd-radio-button>
-          <crowd-radio-button name="No_Factual" value="No_Factual">No Factual Information</crowd-radio-button>
-        </crowd-radio-group>
+          <div><crowd-radio-button name="machine_toxic" value="toxic">Toxic</crowd-radio-button></div>
+          <div><crowd-radio-button name="machine_severe_toxic" value="severe_toxic">Severe Toxic</crowd-radio-button></div>
+          <div><crowd-radio-button name="machine_obscene" value="obscene">Obscene</crowd-radio-button></div>
+          <div><crowd-radio-button name="machine_threat" value="threat">Threat</crowd-radio-button></div>
+          <div><crowd-radio-button name="machine_insult" value="insult">Insult</crowd-radio-button></div>
+          <div><crowd-radio-button name="machine_identity_hate" value="identity_hate">Identity Hate</crowd-radio-button></div>
+
         </div>
 
         <h1>
@@ -227,15 +229,16 @@ const CrowdComponent = ({ onSubmit, taskData }) => {
         </h1> 
 
         <div>
-        <h2>{"Based on your own judgement and anything you may have learned from the LLM agent produce your final answer"}</h2>
+        <h2>{"Based on your own judgement and anything you may have learned from the LLM agent produce your final answer (select all that apply)"}</h2>
 
-        <crowd-radio-group  required>
-          <crowd-radio-button name="Mostly_True" value="Mostly_True">Mostly True </crowd-radio-button>
-          <crowd-radio-button name="Mostly_False" value="Mostly_False">Mostly False</crowd-radio-button>
-          <crowd-radio-button name="Mixed_True_and_False" value="Mixed_True_and_False">Mixed True and False</crowd-radio-button>
-          <crowd-radio-button name="No_Factual" value="No_Factual">No Factual Information</crowd-radio-button>
-          <crowd-radio-button name="Uncertain" value="5">Uncertain</crowd-radio-button>
-        </crowd-radio-group>
+        <div><crowd-radio-button name="final_toxic" value="toxic">Toxic</crowd-radio-button></div>
+        <div><crowd-radio-button name="final_severe_toxic" value="severe_toxic">Severe Toxic</crowd-radio-button></div>
+        <div><crowd-radio-button name="final_obscene" value="obscene">Obscene</crowd-radio-button></div>
+        <div><crowd-radio-button name="final_threat" value="threat">Threat</crowd-radio-button></div>
+        <div><crowd-radio-button name="final_insult" value="insult">Insult</crowd-radio-button></div>
+        <div><crowd-radio-button name="final_identity_hate" value="identity_hate">Identity Hate</crowd-radio-button></div>
+
+
         <h2>{"If your final answer differs from either GPT or your initial answer, please tell us why you made your choice"}</h2>
         <crowd-input name="validation" label="validation" required></crowd-input>
         </div>
