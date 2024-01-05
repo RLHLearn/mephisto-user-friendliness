@@ -140,10 +140,10 @@ const CrowdComponent = ({ onSubmit, taskData }) => {
           <p>Welcome to this fake news detection task. In this task, you are required to collaborate with a Chat GPT assistant to help you determine whether a given piece of text is fake news.</p>
           <ol>
               <li>First, read the text and make your own judgement without interacting with the chat GPT agent.</li>
-              <li>Second, take the pre-prepared "Interaction text" and paste it into the chat GPT agent. Record the agent's response.</li>
-              <li>With your own impression and that of the agent recorded, collaborate with chat GPT to resolve any uncertainties or clarify anything you think needs clarification.</li>
-              <li>Arrive at a "final judgement" by considering your own answer, that of chat GPT, and chat GPT's reasoning.</li>
-              <li>If your final answer differs from either your original answer or that of chat GPT or both, provide validation for why you changed your answer.</li>
+              <li>Second, take the pre-prepared "Interaction text" and paste it into the chat GPT window. Record chat GPT's response.</li>
+              <li>With your own impression and that of Chat GPT recorded, collaborate with Chat GPT to resolve any uncertainties or clarify anything you think needs clarification.</li>
+              <li>Arrive at a "final judgement" by considering your own answer, that of chat GPT, and Chat GPT's reasoning.</li>
+              <li>If your final answer differs from either your original answer or that of Chat GPT or both, provide validation for why you changed your answer.</li>
           </ol>
           <p>You will be given a piece of text which you can copy and paste into the chat GPT agent to help you collaborate effectively.</p>
       </div>
