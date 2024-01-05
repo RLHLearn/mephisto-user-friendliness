@@ -119,7 +119,7 @@ const CrowdComponent = ({ onSubmit, taskData }) => {
           {"User Vetting"}
         </h1>
         <h2>
-          {"Answer the following question correctly, an incorrect answer will lead to disqualification and will mean you cannot submit the task and receive the reward"}
+          {"Answer the following question correctly, an incorrect answer will lead to disqualification"}
         </h2>
         <div>
         <h2>{"What is the moon made of?"}</h2>
@@ -136,7 +136,7 @@ const CrowdComponent = ({ onSubmit, taskData }) => {
         <h1>
           {"Instructions"}
         </h1>
-        <div>
+        <div style={{ fontSize: '20px', fontWeight: 'bold'  }}>
           <p>Welcome to this fake news detection task. In this task, you are required to collaborate with a Chat GPT assistant to help you determine whether a given piece of text is fake news.</p>
           <ol>
               <li>First, read the text and make your own judgement without interacting with the chat GPT agent.</li>
@@ -148,9 +148,6 @@ const CrowdComponent = ({ onSubmit, taskData }) => {
           <p>You will be given a piece of text which you can copy and paste into the chat GPT agent to help you collaborate effectively.</p>
       </div>
 
-
-
-
         <h1>
           {"Step 1: Personal Judgement "}
         </h1> 
@@ -158,30 +155,21 @@ const CrowdComponent = ({ onSubmit, taskData }) => {
         <div>
         <h2>{"Make your own judgement as to whether the following is fake news"}</h2>
           
-        <div>
-          {question_text}
-
-
-        </div>
-        <crowd-radio-group required>
-            <crowd-radio-button style={{ display: 'block', marginBottom: '10px' }} name="init_true" value="TRUE">
-                TRUE – The statement is accurate and there’s nothing significant missing.
-            </crowd-radio-button>
-            <crowd-radio-button style={{ display: 'block', marginBottom: '10px' }} name="init_mostly_true" value="MOSTLY TRUE">
-                MOSTLY TRUE – The statement is accurate but needs clarification or additional information.
-            </crowd-radio-button>
-            <crowd-radio-button style={{ display: 'block', marginBottom: '10px' }} name="init_half_true" value="HALF TRUE">
-                HALF TRUE – The statement is partially accurate but leaves out important details or takes things out of context.
-            </crowd-radio-button>
-            <crowd-radio-button style={{ display: 'block', marginBottom: '10px' }} name="init_mostly_false" value="MOSTLY FALSE">
-                MOSTLY FALSE – The statement contains an element of truth but ignores critical facts that would give a different impression.
-            </crowd-radio-button>
-            <crowd-radio-button style={{ display: 'block', marginBottom: '10px' }} name="init_false" value="FALSE">
-                FALSE – The statement is not accurate.
-            </crowd-radio-button>
-            <crowd-radio-button style={{ display: 'block', marginBottom: '10px' }} name="init_pants_on_fire" value="PANTS ON FIRE">
-                PANTS ON FIRE – The statement is not accurate and makes a ridiculous claim.
-            </crowd-radio-button>
+        <div style={{ 
+                border: '1px solid black', 
+                padding: '10px', 
+                margin: '10px', 
+                backgroundColor: '#f0f0f0',
+                maxWidth: '800px',
+                wordWrap: 'break-word'
+            }}>
+              <p>{question_text}</p>
+          </div>
+        <crowd-radio-group  required>
+          <crowd-radio-button name="Mostly_True" value="Mostly_True">Msostly True </crowd-radio-button>
+          <crowd-radio-button name="Mostly_False" value="Mostly_False">Mostly False</crowd-radio-button>
+          <crowd-radio-button name="Mixed_True_and_False" value="Mixed_True_and_False">Mixed True and False</crowd-radio-button>
+          <crowd-radio-button name="No_Factual" value="No_Factual">No Factual Information</crowd-radio-button>
         </crowd-radio-group>
         </div>
 
@@ -204,16 +192,16 @@ const CrowdComponent = ({ onSubmit, taskData }) => {
                 wordWrap: 'break-word'
             }}>
               <h2>Paste this directly into the Chat GPT window</h2>
-              <p>You are tasked with providing logical reasoning to classify a news article's accuracy. Categories range from 'pants-on-fire' to 'true'. Your reasoning should be a comprehensive paragraph of 70-150 words.</p>
-              <p>Write a step-by-step logical summary justifying the conclusion based on the statement only. Ignore irrelevant background information. Provide a thorough analysis and, in borderline cases, seek the user’s perspective for final determination. Conclude with a summary analysis before the final classification.</p>
+              <p>You are tasked with providing logical reasoning to classify a news article's accuracy. Categories range from 'mostly false' to 'mostly true'. Your reasoning should be a comprehensive paragraph of 70-150 words.</p>
+              <p>Write a step-by-step logical summary justifying the conclusion based on the statement only. Provide a thorough analysis and, in borderline cases, seek the user’s perspective for final determination. Conclude with a summary analysis before the final classification.</p>
+              <p>Be sure to collaborate with your partner, and if you need something looked up or clarified, ask for assistance </p>
               <h3>Categories Defined</h3>
               <ul>
-                  <li><strong>TRUE:</strong> The statement is accurate and complete.</li>
-                  <li><strong>MOSTLY TRUE:</strong> The statement is accurate but requires clarification or additional information.</li>
-                  <li><strong>HALF TRUE:</strong> The statement is partially accurate but omits important details or context.</li>
-                  <li><strong>MOSTLY FALSE:</strong> The statement contains some truth but ignores critical facts, changing the impression.</li>
-                  <li><strong>FALSE:</strong> The statement is not accurate.</li>
-                  <li><strong>PANTS ON FIRE:</strong> The statement is not accurate and makes a ridiculous claim.</li>
+                  <li><strong>MOSTLY TRUE:</strong></li>
+                  <li><strong>MOSTLY FALSE:</strong></li>
+                  <li><strong>MIXED:</strong></li>
+                  <li><strong>NO FACTUAL STATEMENT</strong></li>
+
               </ul>
               <h3>Statement: </h3>
               <p>{question_text}</p>
@@ -226,27 +214,12 @@ const CrowdComponent = ({ onSubmit, taskData }) => {
           </div>
             
           
-
-          <crowd-radio-group required>
-              <crowd-radio-button style={{ display: 'block', marginBottom: '10px' }} name="machine_true" value="TRUE">
-                  TRUE – The statement is accurate and there’s nothing significant missing.
-              </crowd-radio-button>
-              <crowd-radio-button style={{ display: 'block', marginBottom: '10px' }} name="machine_mostly_true" value="MOSTLY TRUE">
-                  MOSTLY TRUE – The statement is accurate but needs clarification or additional information.
-              </crowd-radio-button>
-              <crowd-radio-button style={{ display: 'block', marginBottom: '10px' }} name="machine_half_true" value="HALF TRUE">
-                  HALF TRUE – The statement is partially accurate but leaves out important details or takes things out of context.
-              </crowd-radio-button>
-              <crowd-radio-button style={{ display: 'block', marginBottom: '10px' }} name="machine_mostly_false" value="MOSTLY FALSE">
-                  MOSTLY FALSE – The statement contains an element of truth but ignores critical facts that would give a different impression.
-              </crowd-radio-button>
-              <crowd-radio-button style={{ display: 'block', marginBottom: '10px' }} name="machine_false" value="FALSE">
-                  FALSE – The statement is not accurate.
-              </crowd-radio-button>
-              <crowd-radio-button style={{ display: 'block', marginBottom: '10px' }} name="machine_pants_on_fire" value="PANTS ON FIRE">
-                  PANTS ON FIRE – The statement is not accurate and makes a ridiculous claim.
-              </crowd-radio-button>
-          </crowd-radio-group>
+          <crowd-radio-group  required>
+          <crowd-radio-button name="Mostly_True" value="Mostly_True">Mostly True </crowd-radio-button>
+          <crowd-radio-button name="Mostly_False" value="Mostly_False">Mostly False</crowd-radio-button>
+          <crowd-radio-button name="Mixed_True_and_False" value="Mixed_True_and_False">Mixed True and False</crowd-radio-button>
+          <crowd-radio-button name="No_Factual" value="No_Factual">No Factual Information</crowd-radio-button>
+        </crowd-radio-group>
         </div>
 
         <h1>
@@ -254,33 +227,18 @@ const CrowdComponent = ({ onSubmit, taskData }) => {
         </h1> 
 
         <div>
-        <h2>{"Based on your initial judegement and that of chat GPT, produce your final answer"}</h2>
+        <h2>{"Based on your own judgement and anything you may have learned from the LLM agent produce your final answer"}</h2>
 
-        <crowd-radio-group required>
-          <crowd-radio-button style={{ display: 'block', marginBottom: '10px' }} name="final_true" value="TRUE">
-              TRUE – The statement is accurate and there’s nothing significant missing.
-          </crowd-radio-button>
-          <crowd-radio-button style={{ display: 'block', marginBottom: '10px' }} name="final_mostly_true" value="MOSTLY TRUE">
-              MOSTLY TRUE – The statement is accurate but needs clarification or additional information.
-          </crowd-radio-button>
-          <crowd-radio-button style={{ display: 'block', marginBottom: '10px' }} name="final_half_true" value="HALF TRUE">
-              HALF TRUE – The statement is partially accurate but leaves out important details or takes things out of context.
-          </crowd-radio-button>
-          <crowd-radio-button style={{ display: 'block', marginBottom: '10px' }} name="final_mostly_false" value="MOSTLY FALSE">
-              MOSTLY FALSE – The statement contains an element of truth but ignores critical facts that would give a different impression.
-          </crowd-radio-button>
-          <crowd-radio-button style={{ display: 'block', marginBottom: '10px' }} name="final_false" value="FALSE">
-              FALSE – The statement is not accurate.
-          </crowd-radio-button>
-          <crowd-radio-button style={{ display: 'block', marginBottom: '10px' }} name="final_pants_on_fire" value="PANTS ON FIRE">
-              PANTS ON FIRE – The statement is not accurate and makes a ridiculous claim.
-          </crowd-radio-button>
-      </crowd-radio-group>
+        <crowd-radio-group  required>
+          <crowd-radio-button name="Mostly_True" value="Mostly_True">Mostly True </crowd-radio-button>
+          <crowd-radio-button name="Mostly_False" value="Mostly_False">Mostly False</crowd-radio-button>
+          <crowd-radio-button name="Mixed_True_and_False" value="Mixed_True_and_False">Mixed True and False</crowd-radio-button>
+          <crowd-radio-button name="No_Factual" value="No_Factual">No Factual Information</crowd-radio-button>
+          <crowd-radio-button name="Uncertain" value="5">Uncertain</crowd-radio-button>
+        </crowd-radio-group>
         <h2>{"If your final answer differs from either GPT or your initial answer, please tell us why you made your choice"}</h2>
         <crowd-input name="validation" label="validation" required></crowd-input>
-
         </div>
-
         </crowd-form>
 
       </>
