@@ -73,41 +73,143 @@ const CrowdComponent = ({ onSubmit, taskData }) => {
       vetting_5: document.querySelector('crowd-radio-button[name="vetting_5"]').checked,
     };
   
-    const init_judgement = {
-      init_true: document.querySelector('crowd-radio-button[name="init_true"]').checked,
-      init_mostly_true: document.querySelector('crowd-radio-button[name="init_mostly_true"]').checked,
-      init_half_true: document.querySelector('crowd-radio-button[name="init_half_true"]').checked,
-      init_mostly_false: document.querySelector('crowd-radio-button[name="init_mostly_false"]').checked,
-      init_false: document.querySelector('crowd-radio-button[name="init_false"]').checked,
-      init_pants_on_fire: document.querySelector('crowd-radio-button[name="init_pants_on_fire"]').checked,
-    };
-
-    const machine_judgement = {
-      machine_true: document.querySelector('crowd-radio-button[name="machine_true"]').checked,
-      machine_mostly_true: document.querySelector('crowd-radio-button[name="machine_mostly_true"]').checked,
-      machine_half_true: document.querySelector('crowd-radio-button[name="machine_half_true"]').checked,
-      machine_mostly_false: document.querySelector('crowd-radio-button[name="machine_mostly_false"]').checked,
-      machine_false: document.querySelector('crowd-radio-button[name="machine_false"]').checked,
-      machine_pants_on_fire: document.querySelector('crowd-radio-button[name="machine_pants_on_fire"]').checked,
-
-    };
   
   
-    const final_judgement = {
-      final_true: document.querySelector('crowd-radio-button[name="final_true"]').checked,
-      final_mostly_true: document.querySelector('crowd-radio-button[name="final_mostly_true"]').checked,
-      final_half_true: document.querySelector('crowd-radio-button[name="final_half_true"]').checked,
-      final_mostly_false: document.querySelector('crowd-radio-button[name="final_mostly_false"]').checked,
-      final_false: document.querySelector('crowd-radio-button[name="final_false"]').checked,
-      final_pants_on_fire: document.querySelector('crowd-radio-button[name="final_pants_on_fire"]').checked,
 
+    const final_judgement_0 = {
+      final_no_emotion_0: document.querySelector('crowd-radio-button[name="final_no_emotion_0"]').checked,
+      final_anger_0: document.querySelector('crowd-radio-button[name="final_anger_0"]').checked,
+      final_disgust_0: document.querySelector('crowd-radio-button[name="final_disgust_0"]').checked,
+      final_fear_0: document.querySelector('crowd-radio-button[name="final_fear_0"]').checked,
+      final_happiness_0: document.querySelector('crowd-radio-button[name="final_happiness_0"]').checked,
+      final_sadness_0: document.querySelector('crowd-radio-button[name="final_sadness_0"]').checked,
+      final_surprise_0: document.querySelector('crowd-radio-button[name="final_surprise_0"]').checked,
     };
-  
+    
+    const final_judgement_1 = {
+      final_no_emotion_1: document.querySelector('crowd-radio-button[name="final_no_emotion_1"]').checked,
+      final_anger_1: document.querySelector('crowd-radio-button[name="final_anger_1"]').checked,
+      final_disgust_1: document.querySelector('crowd-radio-button[name="final_disgust_1"]').checked,
+      final_fear_1: document.querySelector('crowd-radio-button[name="final_fear_1"]').checked,
+      final_happiness_1: document.querySelector('crowd-radio-button[name="final_happiness_1"]').checked,
+      final_sadness_1: document.querySelector('crowd-radio-button[name="final_sadness_1"]').checked,
+      final_surprise_1: document.querySelector('crowd-radio-button[name="final_surprise_1"]').checked,
+    };
+    
+    const final_judgement_2 = {
+      final_no_emotion_2: document.querySelector('crowd-radio-button[name="final_no_emotion_2"]').checked,
+      final_anger_2: document.querySelector('crowd-radio-button[name="final_anger_2"]').checked,
+      final_disgust_2: document.querySelector('crowd-radio-button[name="final_disgust_2"]').checked,
+      final_fear_2: document.querySelector('crowd-radio-button[name="final_fear_2"]').checked,
+      final_happiness_2: document.querySelector('crowd-radio-button[name="final_happiness_2"]').checked,
+      final_sadness_2: document.querySelector('crowd-radio-button[name="final_sadness_2"]').checked,
+      final_surprise_2: document.querySelector('crowd-radio-button[name="final_surprise_2"]').checked,
+    };
+    
+    const final_judgement_3 = {
+      final_no_emotion_3: document.querySelector('crowd-radio-button[name="final_no_emotion_3"]').checked,
+      final_anger_3: document.querySelector('crowd-radio-button[name="final_anger_3"]').checked,
+      final_disgust_3: document.querySelector('crowd-radio-button[name="final_disgust_3"]').checked,
+      final_fear_3: document.querySelector('crowd-radio-button[name="final_fear_3"]').checked,
+      final_happiness_3: document.querySelector('crowd-radio-button[name="final_happiness_3"]').checked,
+      final_sadness_3: document.querySelector('crowd-radio-button[name="final_sadness_3"]').checked,
+      final_surprise_3: document.querySelector('crowd-radio-button[name="final_surprise_3"]').checked,
+    };
+    
+    const machine_judgement_0 = {
+      machine_no_emotion_0: document.querySelector('crowd-radio-button[name="machine_no_emotion_0"]').checked,
+      machine_anger_0: document.querySelector('crowd-radio-button[name="machine_anger_0"]').checked,
+      machine_disgust_0: document.querySelector('crowd-radio-button[name="machine_disgust_0"]').checked,
+      machine_fear_0: document.querySelector('crowd-radio-button[name="machine_fear_0"]').checked,
+      machine_happiness_0: document.querySelector('crowd-radio-button[name="machine_happiness_0"]').checked,
+      machine_sadness_0: document.querySelector('crowd-radio-button[name="machine_sadness_0"]').checked,
+      machine_surprise_0: document.querySelector('crowd-radio-button[name="machine_surprise_0"]').checked,
+    };
+    
+    const machine_judgement_1 = {
+      machine_no_emotion_1: document.querySelector('crowd-radio-button[name="machine_no_emotion_1"]').checked,
+      machine_anger_1: document.querySelector('crowd-radio-button[name="machine_anger_1"]').checked,
+      machine_disgust_1: document.querySelector('crowd-radio-button[name="machine_disgust_1"]').checked,
+      machine_fear_1: document.querySelector('crowd-radio-button[name="machine_fear_1"]').checked,
+      machine_happiness_1: document.querySelector('crowd-radio-button[name="machine_happiness_1"]').checked,
+      machine_sadness_1: document.querySelector('crowd-radio-button[name="machine_sadness_1"]').checked,
+      machine_surprise_1: document.querySelector('crowd-radio-button[name="machine_surprise_1"]').checked,
+    };
+    
+    const machine_judgement_2 = {
+      machine_no_emotion_2: document.querySelector('crowd-radio-button[name="machine_no_emotion_2"]').checked,
+      machine_anger_2: document.querySelector('crowd-radio-button[name="machine_anger_2"]').checked,
+      machine_disgust_2: document.querySelector('crowd-radio-button[name="machine_disgust_2"]').checked,
+      machine_fear_2: document.querySelector('crowd-radio-button[name="machine_fear_2"]').checked,
+      machine_happiness_2: document.querySelector('crowd-radio-button[name="machine_happiness_2"]').checked,
+      machine_sadness_2: document.querySelector('crowd-radio-button[name="machine_sadness_2"]').checked,
+      machine_surprise_2: document.querySelector('crowd-radio-button[name="machine_surprise_2"]').checked,
+    };
+    
+    const machine_judgement_3 = {
+      machine_no_emotion_3: document.querySelector('crowd-radio-button[name="machine_no_emotion_3"]').checked,
+      machine_anger_3: document.querySelector('crowd-radio-button[name="machine_anger_3"]').checked,
+      machine_disgust_3: document.querySelector('crowd-radio-button[name="machine_disgust_3"]').checked,
+      machine_fear_3: document.querySelector('crowd-radio-button[name="machine_fear_3"]').checked,
+      machine_happiness_3: document.querySelector('crowd-radio-button[name="machine_happiness_3"]').checked,
+      machine_sadness_3: document.querySelector('crowd-radio-button[name="machine_sadness_3"]').checked,
+      machine_surprise_3: document.querySelector('crowd-radio-button[name="machine_surprise_3"]').checked,
+    };
+
+    const init_judgement_0 = {
+      init_no_emotion_0: document.querySelector('crowd-radio-button[name="init_no_emotion_0"]').checked,
+      init_anger_0: document.querySelector('crowd-radio-button[name="init_anger_0"]').checked,
+      init_disgust_0: document.querySelector('crowd-radio-button[name="init_disgust_0"]').checked,
+      init_fear_0: document.querySelector('crowd-radio-button[name="init_fear_0"]').checked,
+      init_happiness_0: document.querySelector('crowd-radio-button[name="init_happiness_0"]').checked,
+      init_sadness_0: document.querySelector('crowd-radio-button[name="init_sadness_0"]').checked,
+      init_surprise_0: document.querySelector('crowd-radio-button[name="init_surprise_0"]').checked,
+    };
+    
+    const init_judgement_1 = {
+      init_no_emotion_1: document.querySelector('crowd-radio-button[name="init_no_emotion_1"]').checked,
+      init_anger_1: document.querySelector('crowd-radio-button[name="init_anger_1"]').checked,
+      init_disgust_1: document.querySelector('crowd-radio-button[name="init_disgust_1"]').checked,
+      init_fear_1: document.querySelector('crowd-radio-button[name="init_fear_1"]').checked,
+      init_happiness_1: document.querySelector('crowd-radio-button[name="init_happiness_1"]').checked,
+      init_sadness_1: document.querySelector('crowd-radio-button[name="init_sadness_1"]').checked,
+      init_surprise_1: document.querySelector('crowd-radio-button[name="init_surprise_1"]').checked,
+    };
+    
+    const init_judgement_2 = {
+      init_no_emotion_2: document.querySelector('crowd-radio-button[name="init_no_emotion_2"]').checked,
+      init_anger_2: document.querySelector('crowd-radio-button[name="init_anger_2"]').checked,
+      init_disgust_2: document.querySelector('crowd-radio-button[name="init_disgust_2"]').checked,
+      init_fear_2: document.querySelector('crowd-radio-button[name="init_fear_2"]').checked,
+      init_happiness_2: document.querySelector('crowd-radio-button[name="init_happiness_2"]').checked,
+      init_sadness_2: document.querySelector('crowd-radio-button[name="init_sadness_2"]').checked,
+      init_surprise_2: document.querySelector('crowd-radio-button[name="init_surprise_2"]').checked,
+    };
+    
+    const init_judgement_3 = {
+      init_no_emotion_3: document.querySelector('crowd-radio-button[name="init_no_emotion_3"]').checked,
+      init_anger_3: document.querySelector('crowd-radio-button[name="init_anger_3"]').checked,
+      init_disgust_3: document.querySelector('crowd-radio-button[name="init_disgust_3"]').checked,
+      init_fear_3: document.querySelector('crowd-radio-button[name="init_fear_3"]').checked,
+      init_happiness_3: document.querySelector('crowd-radio-button[name="init_happiness_3"]').checked,
+      init_sadness_3: document.querySelector('crowd-radio-button[name="init_sadness_3"]').checked,
+      init_surprise_3: document.querySelector('crowd-radio-button[name="init_surprise_3"]').checked,
+    };
+
     const submitData = {
       "vetting": vetting,
-      "initial": init_judgement,
-      "machine":machine_judgement,
-      "final":final_judgement
+      "final_0": final_judgement_0,
+      "final_1": final_judgement_1,
+      "final_2": final_judgement_2,
+      "final_3": final_judgement_3,
+      "machine_0": machine_judgement_0,
+      "machine_1": machine_judgement_1,
+      "machine_2": machine_judgement_2,
+      "machine_3": machine_judgement_3,
+      "init_0": init_judgement_0,
+      "init_1": init_judgement_1,
+      "init_2": init_judgement_2,
+      "init_3": init_judgement_3
     };
   
     onSubmit?.(submitData);
@@ -153,7 +255,7 @@ const CrowdComponent = ({ onSubmit, taskData }) => {
         </h1> 
 
         <div>
-        <h2>{"Make your own judgement as to whether the following is fake news"}</h2>
+        <h2>{"Make your own judgements regarding the emotions in this dialogue"}</h2>
           
         <div style={{ 
                 border: '1px solid black', 
@@ -176,26 +278,21 @@ const CrowdComponent = ({ onSubmit, taskData }) => {
                     <div key={index}>
                         <p>{line}</p>
                         <crowd-radio-group required>
-                            <crowd-radio-button name={`no_emotion_${index}`} value="no_emotion">No Emotion</crowd-radio-button>
-                            <crowd-radio-button name={`anger_${index}`} value="anger">Anger</crowd-radio-button>
-                            <crowd-radio-button name={`disgust_${index}`} value="disgust">Disgust</crowd-radio-button>
-                            <crowd-radio-button name={`fear_${index}`} value="fear">Fear</crowd-radio-button>
-                            <crowd-radio-button name={`happiness_${index}`} value="happiness">Happiness</crowd-radio-button>
-                            <crowd-radio-button name={`sadness_${index}`} value="sadness">Sadness</crowd-radio-button>
-                            <crowd-radio-button name={`surprise_${index}`} value="surprise">Surprise</crowd-radio-button>
-                        </crowd-radio-group>
+                        <crowd-radio-button name={`init_no_emotion_${index}`} value="no_emotion">No Emotion</crowd-radio-button>
+                        <crowd-radio-button name={`init_anger_${index}`} value="anger">Anger</crowd-radio-button>
+                        <crowd-radio-button name={`init_disgust_${index}`} value="disgust">Disgust</crowd-radio-button>
+                        <crowd-radio-button name={`init_fear_${index}`} value="fear">Fear</crowd-radio-button>
+                        <crowd-radio-button name={`init_happiness_${index}`} value="happiness">Happiness</crowd-radio-button>
+                        <crowd-radio-button name={`init_sadness_${index}`} value="sadness">Sadness</crowd-radio-button>
+                        <crowd-radio-button name={`init_surprise_${index}`} value="surprise">Surprise</crowd-radio-button>
+                    </crowd-radio-group>
                     </div>
                 ))
                 : 
                 <p>{question_text}</p>
             }
-</div>
-        <crowd-radio-group  required>
-          <crowd-radio-button name="Mostly_True" value="Mostly_True">Msostly True </crowd-radio-button>
-          <crowd-radio-button name="Mostly_False" value="Mostly_False">Mostly False</crowd-radio-button>
-          <crowd-radio-button name="Mixed_True_and_False" value="Mixed_True_and_False">Mixed True and False</crowd-radio-button>
-          <crowd-radio-button name="No_Factual" value="No_Factual">No Factual Information</crowd-radio-button>
-        </crowd-radio-group>
+          </div>
+
         </div>
 
       
@@ -205,7 +302,7 @@ const CrowdComponent = ({ onSubmit, taskData }) => {
         </h1> 
 
         <div>
-        <h2>{"Collect Chat GPT's judgement as to whether the snippet is fake news"}</h2>
+        <h2>{"Collect Chat GPT's judgements regarding the emotions in the dialogue"}</h2>
 
 
         <div style={{ 
@@ -217,53 +314,75 @@ const CrowdComponent = ({ onSubmit, taskData }) => {
                 wordWrap: 'break-word'
             }}>
               <h2>Paste this directly into the Chat GPT window</h2>
-              <p>You are tasked with providing logical reasoning to classify a news article's accuracy. Categories range from 'mostly false' to 'mostly true'. Your reasoning should be a comprehensive paragraph of 70-150 words.</p>
-              <p>Write a step-by-step logical summary justifying the conclusion based on the statement only. Provide a thorough analysis and, in borderline cases, seek the user’s perspective for final determination. Conclude with a summary analysis before the final classification.</p>
-              <p>Be sure to collaborate with your partner, and if you need something looked up or clarified, ask for assistance </p>
+              <p>You are tasked with analysing the emotions experessed in each line of a dialogue.</p>
+              <p>For each line in this dialogue, provide an emotion judgement, and a brief validation.</p>
+              <p>If there are any rows you are uncertain of, or you need any assistance ask questions </p>
               <h3>Categories Defined</h3>
+              <h3>Emotion Categories Defined</h3>
               <ul>
-                  <li><strong>MOSTLY TRUE:</strong></li>
-                  <li><strong>MOSTLY FALSE:</strong></li>
-                  <li><strong>MIXED:</strong></li>
-                  <li><strong>NO FACTUAL STATEMENT</strong></li>
-
+                  <li><strong>NO EMOTION</strong></li>
+                  <li><strong>ANGER</strong></li>
+                  <li><strong>DISGUST</strong></li>
+                  <li><strong>FEAR</strong></li>
+                  <li><strong>HAPPINESS</strong></li>
+                  <li><strong>SADNESS</strong></li>
+                  <li><strong>SURPRISE</strong></li>
               </ul>
-              <h3>Statement: </h3>
+              <h3>Dialogue: </h3>
               <p>{Array.isArray(question_text) ? question_text.map((line, index) => <p key={index}>{line}</p>) : <p>{question_text}</p>}</p>
               <h3>Task Instructions</h3>
               <ol>
-                  <li>Summary of Analysis: <em>[Provide logical summary here]</em></li>
-                  <li>Conclusion: <em>[pants-on-fire, false, mostly false, half-true, mostly-true, true]</em></li>
+                  <li>Emotion Judgements for each line: <em>[Provide judgements here]</em></li>
+                  <li>Validation for each judgement: <em>[Provide validation here]</em></li>
                   <li>Questions for Further Clarification: <em>[List questions here if applicable]</em></li>
               </ol>
           </div>
             
-          
-          <crowd-radio-group  required>
-          <crowd-radio-button name="Mostly_True" value="Mostly_True">Mostly True </crowd-radio-button>
-          <crowd-radio-button name="Mostly_False" value="Mostly_False">Mostly False</crowd-radio-button>
-          <crowd-radio-button name="Mixed_True_and_False" value="Mixed_True_and_False">Mixed True and False</crowd-radio-button>
-          <crowd-radio-button name="No_Factual" value="No_Factual">No Factual Information</crowd-radio-button>
-        </crowd-radio-group>
         </div>
-
+        <div>
+            {Array.isArray(question_text) ? 
+                question_text.map((line, index) => (
+                    <div key={index}>
+                        <p>{line}</p>
+                        <crowd-radio-group required>
+                          <crowd-radio-button name={`machine_no_emotion_${index}`} value="no_emotion">No Emotion</crowd-radio-button>
+                          <crowd-radio-button name={`machine_anger_${index}`} value="anger">Anger</crowd-radio-button>
+                          <crowd-radio-button name={`machine_disgust_${index}`} value="disgust">Disgust</crowd-radio-button>
+                          <crowd-radio-button name={`machine_fear_${index}`} value="fear">Fear</crowd-radio-button>
+                          <crowd-radio-button name={`machine_happiness_${index}`} value="happiness">Happiness</crowd-radio-button>
+                          <crowd-radio-button name={`machine_sadness_${index}`} value="sadness">Sadness</crowd-radio-button>
+                          <crowd-radio-button name={`machine_surprise_${index}`} value="surprise">Surprise</crowd-radio-button>
+                      </crowd-radio-group>
+                    </div>
+                ))
+                : 
+                <p>{question_text}</p>
+            }
+          </div>
         <h1>
           {"Step 3: Final Answer"}
         </h1> 
 
         <div>
-        <h2>{"Based on your own judgement and anything you may have learned from the LLM agent produce your final answer"}</h2>
-
-        <crowd-radio-group  required>
-          <crowd-radio-button name="Mostly_True" value="Mostly_True">Mostly True </crowd-radio-button>
-          <crowd-radio-button name="Mostly_False" value="Mostly_False">Mostly False</crowd-radio-button>
-          <crowd-radio-button name="Mixed_True_and_False" value="Mixed_True_and_False">Mixed True and False</crowd-radio-button>
-          <crowd-radio-button name="No_Factual" value="No_Factual">No Factual Information</crowd-radio-button>
-          <crowd-radio-button name="Uncertain" value="5">Uncertain</crowd-radio-button>
-        </crowd-radio-group>
-        <h2>{"If your final answer differs from either GPT or your initial answer, please tell us why you made your choice"}</h2>
-        <crowd-input name="validation" label="validation" required></crowd-input>
-        </div>
+            {Array.isArray(question_text) ? 
+                question_text.map((line, index) => (
+                    <div key={index}>
+                        <p>{line}</p>
+                        <crowd-radio-group required>
+                          <crowd-radio-button name={`final_no_emotion_${index}`} value="no_emotion">No Emotion</crowd-radio-button>
+                          <crowd-radio-button name={`final_anger_${index}`} value="anger">Anger</crowd-radio-button>
+                          <crowd-radio-button name={`final_disgust_${index}`} value="disgust">Disgust</crowd-radio-button>
+                          <crowd-radio-button name={`final_fear_${index}`} value="fear">Fear</crowd-radio-button>
+                          <crowd-radio-button name={`final_happiness_${index}`} value="happiness">Happiness</crowd-radio-button>
+                          <crowd-radio-button name={`final_sadness_${index}`} value="sadness">Sadness</crowd-radio-button>
+                          <crowd-radio-button name={`final_surprise_${index}`} value="surprise">Surprise</crowd-radio-button>
+                      </crowd-radio-group>
+                    </div>
+                ))
+                : 
+                <p>{question_text}</p>
+            }
+          </div>
         </crowd-form>
 
       </>
