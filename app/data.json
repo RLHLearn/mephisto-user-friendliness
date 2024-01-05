@@ -1,1575 +1,15 @@
 [
     {
-        "dialog": [
-            "Person 1: Did you get the car you wanted ?",
-            "Person 2: No . Someone had stolen a march on me and bought it .",
-            "Person 1: What about the car over there ?",
-            "Person 2: It is marvelous , and the price is marvelous , as well ."
-        ],
-        "act": [
-            2,
-            1,
-            2,
-            1
-        ],
-        "emotion": [
-            0,
-            0,
-            0,
-            0
-        ]
-    },
-    {
-        "dialog": [
-            "Person 1: Wow ! Thats a fantastic movie !",
-            "Person 2: Yes . I love it , too .",
-            "Person 1: Who was the director ?",
-            "Person 2: Im not sure , but I think it must be directed by Zhang You . Thats typical of him ."
-        ],
-        "act": [
-            1,
-            1,
-            2,
-            1
-        ],
-        "emotion": [
-            4,
-            4,
-            0,
-            0
-        ]
-    },
-    {
-        "dialog": [
-            "Person 1: I didnt see you at Mr . Johnsons class today .",
-            "Person 2: Yeah , I quit .",
-            "Person 1: Why ?",
-            "Person 2: Im fed up with his boring lectures ."
-        ],
-        "act": [
-            1,
-            1,
-            2,
-            1
-        ],
-        "emotion": [
-            0,
-            0,
-            0,
-            2
-        ]
-    },
-    {
-        "dialog": [
-            "Person 1: Ive heard that youve made a new strange friend recently , Sophie .",
-            "Person 2: Yes . He is an old man with a great sense of humour . Not only can he play the piano , he also draws pictures very well .",
-            "Person 1: So you can learn a lot from him .",
-            "Person 2: Yeah , he has no children , so he sometimes feel s very lonely . I often go to his house to play and talk with him . That makes him feel very happy ."
-        ],
-        "act": [
-            1,
-            1,
-            1,
-            1
-        ],
-        "emotion": [
-            0,
-            0,
-            0,
-            0
-        ]
-    },
-    {
-        "dialog": [
-            "Person 1: Tomorrow will be my first day at work , what do you think I should be wearing ?",
-            "Person 2: Well , if you want to look professional , serious and more conservative , a blue dress , white shirt and not-too-high shoes would be the best choice . But sometimes , very formal clothes will keep you at a distance from your colleagues . It depends on the company \u2019 s dress code .",
-            "Person 1: Indeed , I found most of the employees dress casually when I went to the interview . Only the manager was in suit and tie and he just came back from a ceremony . It seems that their dress code is not that formal . Probably , I should put on car key and simple shirt .",
-            "Person 2: Whatever you choose , make sure they are neat and clean ."
-        ],
-        "act": [
-            2,
-            1,
-            1,
-            3
-        ],
-        "emotion": [
-            0,
-            0,
-            0,
-            0
-        ]
-    },
-    {
-        "dialog": [
-            "Person 1: Look , the printer isn \u2019 t functioning well . I \u2019 Ve pushed the start button . It is suppose to be working now but it remains like a log . What \u2019 s going on ?",
-            "Person 2: Let me check . It has a paper jam .",
-            "Person 1: I didn \u2019 t pay attention to that . I will try to get the paper out .",
-            "Person 2: Be careful , the cartridge can be very hot ."
-        ],
-        "act": [
-            2,
-            3,
-            1,
-            3
-        ],
-        "emotion": [
-            0,
-            0,
-            0,
-            0
-        ]
-    },
-    {
-        "dialog": [
-            "Person 1: Many congratulations on your winning the game .",
-            "Person 2: That \u2019 s very kind of you , but it \u2019 s nothing special .",
-            "Person 1: You were doing great out there !",
-            "Person 2: Well , actually it \u2019 s just about luck ."
-        ],
-        "act": [
-            1,
-            1,
-            1,
-            1
-        ],
-        "emotion": [
-            4,
-            4,
-            4,
-            4
-        ]
-    },
-    {
-        "dialog": [
-            "Person 1: Well , speak of the devil .",
-            "Person 2: What do you mean ?",
-            "Person 1: I was just thinking about you the other day .",
-            "Person 2: You were ?"
-        ],
-        "act": [
-            1,
-            2,
-            1,
-            2
-        ],
-        "emotion": [
-            0,
-            0,
-            0,
-            0
-        ]
-    },
-    {
-        "dialog": [
-            "Person 1: Excuse me , Alex ?",
-            "Person 2: What can I do for you , Kim ?",
-            "Person 1: I was wondering if you could get together with me to go over the payroll .",
-            "Person 2: Sure , anytime ."
-        ],
-        "act": [
-            2,
-            2,
-            3,
-            4
-        ],
-        "emotion": [
-            0,
-            0,
-            0,
-            0
-        ]
-    },
-    {
-        "dialog": [
-            "Person 1: Are you all right ?",
-            "Person 2: I will be all right soon . I was terrified when I watched them fall from the wire .",
-            "Person 1: Dont worry.He is an acrobat \u3002",
-            "Person 2: I see ."
-        ],
-        "act": [
-            2,
-            1,
-            1,
-            1
-        ],
-        "emotion": [
-            0,
-            0,
-            0,
-            0
-        ]
-    },
-    {
-        "dialog": [
-            "Person 1: I visited the famous variety show host , Dennis .",
-            "Person 2: Whats he like ?",
-            "Person 1: Oh , hes a very serious person .",
-            "Person 2: You must feel very uneasy at his home ."
-        ],
-        "act": [
-            1,
-            2,
-            1,
-            1
-        ],
-        "emotion": [
-            0,
-            0,
-            0,
-            0
-        ]
-    },
-    {
-        "dialog": [
-            "Person 1: Do you have the day off today ? How come youre not at work now ?",
-            "Person 2: I dont have the day off . Our labor union is staging a nationwide strike today , all of the workers in our department are supporting the labor union by participating and not going in to work this week .",
-            "Person 1: Are you serious ? Why would they have to go to such extreme measures like a strike ? Doesnt your company have a pretty good corporate image ? Ill bet the folks at headquarters are going nuts over something as serious as a strike ...",
-            "Person 2: It happens quite often , actually.Whenever there arises a dispute between the union and the executive group , the first thing they do is to call a strike . Usually it only lasts a day or two before both sides can come to an agreement and we start work again . Anyhow , its a nice , unanticipated holiday ..."
-        ],
-        "act": [
-            2,
-            1,
-            2,
-            1
-        ],
-        "emotion": [
-            0,
-            0,
-            6,
-            0
-        ]
-    },
-    {
-        "dialog": [
-            "Person 1: Harry was angry last night .",
-            "Person 2: Thats because hes getting nervous . Anyway , this is the first time hes directed a play .",
-            "Person 1: But he used to be very relaxed and cheerful . Its not like Harry to do a thing like that .",
-            "Person 2: Yes , youre right . Maybe theres any other reason ."
-        ],
-        "act": [
-            1,
-            1,
-            1,
-            1
-        ],
-        "emotion": [
-            0,
-            0,
-            0,
-            0
-        ]
-    },
-    {
-        "dialog": [
-            "Person 1: Could I make a reservation for Flight 10 to Tokyo ?",
-            "Person 2: Im sorry , but everything is taken .",
-            "Person 1: How about the next flight-tomorrow at two oclock ?",
-            "Person 2: Yes , I can give you a reservation on that ."
-        ],
-        "act": [
-            3,
-            4,
-            3,
-            4
-        ],
-        "emotion": [
-            0,
-            0,
-            0,
-            0
-        ]
-    },
-    {
-        "dialog": [
-            "Person 1: Good afternoon , sir , is there anything I can do for you ?",
-            "Person 2: Yes . I cant find my sweater . I have my laundry sent to you yesterday but when the washing is done . I find my swatter missing .",
-            "Person 1: Well , its our fault.We are sorry for that.Would you please fill out the form ? We will pay for you .",
-            "Person 2: Thats fine . Maybe you should be more careful ."
-        ],
-        "act": [
-            2,
-            1,
-            3,
-            4
-        ],
-        "emotion": [
-            0,
-            1,
-            0,
-            0
-        ]
-    },
-    {
-        "dialog": [
-            "Person 1: Good morning , Mr . Montgomery . Ive been sent over from purchasing to fill in for Clare Williams .",
-            "Person 2: Oh , really ? Nice to meet you . I thought they were going to leave me here on my own ! How long have you been with the company ?",
-            "Person 1: Oh , about seven years . Time flies , you know !",
-            "Person 2: Does it ever ! Well , lets get started . If you could begin typing this letter now , Ill see what else needs to be done ."
-        ],
-        "act": [
-            1,
-            2,
-            1,
-            3
-        ],
-        "emotion": [
-            0,
-            6,
-            0,
-            0
-        ]
-    },
-    {
-        "dialog": [
-            "Person 1: I dont like the merry-go-round .",
-            "Person 2: But , I want to ride it , Daddy .",
-            "Person 1: Ok , I guess its worthy of two yuan .",
-            "Person 2: Great . Lets go ."
-        ],
-        "act": [
-            1,
-            3,
-            4,
-            3
-        ],
-        "emotion": [
-            0,
-            0,
-            0,
-            4
-        ]
-    },
-    {
-        "dialog": [
-            "Person 1: What a surprise weve met here !",
-            "Person 2: Havent seen you for ages.Where have you been ?",
-            "Person 1: Ive been in China.Where were you ?",
-            "Person 2: In Thailand . I taught English there ."
-        ],
-        "act": [
-            2,
-            2,
-            2,
-            1
-        ],
-        "emotion": [
-            6,
-            0,
-            0,
-            0
-        ]
-    },
-    {
-        "dialog": [
-            "Person 1: Hello , is John in ?",
-            "Person 2: No , hes not . May I take a message ?",
-            "Person 1: Yes , would you leave him a message to call me ?",
-            "Person 2: Yes , whats your name ?"
-        ],
-        "act": [
-            2,
-            3,
-            4,
-            2
-        ],
-        "emotion": [
-            0,
-            0,
-            0,
-            0
-        ]
-    },
-    {
-        "dialog": [
-            "Person 1: Have you seen the news that there is a serious flood in the South ?",
-            "Person 2: Yes . Ive got to cancel my traveling plan .",
-            "Person 1: What a pity ! I know youve been longing for it these months .",
-            "Person 2: The only thing I can do now is waiting for another chance ."
-        ],
-        "act": [
-            2,
-            1,
-            1,
-            1
-        ],
-        "emotion": [
-            0,
-            0,
-            5,
-            0
-        ]
-    },
-    {
-        "dialog": [
-            "Person 1: Last weekend I didnt want to go out either , so I stayed at home and played video games by myself . It was really fun !",
-            "Person 2: Oh yeah , that sounds pretty cool , I guess ...",
-            "Person 1: Yeah , Im really into video games . In fact , all my friends are on the Internet . Ive never met any of them in the real world .",
-            "Person 2: Oh really ... well you must be very popular on the Internet . But its true that its nice to do some things in the comfort of your own home ."
-        ],
-        "act": [
-            1,
-            1,
-            1,
-            1
-        ],
-        "emotion": [
-            0,
-            0,
-            0,
-            0
-        ]
-    },
-    {
-        "dialog": [
-            "Person 1: Going to the cafeteria ?",
-            "Person 2: No , I am not eating there anymore . I have ordered my favorite food in the restaurant around the corner . The food served in the cafeteria is not my type . I am a total meat lover . But the cafeteria is doing its best to force me to be a vegetarian . They have been serving the Chinese cabbage and white gorse for three days . Haven \u2019 t you noticed that ?",
-            "Person 1: That \u2019 s fine with me . I don \u2019 t hate vegetables and I don \u2019 t eat much during lunch .",
-            "Person 2: Well , then the cafeteria suits you best . But anyway , if you like to have a lunch outside the company , feel free to join me anytime ."
-        ],
-        "act": [
-            3,
-            4,
-            1,
-            3
-        ],
-        "emotion": [
-            0,
-            0,
-            0,
-            0
-        ]
-    },
-    {
-        "dialog": [
-            "Person 1: How could you have done that without asking me first ?",
-            "Person 2: I didnt realize you felt so strongly about it .",
-            "Person 1: Well , you should have thought .",
-            "Person 2: Im sorry . Ill ask next time ."
-        ],
-        "act": [
-            2,
-            1,
-            1,
-            1
-        ],
-        "emotion": [
-            1,
-            0,
-            0,
-            5
-        ]
-    },
-    {
-        "dialog": [
-            "Person 1: What do you consider to be your weakness ?",
-            "Person 2: I am a little bit shy and I blush every time I speak in public . I think I should open myself more and be more outward with people .",
-            "Person 1: Anything else ?",
-            "Person 2: I am self-indulgent sometimes ."
-        ],
-        "act": [
-            2,
-            1,
-            2,
-            1
-        ],
-        "emotion": [
-            0,
-            0,
-            0,
-            0
-        ]
-    },
-    {
-        "dialog": [
-            "Person 1: Would you like some drinks ?",
-            "Person 2: Yes , what kinds of wine do you have ?",
-            "Person 1: We have various kinds of wine . As for an appetizer , I advise you to order white wine or dry white wine .",
-            "Person 2: Thank you . Please bring us a bottle of dry white wine ."
-        ],
-        "act": [
-            2,
-            2,
-            3,
-            4
-        ],
-        "emotion": [
-            0,
-            0,
-            0,
-            4
-        ]
-    },
-    {
-        "dialog": [
-            "Person 1: I couldnt wait to meet you in person .",
-            "Person 2: Me , too . Ive heard so much about you .",
-            "Person 1: Same here .",
-            "Person 2: I was looking forward to your arrival ."
-        ],
-        "act": [
-            1,
-            1,
-            1,
-            1
-        ],
-        "emotion": [
-            4,
-            4,
-            4,
-            4
-        ]
-    },
-    {
-        "dialog": [
-            "Person 1: Do you like traveling , Kathy ?",
-            "Person 2: I like traveling for pleasure to get places for vacation for instance . But I don \u2019 t like traveling to work , waiting for buses , or ...",
-            "Person 1: Or getting stuck in traffic jams when you \u2019 re driving .",
-            "Person 2: Exactly ."
-        ],
-        "act": [
-            2,
-            1,
-            1,
-            1
-        ],
-        "emotion": [
-            0,
-            0,
-            0,
-            0
-        ]
-    },
-    {
-        "dialog": [
-            "Person 1: Excuse me , can you recommend some places for us to go tonight ?",
-            "Person 2: Since its your first time to Vienna , I think you should go to the concert .",
-            "Person 1: Good idea . My wife has a fine ear for music . I am sure she would like it .",
-            "Person 2: Have a nice evening ."
-        ],
-        "act": [
-            2,
-            3,
-            4,
-            1
-        ],
-        "emotion": [
-            0,
-            0,
-            0,
-            0
-        ]
-    },
-    {
-        "dialog": [
-            "Person 1: Is there any way of ensuring well have enough time for our talks ?",
-            "Person 2: I am sure we do have .",
-            "Person 1: So our evenings will be quite full then ?",
-            "Person 2: If you want some changes , just tell me ."
-        ],
-        "act": [
-            3,
-            4,
-            2,
-            3
-        ],
-        "emotion": [
-            0,
-            0,
-            0,
-            0
-        ]
-    },
-    {
-        "dialog": [
-            "Person 1: Whos the man that is kicking the boy ?",
-            "Person 2: Hes the poor kids father .",
-            "Person 1: Does he often beat his son ?",
-            "Person 2: Yes , very ."
-        ],
-        "act": [
-            2,
-            1,
-            2,
-            1
-        ],
-        "emotion": [
-            0,
-            0,
-            0,
-            0
-        ]
-    },
-    {
-        "dialog": [
-            "Person 1: A friend of mine is now in the big house . He was caught red-handed for selling cocaine .",
-            "Person 2: That is a deadly risky business . He should have it coming on him .",
-            "Person 1: He must be regretting about having done the business .",
-            "Person 2: I bet he is . He domed his own life ."
-        ],
-        "act": [
-            1,
-            1,
-            1,
-            1
-        ],
-        "emotion": [
-            0,
-            0,
-            0,
-            0
-        ]
-    },
-    {
-        "dialog": [
-            "Person 1: They promised us a sea view .",
-            "Person 2: Well , you can just see the sea . Between the factory chimneys .",
-            "Person 1: Isnt it awful ? I cant bear to look at it . I dont think I can stand this place for two weeks .",
-            "Person 2: Well , it cant be helped . Well just have to put up with it ."
-        ],
-        "act": [
-            1,
-            1,
-            1,
-            1
-        ],
-        "emotion": [
-            1,
-            0,
-            1,
-            0
-        ]
-    },
-    {
-        "dialog": [
-            "Person 1: What are you guys doing over there ?",
-            "Person 2: What do you mean , Janice ?",
-            "Person 1: I \u2019 Ve been waiting for a response on the Blake Building design for nearly two weeks .",
-            "Person 2: I \u2019 m sorry , Janice . But we \u2019 Ve been waiting on the client . It \u2019 s out of our hands at the moment ."
-        ],
-        "act": [
-            2,
-            2,
-            3,
-            4
-        ],
-        "emotion": [
-            0,
-            0,
-            0,
-            0
-        ]
-    },
-    {
-        "dialog": [
-            "Person 1: The Great Wall is a great attraction for visitors .",
-            "Person 2: Its a man-made wonder . Ive seen it many times in textbooks and its part of my dream to visit it .",
-            "Person 1: Someone claimed it was one of the two man-made wonders that could be seen on the moon .",
-            "Person 2: Thats true ."
-        ],
-        "act": [
-            1,
-            1,
-            1,
-            1
-        ],
-        "emotion": [
-            4,
-            4,
-            4,
-            4
-        ]
-    },
-    {
-        "dialog": [
-            "Person 1: I think he deserved his gold .",
-            "Person 2: Did you see his last dive ?",
-            "Person 1: Yes , its perfect !",
-            "Person 2: Hes diving for the gold ."
-        ],
-        "act": [
-            1,
-            2,
-            1,
-            1
-        ],
-        "emotion": [
-            0,
-            0,
-            0,
-            0
-        ]
-    },
-    {
-        "dialog": [
-            "Person 1: Hello , Mr . Macmillan .",
-            "Person 2: Hi , Susan . How are you feeling today ?",
-            "Person 1: Much better , thanks .",
-            "Person 2: Glad to hear it ."
-        ],
-        "act": [
-            1,
-            2,
-            1,
-            1
-        ],
-        "emotion": [
-            0,
-            0,
-            0,
-            4
-        ]
-    },
-    {
-        "dialog": [
-            "Person 1: I heard that Ann had divorced .",
-            "Person 2: I suspect its unavoidable .",
-            "Person 1: Poor Ann . She did not love her husband at all .",
-            "Person 2: Yeah . She married him at her mothers bidding ."
-        ],
-        "act": [
-            1,
-            1,
-            1,
-            1
-        ],
-        "emotion": [
-            0,
-            0,
-            0,
-            0
-        ]
-    },
-    {
-        "dialog": [
-            "Person 1: I thought about what you said .",
-            "Person 2: And what did you decide ?",
-            "Person 1: I decided that youre right .",
-            "Person 2: Im glad you saw the reason ."
-        ],
-        "act": [
-            1,
-            2,
-            1,
-            1
-        ],
-        "emotion": [
-            0,
-            0,
-            0,
-            4
-        ]
-    },
-    {
-        "dialog": [
-            "Person 1: Hello , is that Susan who applied for an accountant in our company through the phone ?",
-            "Person 2: Yes , speaking . Can I help you ?",
-            "Person 1: I am the HR manager of the ABC Company . You are on the list of interviewees . Would you please come over to have an interview ?",
-            "Person 2: Sure , Id love to . Thank you ."
-        ],
-        "act": [
-            2,
-            2,
-            3,
-            4
-        ],
-        "emotion": [
-            0,
-            0,
-            0,
-            4
-        ]
-    },
-    {
-        "dialog": [
-            "Person 1: Ive had enough of that !",
-            "Person 2: Why , this is the most interesting film !",
-            "Person 1: I hate the hero.He  s too cruel .",
-            "Person 2: But its only a film ."
-        ],
-        "act": [
-            1,
-            2,
-            1,
-            1
-        ],
-        "emotion": [
-            2,
-            6,
-            2,
-            0
-        ]
-    },
-    {
-        "dialog": [
-            "Person 1: Can I draw my tax back here ?",
-            "Person 2: Sure . Show me your receipt , please .",
-            "Person 1: Here you are .",
-            "Person 2: Wait a moment . Here is $ 10 you paid for duties ."
-        ],
-        "act": [
-            2,
-            3,
-            4,
-            1
-        ],
-        "emotion": [
-            0,
-            0,
-            0,
-            0
-        ]
-    },
-    {
-        "dialog": [
-            "Person 1: Hi , Xavier . Id like to go over the list of jobs for next weeks maintenance shut .",
-            "Person 2: Sure . Weve got a lot to do in a short time . Were planning to shut the line at midday on Wednesday and start up again at 6 pm the following day . We might need to extend the shut by about six hours .",
-            "Person 1: Our production people wont be happy about that . Weve got a full order book at the moment . Is there any way you could speed things up ?",
-            "Person 2: Not really . We need to dismantle the conveyor belt and replace the rollers ."
-        ],
-        "act": [
-            3,
-            3,
-            3,
-            4
-        ],
-        "emotion": [
-            0,
-            0,
-            0,
-            0
-        ]
-    },
-    {
-        "dialog": [
-            "Person 1: There will be a parade to celebrate National Day this weekend .",
-            "Person 2: Whats the route ?",
-            "Person 1: From Zhongshan Circus to City Bank .",
-            "Person 2: If only I could join it !"
-        ],
-        "act": [
-            1,
-            2,
-            1,
-            1
-        ],
-        "emotion": [
-            0,
-            0,
-            0,
-            0
-        ]
-    },
-    {
-        "dialog": [
-            "Person 1: How many people are there in your family ?",
-            "Person 2: Five.My father , mother , brother , sister-in-law and me .",
-            "Person 1: Is your brother older or younger than you ?",
-            "Person 2: He is five years older than me , He got married last Sunday.My brother and my sister-in-law are the same age ."
-        ],
-        "act": [
-            2,
-            1,
-            2,
-            1
-        ],
-        "emotion": [
-            0,
-            0,
-            0,
-            0
-        ]
-    },
-    {
-        "dialog": [
-            "Person 1: Hey , Im hungry . How about you ?",
-            "Person 2: Yeah , I can really go for some Chinese food right now .",
-            "Person 1: Thats a great idea . Lets go to a Chinese restaurant .",
-            "Person 2: I know one . Lets go ."
-        ],
-        "act": [
-            2,
-            1,
-            3,
-            4
-        ],
-        "emotion": [
-            0,
-            0,
-            0,
-            0
-        ]
-    },
-    {
-        "dialog": [
-            "Person 1: Excuse me , is there a table for 8 right now ?",
-            "Person 2: Let me see ... I am sorry the tables you want are booked .",
-            "Person 1: Well , since there are some small square tables , could we put two tables together ?",
-            "Person 2: No problem , sir . Let me help you ."
-        ],
-        "act": [
-            2,
-            1,
-            3,
-            4
-        ],
-        "emotion": [
-            0,
-            5,
-            0,
-            4
-        ]
-    },
-    {
-        "dialog": [
-            "Person 1: morning , Mary ? It \u2019 s John Kramer calling . You remember you handled my tax forms for me ?",
-            "Person 2: Of course , Mr . Kramer . How are things going these days ?",
-            "Person 1: Better than ever ! You won \u2019 t have to worry about \u201c finding \u201d extra money for me anymore ! We made nearly a quarter of million in profit last year !",
-            "Person 2: Congratulations ! I \u2019 m really glad to hear it ! That should make balancing the books a lot easier !"
-        ],
-        "act": [
-            2,
-            2,
-            1,
-            1
-        ],
-        "emotion": [
-            0,
-            0,
-            4,
-            4
-        ]
-    },
-    {
-        "dialog": [
-            "Person 1: I am tired of everything in my life .",
-            "Person 2: What ? How happy you life is ! I do envy you .",
-            "Person 1: You don \u2019 t know that I have been over-protected by my mother these years . I am really about to leave the family and spread my wings .",
-            "Person 2: Maybe you are right ."
-        ],
-        "act": [
-            1,
-            2,
-            1,
-            1
-        ],
-        "emotion": [
-            0,
-            0,
-            0,
-            0
-        ]
-    },
-    {
-        "dialog": [
-            "Person 1: I love ice cream .",
-            "Person 2: Really ? Me , too . Whats your favorite flavor ?",
-            "Person 1: I like both strawberry and coffee ice cream .",
-            "Person 2: Chocolate is mine ."
-        ],
-        "act": [
-            1,
-            2,
-            1,
-            1
-        ],
-        "emotion": [
-            4,
-            6,
-            0,
-            0
-        ]
-    },
-    {
-        "dialog": [
-            "Person 1: I have been washing the dishes for over a week now .",
-            "Person 2: Well , I think you are very good at doing the dishes , so maybe you should do them for another week .",
-            "Person 1: No . We made an agreement that we would take turns doing the dishes . Now its your turn to do them .",
-            "Person 2: OK , Ill do them ."
-        ],
-        "act": [
-            1,
-            3,
-            3,
-            4
-        ],
-        "emotion": [
-            0,
-            0,
-            0,
-            0
-        ]
-    },
-    {
-        "dialog": [
-            "Person 1: How are you doing with your English Language studies ?",
-            "Person 2: I think Im making good progress .",
-            "Person 1: Is it harder than you thought ?",
-            "Person 2: At first it was , but now Ive got the basics.It  s fun ."
-        ],
-        "act": [
-            2,
-            1,
-            2,
-            1
-        ],
-        "emotion": [
-            0,
-            0,
-            0,
-            0
-        ]
-    },
-    {
-        "dialog": [
-            "Person 1: I love the peaceful life in Canada .",
-            "Person 2: Do you want to live here ?",
-            "Person 1: Id like to , but Im afraid I cant afford the life here .",
-            "Person 2: The more you work , the more you earn ."
-        ],
-        "act": [
-            1,
-            2,
-            1,
-            3
-        ],
-        "emotion": [
-            0,
-            0,
-            0,
-            0
-        ]
-    },
-    {
-        "dialog": [
-            "Person 1: Excuse me , but could you give me some change ?",
-            "Person 2: Let me see . Are dimes and quarters OK ?",
-            "Person 1: I want to make a long distance phone call .",
-            "Person 2: Then youll need small change ."
-        ],
-        "act": [
-            3,
-            2,
-            1,
-            4
-        ],
-        "emotion": [
-            0,
-            0,
-            0,
-            0
-        ]
-    },
-    {
-        "dialog": [
-            "Person 1: Do you do morning exercises ?",
-            "Person 2: Yes . I do one set of shadow-boxing every morning after I get up .",
-            "Person 1: Shadow-boxing ? How interesting ! Do you think it really helpful for your health ?",
-            "Person 2: Definitely . It not only keeps me fit but also helps me concentrate on my soul ."
-        ],
-        "act": [
-            2,
-            1,
-            2,
-            1
-        ],
-        "emotion": [
-            0,
-            0,
-            4,
-            0
-        ]
-    },
-    {
-        "dialog": [
-            "Person 1: Tell me something about your Valentines Day .",
-            "Person 2: Ok , on that day , boys usually give roses to the sweet hearts and girls give them chocolate in return .",
-            "Person 1: So romantic.young people must have lot of fun .",
-            "Person 2: Yeah , that is what the holiday is for , isnt it ?"
-        ],
-        "act": [
-            1,
-            1,
-            1,
-            2
-        ],
-        "emotion": [
-            0,
-            4,
-            4,
-            4
-        ]
-    },
-    {
-        "dialog": [
-            "Person 1: My goodness ! What happened ? You have blood on your face .",
-            "Person 2: Oh , dont worry . I just killed a pigeon .",
-            "Person 1: How could you have the heart to kill it ? We only have one !",
-            "Person 2: It spoiled my painting !"
-        ],
-        "act": [
-            2,
-            1,
-            2,
-            1
-        ],
-        "emotion": [
-            6,
-            0,
-            6,
-            0
-        ]
-    },
-    {
-        "dialog": [
-            "Person 1: Hi , I am afraid that the fax machine in my room won \u2019 t be working till tomorrow . A technician has just come and checked it . He will bring me a new one tomorrow . It seems there is a big problem with mine and it will take some days for repairing . Can I use the one in your office ?",
-            "Person 2: Of course you can . I am sure this one works very well . I just sent dozens of pages . How many pages are you sending ? Are you familiar with my fax machine ?",
-            "Person 1: Yes , I think you have the same model as I have . Does your fax machine print out immediately a transmission protocol ?",
-            "Person 2: Yes , it will print immediately ."
-        ],
-        "act": [
-            3,
-            2,
-            2,
-            1
-        ],
-        "emotion": [
-            0,
-            0,
-            0,
-            0
-        ]
-    },
-    {
-        "dialog": [
-            "Person 1: What prompted you to apply to this company ?",
-            "Person 2: It owns 10 factories and offers stocks to the public .",
-            "Person 1: Why do I have to hire you ?",
-            "Person 2: I have a proven track record in resolving problems , multitasking , and dealing with customers , as you can sec in my resume . I think it is enough ."
-        ],
-        "act": [
-            2,
-            1,
-            2,
-            3
-        ],
-        "emotion": [
-            0,
-            0,
-            0,
-            0
-        ]
-    },
-    {
-        "dialog": [
-            "Person 1: Anything interesting in this city ?",
-            "Person 2: We have a beautiful natural park .",
-            "Person 1: Its worth the time .",
-            "Person 2: Come on.Let  s walk there ."
-        ],
-        "act": [
-            2,
-            1,
-            1,
-            3
-        ],
-        "emotion": [
-            0,
-            0,
-            0,
-            0
-        ]
-    },
-    {
-        "dialog": [
-            "Person 1: Hey , Philip ! You won \u2019 t believe this !",
-            "Person 2: What ? What \u2019 s the good news ?",
-            "Person 1: My son , Harvey just got into Harvard ! He starts next September .",
-            "Person 2: That \u2019 s wonderful ! You must be really proud of him !"
-        ],
-        "act": [
-            1,
-            2,
-            1,
-            1
-        ],
-        "emotion": [
-            4,
-            0,
-            4,
-            4
-        ]
-    },
-    {
-        "dialog": [
-            "Person 1: Do you feel like going to see Paul and Claire tonight ?",
-            "Person 2: Id like that very much .",
-            "Person 1: How does 7:30 sound ?",
-            "Person 2: Fine . See you later ."
-        ],
-        "act": [
-            3,
-            4,
-            3,
-            4
-        ],
-        "emotion": [
-            4,
-            4,
-            4,
-            4
-        ]
-    },
-    {
-        "dialog": [
-            "Person 1: He \u2019 s got laid off again . I do feel sorry for him .",
-            "Person 2: Do you really ?",
-            "Person 1: What do you mean ?",
-            "Person 2: Well , I just think he deserves it ."
-        ],
-        "act": [
-            1,
-            2,
-            2,
-            1
-        ],
-        "emotion": [
-            5,
-            0,
-            0,
-            0
-        ]
-    },
-    {
-        "dialog": [
-            "Person 1: So Emily , do you still want to see a movie together this weekend ?",
-            "Person 2: Well , what do you want to see ? I dont think there are many good movies out right now .",
-            "Person 1: Mmmm ... I know ! We can go to a really bad sci-fi movie and sit in the back of the theater and make fun of it . What do you think ?",
-            "Person 2: Now thats a great plan . Its a date !"
-        ],
-        "act": [
-            2,
-            2,
-            3,
-            4
-        ],
-        "emotion": [
-            0,
-            0,
-            4,
-            4
-        ]
-    },
-    {
-        "dialog": [
-            "Person 1: Hi there , Philip . How \u2019 s everything going ?",
-            "Person 2: It \u2019 s going pretty well , but I \u2019 m really tired !",
-            "Person 1: I don \u2019 t blame you . You \u2019 Ve had a busy first week . Take a rest !",
-            "Person 2: It \u2019 s all right . I don \u2019 t mind being busy !"
-        ],
-        "act": [
-            2,
-            1,
-            1,
-            1
-        ],
-        "emotion": [
-            0,
-            0,
-            0,
-            0
-        ]
-    },
-    {
-        "dialog": [
-            "Person 1: Paul failed again .",
-            "Person 2: Hell never do well in mathematics .",
-            "Person 1: How can we help him ?",
-            "Person 2: Well , I cant help ."
-        ],
-        "act": [
-            1,
-            1,
-            2,
-            1
-        ],
-        "emotion": [
-            0,
-            0,
-            0,
-            0
-        ]
-    },
-    {
-        "dialog": [
-            "Person 1: Hi , Bob , this is Mary .",
-            "Person 2: Hello , Mary , where do you work ?",
-            "Person 1: I work for an Internet company .",
-            "Person 2: Is the pay good ?"
-        ],
-        "act": [
-            1,
-            2,
-            1,
-            2
-        ],
-        "emotion": [
-            0,
-            0,
-            0,
-            0
-        ]
-    },
-    {
-        "dialog": [
-            "Person 1: Whats your weight .",
-            "Person 2: 150 pounds .",
-            "Person 1: Do put yourself on a diet , otherwise youll be too fat .",
-            "Person 2: I cant bear eating less ."
-        ],
-        "act": [
-            2,
-            1,
-            1,
-            1
-        ],
-        "emotion": [
-            0,
-            0,
-            0,
-            0
-        ]
-    },
-    {
-        "dialog": [
-            "Person 1: Is the view going to be ok ?",
-            "Person 2: Don \u2019 t worry , you did a good job and it should be fine .",
-            "Person 1: I \u2019 ll do my best .",
-            "Person 2: That \u2019 s the way to go ."
-        ],
-        "act": [
-            2,
-            1,
-            1,
-            1
-        ],
-        "emotion": [
-            0,
-            0,
-            0,
-            4
-        ]
-    },
-    {
-        "dialog": [
-            "Person 1: Mr . Smith , how was your flight ?",
-            "Person 2: Rather nice .",
-            "Person 1: What was the weather like in New York ?",
-            "Person 2: It was raining when I left New York ."
-        ],
-        "act": [
-            2,
-            1,
-            2,
-            1
-        ],
-        "emotion": [
-            0,
-            0,
-            0,
-            0
-        ]
-    },
-    {
-        "dialog": [
-            "Person 1: I cant bear you anymore . I am sick of your drinking . I am divorcing you .",
-            "Person 2: Dont do that to me , honey . Give me a chance , please . I make a solemn promise never to drink alcohol again .",
-            "Person 1: How many chances should I give you ? Ive given up on you !",
-            "Person 2: Have a heart , honey . You know I am trying hard to quit drinking , dont you ? Just give me one more chance , please !"
-        ],
-        "act": [
-            3,
-            3,
-            4,
-            3
-        ],
-        "emotion": [
-            1,
-            0,
-            1,
-            0
-        ]
-    },
-    {
-        "dialog": [
-            "Person 1: Hi , is this the Bread and Cheese Deli ?",
-            "Person 2: Yes , ma \u2019 am . How may I help you ?",
-            "Person 1: I need to place an order for a couple of sandwiches and drinks . Can you deliver ?",
-            "Person 2: Yes , we do deliveries for orders over $ 15 , ma \u2019 am ."
-        ],
-        "act": [
-            2,
-            2,
-            3,
-            4
-        ],
-        "emotion": [
-            0,
-            0,
-            0,
-            0
-        ]
-    },
-    {
-        "dialog": [
-            "Person 1: There \u2019 re traffic jams everywhere .",
-            "Person 2: I think something must be done .",
-            "Person 1: Yeah . We should have more roads built .",
-            "Person 2: I agree with you . Only in this way can we ease the traffic problems ."
-        ],
-        "act": [
-            1,
-            1,
-            1,
-            1
-        ],
-        "emotion": [
-            0,
-            0,
-            0,
-            0
-        ]
-    },
-    {
-        "dialog": [
-            "Person 1: Mrs . Reynolds ? This is Martin Gross calling .",
-            "Person 2: Hi , Martin . What can I do for you ?",
-            "Person 1: Well , I \u2019 Ve got the spread sheets you asked for , but I \u2019 m still waiting on some data from accounting .",
-            "Person 2: That \u2019 s all right . Bring me over what you \u2019 Ve got ."
-        ],
-        "act": [
-            2,
-            2,
-            1,
-            3
-        ],
-        "emotion": [
-            0,
-            0,
-            0,
-            0
-        ]
-    },
-    {
-        "dialog": [
-            "Person 1: I didnt expect to see you at this hour . You must have goofed off again .",
-            "Person 2: Goofed off ? Maybe , but Im not a clock-watcher . I finished doing what I should do and then knock off an hour earlier .",
-            "Person 1: Youll be sorry if you the boss finds it out . He may probably give you the bag .",
-            "Person 2: Im sure of what Im doing ."
-        ],
-        "act": [
-            1,
-            1,
-            1,
-            1
-        ],
-        "emotion": [
-            0,
-            0,
-            0,
-            0
-        ]
-    },
-    {
-        "dialog": [
-            "Person 1: Front Desk .",
-            "Person 2: Will you wake me up in the morning ?",
-            "Person 1: Yes , what time would you like a wake-up call ?",
-            "Person 2: At 7 am sharp ."
-        ],
-        "act": [
-            1,
-            3,
-            4,
-            1
-        ],
-        "emotion": [
-            0,
-            0,
-            0,
-            0
-        ]
-    },
-    {
-        "dialog": [
-            "Person 1: Look , whos here , Peter !",
-            "Person 2: Oh , Tom ! I thought you were in Paris .",
-            "Person 1: Just got back.Good to see you !",
-            "Person 2: Good to see you too !"
-        ],
-        "act": [
-            3,
-            4,
-            1,
-            1
-        ],
-        "emotion": [
-            6,
-            6,
-            4,
-            4
-        ]
-    },
-    {
-        "dialog": [
-            "Person 1: I wish you wouldnt play the TV so loud .",
-            "Person 2: Sorry . Were you trying to sleep ?",
-            "Person 1: Yes , please ask when you want to borrow my records next time .",
-            "Person 2: Im sorry . Youre right . I should have asked ."
-        ],
-        "act": [
-            1,
-            1,
-            3,
-            4
-        ],
-        "emotion": [
-            0,
-            0,
-            0,
-            0
-        ]
-    },
-    {
-        "dialog": [
-            "Person 1: Hello , miss . Where is the button that controls my seat ?",
-            "Person 2: Its on the arm rest .",
-            "Person 1: Oh , I see . By the way , what shall I do if changes in altitude create pressure on the ears ?",
-            "Person 2: You can suck a candy or pinch your nose gently while breathing out . That shall help ."
-        ],
-        "act": [
-            2,
-            1,
-            2,
-            1
-        ],
-        "emotion": [
-            0,
-            0,
-            0,
-            0
-        ]
-    },
-    {
-        "dialog": [
-            "Person 1: Good coming . room service.What can I do for you ?",
-            "Person 2: Id like a hamburger and a cup of coffee.My room number is 402 .",
-            "Person 1: OK.sir . We will bring it to you as soon as possible .",
+        "question_text": [
+            "Person 1: Room service . May I help you ?",
+            "Person 2: Yes , can you tell me how to use the phone in my room ?",
+            "Person 1: Certainly . If you want to make a local call , dial 10 first and then call the number you want .",
             "Person 2: Thank you ."
         ],
         "act": [
             2,
             3,
-            4,
+            3,
             1
         ],
         "emotion": [
@@ -1580,167 +20,27 @@
         ]
     },
     {
-        "dialog": [
-            "Person 1: Are you ready to order yet , sir ?",
-            "Person 2: Yes , I think so . I \u2019 d like to have one medium steak , and a bottle of wine .",
-            "Person 1: Yes , sir . Itll be a moment .",
-            "Person 2: Ok ."
-        ],
-        "act": [
-            2,
-            1,
-            1,
-            1
-        ],
-        "emotion": [
-            0,
-            0,
-            0,
-            0
-        ]
-    },
-    {
-        "dialog": [
-            "Person 1: To start with , may I know why you are interested in working for our company ?",
-            "Person 2: First of all , as far as I know , your company has had impressive records in business . Second , I want to enter the foreign trade field .",
-            "Person 1: What was your chief responsibility in your past work ?",
-            "Person 2: I am in charge of marketing activities in South-East Asia , for example , organizing trade conferences and arranging exhibitions ."
-        ],
-        "act": [
-            2,
-            1,
-            2,
-            1
-        ],
-        "emotion": [
-            0,
-            0,
-            0,
-            0
-        ]
-    },
-    {
-        "dialog": [
-            "Person 1: How much should I pay ?",
-            "Person 2: Let me see . A roasted duck is $ 25 . A plate of pork is $ 6.50 . A bowl of beef is $ 7 . Two bottles of beer are $ 4 . Thats a total of $ 42.50 .",
-            "Person 1: Here is $ 50 . Keep the change , please .",
-            "Person 2: Oh , sorry sir . We take no tips here . Thank you all the same ."
-        ],
-        "act": [
-            2,
-            1,
-            3,
-            4
-        ],
-        "emotion": [
-            0,
-            0,
-            0,
-            4
-        ]
-    },
-    {
-        "dialog": [
-            "Person 1: I can \u2019 t make out anything , the words are too light . I thought they have already changed the toner cartridge this month .",
-            "Person 2: It seems not or somebody has recently received a large fax . Ok , no problem . We do it ourselves .",
-            "Person 1: Do you know how to do it ? I am not so good at machine things . I will have somebody do it as soon as possible .",
-            "Person 2: Check with somebody from the IT department . They are anyway in charge of the office electronic equipment ."
-        ],
-        "act": [
-            1,
-            3,
-            3,
-            3
-        ],
-        "emotion": [
-            0,
-            0,
-            0,
-            0
-        ]
-    },
-    {
-        "dialog": [
-            "Person 1: Would you like some coffee , Tom ?",
-            "Person 2: Yes , thank you .",
-            "Person 1: Heres some sugar .",
-            "Person 2: Thanks ."
+        "question_text": [
+            "Person 1: Jack ! Do you want to see a picture of my new puppy ?",
+            "Person 2: Sure . I thought people only showed off pictures of their new babies , not new pets !",
+            "Person 1: Well , this is my new baby . He \u2019 s just as much trouble . That \u2019 s for sure ! But , he \u2019 s a lot of fun !",
+            "Person 2: I see what you mean . He \u2019 s really cute . How old is he ?"
         ],
         "act": [
             3,
             4,
-            3,
-            4
+            1,
+            2
         ],
         "emotion": [
             0,
             0,
-            0,
+            4,
             0
         ]
     },
     {
-        "dialog": [
-            "Person 1: It is obvious that their government is nursing the hope of having all other countries over a barrel and bring them completely under their control .",
-            "Person 2: It \u2019 s a typical of them to do so .",
-            "Person 1: What can we do ?",
-            "Person 2: We must keep developing our economy and unite with other developing countries to fight against it ."
-        ],
-        "act": [
-            1,
-            1,
-            2,
-            1
-        ],
-        "emotion": [
-            0,
-            0,
-            0,
-            0
-        ]
-    },
-    {
-        "dialog": [
-            "Person 1: I \u2019 d like to set a fixed time for this meeting before we finish today . Can you all take a look at your schedules ?",
-            "Person 2: Thursday mornings are usually the slowest around here . Why don \u2019 t we set it for Thursday at 10:00 a . m . ?",
-            "Person 1: That \u2019 s out for me . I already have a standard meeting on Thursdays at 9:30 a . m . How about Wednesday afternoon at 2",
-            "Person 2: That \u2019 s all right for my department . I don \u2019 t know how the rest of you feel ."
-        ],
-        "act": [
-            2,
-            3,
-            3,
-            4
-        ],
-        "emotion": [
-            0,
-            0,
-            0,
-            0
-        ]
-    },
-    {
-        "dialog": [
-            "Person 1: You look pale today .",
-            "Person 2: I didnt wear make-up this morning .",
-            "Person 1: You should do sports to keep young .",
-            "Person 2: Youre right.Make - up can only disguise my age , but exercise may delay it ."
-        ],
-        "act": [
-            1,
-            1,
-            3,
-            4
-        ],
-        "emotion": [
-            0,
-            0,
-            0,
-            0
-        ]
-    },
-    {
-        "dialog": [
+        "question_text": [
             "Person 1: Bob refused all his classmates  invitations .",
             "Person 2: I really couldnt understand him .",
             "Person 1: He is surely a hard nut , nobody likes approaching him .",
@@ -1760,35 +60,215 @@
         ]
     },
     {
-        "dialog": [
-            "Person 1: Wow ! You look like a drowned rat ! Didnt you know there is a thunder-storm today ?",
-            "Person 2: I knew there would be a shower , but I didnt realize it would rain cats and dogs today .",
-            "Person 1: Well . Youd better take a hot shower right now , or you will catch a cold .",
-            "Person 2: I know . I dont want to get sick , especially during finals week ."
+        "question_text": [
+            "Person 1: Just make yourself at home .",
+            "Person 2: Thank you . You are cooking up a storm .",
+            "Person 1: Wouldnt you like some more chicken ?",
+            "Person 2: No , thank you . Im afraid I cant take in anymore ."
         ],
         "act": [
-            2,
-            1,
+            3,
+            4,
             3,
             4
         ],
         "emotion": [
+            4,
+            4,
+            0,
+            4
+        ]
+    },
+    {
+        "question_text": [
+            "Person 1: Listen , you can not afford another day off . You \u2019 Ve called in sick five times in the last three weeks .",
+            "Person 2: I know , but I am really sick .",
+            "Person 1: Well . I want a note from the doctor this one and to be honest , if it continues , we may not be able to have you here .",
+            "Person 2: I understand , sir . I \u2019 ll bring a doctor \u2019 s note in tomorrow . I am sorry , Mr . Thomas"
+        ],
+        "act": [
+            4,
+            3,
+            3,
+            4
+        ],
+        "emotion": [
+            0,
+            5,
+            0,
+            5
+        ]
+    },
+    {
+        "question_text": [
+            "Person 1: Susan ? What brings you here today ?",
+            "Person 2: Well , I \u2019 Ve got some papers due .",
+            "Person 1: Really ? So what \u2019 s the news ?",
+            "Person 2: Not too good yet . Better than I was though ."
+        ],
+        "act": [
+            2,
+            1,
+            2,
+            1
+        ],
+        "emotion": [
+            0,
+            0,
             6,
+            0
+        ]
+    },
+    {
+        "question_text": [
+            "Person 1: Excuse me , sir . Is this a duty-free shop ?",
+            "Person 2: Yes , you can draw your tax back at any customs in the EU .",
+            "Person 1: Well , I am afraid I dont bring my passport with me today . Can you save it for us until tomorrow ?",
+            "Person 2: No problem , sir ."
+        ],
+        "act": [
+            2,
+            1,
+            3,
+            4
+        ],
+        "emotion": [
+            0,
+            0,
+            0,
+            4
+        ]
+    },
+    {
+        "question_text": [
+            "Person 1: Betty and I will throw a dinner party this weekend , we \u2019 d like you to come .",
+            "Person 2: That would be very nice . Only that I \u2019 ll be a little late . Is that OK ?",
+            "Person 1: Sure . We \u2019 ll be looking forward to that day .",
+            "Person 2: So will I . Thank you ."
+        ],
+        "act": [
+            3,
+            2,
+            1,
+            4
+        ],
+        "emotion": [
+            0,
+            4,
+            4,
+            4
+        ]
+    },
+    {
+        "question_text": [
+            "Person 1: You look pale today .",
+            "Person 2: I didnt wear make-up this morning .",
+            "Person 1: You should do sports to keep young .",
+            "Person 2: Youre right.Make - up can only disguise my age , but exercise may delay it ."
+        ],
+        "act": [
+            1,
+            1,
+            3,
+            4
+        ],
+        "emotion": [
+            0,
             0,
             0,
             0
         ]
     },
     {
-        "dialog": [
-            "Person 1: When will you be able to come here ?",
-            "Person 2: I cant come until next week .",
-            "Person 1: Okay , Ill have everything prepared for you when you get here .",
-            "Person 2: Thanks , Ill see you around Wednesday then ."
+        "question_text": [
+            "Person 1: Roger ? I need figures for accounting . Have finished the calculations ?",
+            "Person 2: I \u2019 m just finishing now , ma \u2019 am . I \u2019 ll have them ready within the hour .",
+            "Person 1: All right , thanks .",
+            "Person 2: You \u2019 re welcome , ma \u2019 am . I \u2019 ll call you when they \u2019 re ready ."
         ],
         "act": [
             2,
             1,
+            1,
+            1
+        ],
+        "emotion": [
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    {
+        "question_text": [
+            "Person 1: What did you exactly do there ?",
+            "Person 2: I was responsible for helping patients restore their organic functions , training them in speech and organism , carrying our massage and physiotherapy , taking care of patients  nutrition and diet .",
+            "Person 1: What do you think are the qualifications for being a doctor ?",
+            "Person 2: They are sense of post , mentality quality , first aid ability , emergency adjustment , and law consciousness ."
+        ],
+        "act": [
+            2,
+            1,
+            2,
+            1
+        ],
+        "emotion": [
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    {
+        "question_text": [
+            "Person 1: Well , what brings you here ?",
+            "Person 2: I came to see my aunt .",
+            "Person 1: Does she live nearby ?",
+            "Person 2: Yes . She lives on the next block ."
+        ],
+        "act": [
+            2,
+            1,
+            2,
+            1
+        ],
+        "emotion": [
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    {
+        "question_text": [
+            "Person 1: Is that Mr . Green ?",
+            "Person 2: This is him speaking .",
+            "Person 1: I am calling to inform you that were happy to have you with us . Welcome aboard , Im sure your friend would have given you a lot of information of our school and its motto , ways of teaching , etc .",
+            "Person 2: Yes . I am very glad to have the chance ."
+        ],
+        "act": [
+            2,
+            1,
+            3,
+            4
+        ],
+        "emotion": [
+            0,
+            0,
+            4,
+            4
+        ]
+    },
+    {
+        "question_text": [
+            "Person 1: Excuse me , would you mind changing seats with me ?",
+            "Person 2: Not at all .",
+            "Person 1: Thank you . Thats very kind of you .",
+            "Person 2: Youre welcome ."
+        ],
+        "act": [
+            3,
+            4,
             1,
             1
         ],
@@ -1800,11 +280,171 @@
         ]
     },
     {
-        "dialog": [
-            "Person 1: I want a doggy bag , waiter .",
-            "Person 2: Sure . How do you like your meal today ?",
-            "Person 1: Quite good . It was the most wonderful dinner I have ever had .",
-            "Person 2: I am glad you like it . Welcome next time ."
+        "question_text": [
+            "Person 1: John seems to be in high cotton . He may well become a big shot .",
+            "Person 2: I bet my button dollar that he wont . He is no more than a nine days wonder .",
+            "Person 1: What is your idea ?",
+            "Person 2: Many people like him get a flying start but soon disappear ."
+        ],
+        "act": [
+            1,
+            1,
+            2,
+            1
+        ],
+        "emotion": [
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    {
+        "question_text": [
+            "Person 1: Could you tell me the time ?",
+            "Person 2: Pardon ?",
+            "Person 1: What time is it , please ?",
+            "Person 2: Its 9:30 ."
+        ],
+        "act": [
+            2,
+            2,
+            2,
+            1
+        ],
+        "emotion": [
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    {
+        "question_text": [
+            "Person 1: Who finances the magazine ?",
+            "Person 2: I dont know exactly . I only hear its financed by a famous film star .",
+            "Person 1: Does it have a large circulation ?",
+            "Person 2: Yes , so it really doesnt matter who offers the money.The paper itself is profitable ."
+        ],
+        "act": [
+            2,
+            1,
+            2,
+            1
+        ],
+        "emotion": [
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    {
+        "question_text": [
+            "Person 1: Lily thinks that the job takes a back seat to the family after she is married .",
+            "Person 2: She must be a good wife .",
+            "Person 1: Not necessarily . This is only what she says , not what she does .",
+            "Person 2: I see ."
+        ],
+        "act": [
+            1,
+            1,
+            1,
+            1
+        ],
+        "emotion": [
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    {
+        "question_text": [
+            "Person 1: Do you know the restrictions about the carry-on items for exiting ?",
+            "Person 2: Yes , you can take small sum of money and important items such as passport and keys and business documents and so on .",
+            "Person 1: What are the things that are forbidden to take in departure ?",
+            "Person 2: There is a long list of those things forbidden , including explosives , gum opium and precious cultural relies and so on ."
+        ],
+        "act": [
+            2,
+            1,
+            2,
+            1
+        ],
+        "emotion": [
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    {
+        "question_text": [
+            "Person 1: Where is the produce ?",
+            "Person 2: Its on the south wall of the store , in aisle A .",
+            "Person 1: Is there any produce on sale ?",
+            "Person 2: I dont know . The produce person can tell you , though ."
+        ],
+        "act": [
+            2,
+            1,
+            2,
+            1
+        ],
+        "emotion": [
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    {
+        "question_text": [
+            "Person 1: Did you have any publications ?",
+            "Person 2: Yes , I wrote a thesis entitled English Education in High School and it was published in the Education Magazine .",
+            "Person 1: Have you received any honors ?",
+            "Person 2: Yes , I was chosen as a Three Goods student many times in college ."
+        ],
+        "act": [
+            2,
+            1,
+            2,
+            1
+        ],
+        "emotion": [
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    {
+        "question_text": [
+            "Person 1: They promised us a sea view .",
+            "Person 2: Well , you can just see the sea . Between the factory chimneys .",
+            "Person 1: Isnt it awful ? I cant bear to look at it . I dont think I can stand this place for two weeks .",
+            "Person 2: Well , it cant be helped . Well just have to put up with it ."
+        ],
+        "act": [
+            1,
+            1,
+            2,
+            1
+        ],
+        "emotion": [
+            2,
+            0,
+            2,
+            0
+        ]
+    },
+    {
+        "question_text": [
+            "Person 1: Albert ? Could you co-sign this approval sheet ? Accounting \u2019 s getting really picky .",
+            "Person 2: I know . They \u2019 Ve already sent back two approvals I sent them . Where do I sign ?",
+            "Person 1: Right here . It \u2019 s for that new fax machine we \u2019 re getting .",
+            "Person 2: Oh , right . I remember . There you are . Hope you don \u2019 t have as many problems as I had !"
         ],
         "act": [
             3,
@@ -1816,71 +456,111 @@
             0,
             0,
             0,
-            4
+            0
         ]
     },
     {
-        "dialog": [
-            "Person 1: Is this your brother-in-law ?",
-            "Person 2: Yes , he married my sister ten years ago .",
-            "Person 1: From his looks , Id say hes a man of character .",
-            "Person 2: Yes , my sister loves his personality ."
+        "question_text": [
+            "Person 1: Tony looks very handsome in the suit .",
+            "Person 2: He prefers suits to jackets .",
+            "Person 1: Judge from his look , hes a very serious person .",
+            "Person 2: As a matter of fact , he is ."
         ],
         "act": [
-            2,
+            1,
             1,
             1,
             1
         ],
         "emotion": [
+            4,
+            4,
+            0,
+            0
+        ]
+    },
+    {
+        "question_text": [
+            "Person 1: The question is easy for everybody.Don  t you think so ?",
+            "Person 2: Yeah , its very easy . But its above Nicks head",
+            "Person 1: Why do you say so ?",
+            "Person 2: Hes always confused by easy questions ."
+        ],
+        "act": [
+            2,
+            1,
+            2,
+            1
+        ],
+        "emotion": [
             0,
             0,
+            0,
+            0
+        ]
+    },
+    {
+        "question_text": [
+            "Person 1: How are you , Kim ? I haven \u2019 t seen you around for a few days .",
+            "Person 2: Oh , I was out sick most of last week . I \u2019 m still not completely over it . You \u2019 d better not get too close !",
+            "Person 1: I \u2019 m sorry to hear about that . Why don \u2019 t you join me for a hot cup of tea ? It \u2019 ll be good for you !",
+            "Person 2: Sure , why not ? I could use a rest ."
+        ],
+        "act": [
+            2,
+            3,
+            3,
+            4
+        ],
+        "emotion": [
+            0,
+            0,
+            0,
+            4
+        ]
+    },
+    {
+        "question_text": [
+            "Person 1: How much is the video camera ?",
+            "Person 2: $ 250 . Its Sony made in Japan .",
+            "Person 1: It is cute . I will take it . Please make out the receipt .",
+            "Person 2: OK , sir . Here you are . There is a one-year warranty ."
+        ],
+        "act": [
+            2,
+            1,
+            3,
+            4
+        ],
+        "emotion": [
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    {
+        "question_text": [
+            "Person 1: Come in . Its nice to see you again .",
+            "Person 2: Its nice to be here .",
+            "Person 1: Would you care for a drink ?",
+            "Person 2: Just a club soda for me , please ."
+        ],
+        "act": [
+            1,
+            1,
+            3,
+            4
+        ],
+        "emotion": [
+            4,
+            4,
             4,
             4
         ]
     },
     {
-        "dialog": [
-            "Person 1: Good morning . I want to apply for a job in A your company as an assistant . Could you tell me the company address , please ?",
-            "Person 2: OK . Do yon have a pen and a paper now ?",
-            "Person 1: Yes , please .",
-            "Person 2: Our company is in Pudding new area in Shanghai ."
-        ],
-        "act": [
-            3,
-            2,
-            3,
-            1
-        ],
-        "emotion": [
-            0,
-            0,
-            0,
-            0
-        ]
-    },
-    {
-        "dialog": [
-            "Person 1: Hello , Mary .",
-            "Person 2: Hello , Brian .",
-            "Person 1: Here is my friend Bob .",
-            "Person 2: Hello , Bob ."
-        ],
-        "act": [
-            1,
-            1,
-            1,
-            1
-        ],
-        "emotion": [
-            0,
-            0,
-            0,
-            0
-        ]
-    },
-    {
-        "dialog": [
+        "question_text": [
             "Person 1: Youll have to take a make-up exam in logic .",
             "Person 2: Oh , I thought I did a good job .",
             "Person 1: Sorry to say you failed .",
@@ -1900,51 +580,11 @@
         ]
     },
     {
-        "dialog": [
-            "Person 1: What was that ?",
-            "Person 2: I said ,  Is there anything I can do ?",
-            "Person 1: If its not too much trouble , I would like some help .",
-            "Person 2: Its no trouble at all . Ill carry this suitcase for you ."
-        ],
-        "act": [
-            2,
-            1,
-            3,
-            4
-        ],
-        "emotion": [
-            0,
-            0,
-            0,
-            0
-        ]
-    },
-    {
-        "dialog": [
-            "Person 1: Im going shopping .",
-            "Person 2: Do you have enough money to buy that dress ?",
-            "Person 1: No . I need to borrow $ 50 .",
-            "Person 2: Sure , here you go ."
-        ],
-        "act": [
-            1,
-            2,
-            3,
-            4
-        ],
-        "emotion": [
-            0,
-            0,
-            0,
-            0
-        ]
-    },
-    {
-        "dialog": [
-            "Person 1: What did the boss say to you ?",
-            "Person 2: He asked me to beef up in the work .",
-            "Person 1: Yeah . You look so unhappy recently . What \u2019 s the matter .",
-            "Person 2: Nothing , thanks . I am just not in the mood these days ."
+        "question_text": [
+            "Person 1: Whats the cost of the trousers ?",
+            "Person 2: $ 90 .",
+            "Person 1: Is there a price reduction ?",
+            "Person 2: Sorry , sir . The prices here are all fixed ."
         ],
         "act": [
             2,
@@ -1956,35 +596,75 @@
             0,
             0,
             0,
-            4
+            5
         ]
     },
     {
-        "dialog": [
-            "Person 1: Hi ! Tom . Want to go to play bowling tonight ?",
-            "Person 2: Sounds good . When and where shall we meet ?",
-            "Person 1: Let me see . How about 6:30 at the gate of the club ?",
-            "Person 2: Fine , see you then ."
+        "question_text": [
+            "Person 1: The boss announces the pay raise today , right ? How much do you think well get ?",
+            "Person 2: No idea . Your guess is as good as mine .",
+            "Person 1: It better be more than last year .",
+            "Person 2: Well , anything is better than nothing . Wait and see ."
+        ],
+        "act": [
+            2,
+            1,
+            1,
+            1
+        ],
+        "emotion": [
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    {
+        "question_text": [
+            "Person 1: John passed away .",
+            "Person 2: When ? I saw him well last month .",
+            "Person 1: Yesterday . He suffered from a serious disease . When he saw the red light , it was too late .",
+            "Person 2: How terrible !"
+        ],
+        "act": [
+            1,
+            2,
+            1,
+            1
+        ],
+        "emotion": [
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    {
+        "question_text": [
+            "Person 1: Would you like to go to the natural history museum with me ?",
+            "Person 2: Have you ever been to it before ?",
+            "Person 1: Yes , lots of time . I was quite impressed by the wide variety of exhibitions they have .",
+            "Person 2: Lets go . It sounds interesting ."
         ],
         "act": [
             3,
             2,
-            3,
+            1,
             4
         ],
         "emotion": [
-            4,
-            4,
-            4,
+            0,
+            0,
+            0,
             4
         ]
     },
     {
-        "dialog": [
-            "Person 1: Would you like to drink some coffee ?",
-            "Person 2: No , thanks . I have some trouble with my heart , my doctor recommend I to drink less .",
-            "Person 1: Would you like to try some watermelon juice ? It tastes good .",
-            "Person 2: All right"
+        "question_text": [
+            "Person 1: My name \u2019 s Terry Graham . You \u2019 re new around here , huh ?",
+            "Person 2: Yes . My name \u2019 s Mark Benson . I just started a couple of weeks ago .",
+            "Person 1: Well , if there \u2019 s anything I can do for you , let me know .",
+            "Person 2: Thanks , I appreciate that !"
         ],
         "act": [
             2,
@@ -1996,6 +676,1326 @@
             0,
             0,
             0,
+            4
+        ]
+    },
+    {
+        "question_text": [
+            "Person 1: Don \u2019 t be worried . Please sit down and take it easy .",
+            "Person 2: How could I feel easy ? I \u2019 m really pissed .",
+            "Person 1: But you should avoid finger-pointing when you haven \u2019 t got the real facts .",
+            "Person 2: Ok . I \u2019 ll try my best to calm down first ."
+        ],
+        "act": [
+            3,
+            2,
+            3,
+            4
+        ],
+        "emotion": [
+            0,
+            1,
+            0,
+            0
+        ]
+    },
+    {
+        "question_text": [
+            "Person 1: Congratulations on the new house !",
+            "Person 2: Thanks ! We love it .",
+            "Person 1: Well , you guys work hard for it . It \u2019 s really beautiful .",
+            "Person 2: I \u2019 m just not looking forward to cleaning it !"
+        ],
+        "act": [
+            1,
+            1,
+            1,
+            1
+        ],
+        "emotion": [
+            4,
+            4,
+            0,
+            0
+        ]
+    },
+    {
+        "question_text": [
+            "Person 1: Quite a few times , I had my back to the wall .",
+            "Person 2: Really ? Generally they will turn out to be a good thing .",
+            "Person 1: That \u2019 s right .",
+            "Person 2: You \u2019 ll exert all your energy and get out of it ."
+        ],
+        "act": [
+            1,
+            1,
+            1,
+            1
+        ],
+        "emotion": [
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    {
+        "question_text": [
+            "Person 1: Do you like the cookies ?",
+            "Person 2: I finished them in no time .",
+            "Person 1: Glad you like it .",
+            "Person 2: Mum , when will we have them again ?"
+        ],
+        "act": [
+            2,
+            1,
+            1,
+            2
+        ],
+        "emotion": [
+            0,
+            0,
+            4,
+            0
+        ]
+    },
+    {
+        "question_text": [
+            "Person 1: Hi Kevin , how was your year at college ?",
+            "Person 2: It was great ! How was your year ?",
+            "Person 1: It was good . Do you have a girlfriend at school ?",
+            "Person 2: Yes , Im dating someone . Her name is Amanda ."
+        ],
+        "act": [
+            2,
+            2,
+            2,
+            1
+        ],
+        "emotion": [
+            0,
+            4,
+            4,
+            4
+        ]
+    },
+    {
+        "question_text": [
+            "Person 1: Bob , how about joining the boxing club this summer vacation ?",
+            "Person 2: What a good idea !",
+            "Person 1: So lets get registered tomorrow .",
+            "Person 2: OK ."
+        ],
+        "act": [
+            3,
+            4,
+            3,
+            4
+        ],
+        "emotion": [
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    {
+        "question_text": [
+            "Person 1: It is difficult for old people to do away with old ideas .",
+            "Person 2: So the reform cannot be carried out well .",
+            "Person 1: Government is making efforts to change situation .",
+            "Person 2: Easier said than done ."
+        ],
+        "act": [
+            1,
+            1,
+            1,
+            1
+        ],
+        "emotion": [
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    {
+        "question_text": [
+            "Person 1: Do you have the letter of approval of employment ?",
+            "Person 2: No , I havent got one . My employment petition hasnt been approved yet .",
+            "Person 1: In that case , you are not allowed to work in China , until you get the employment petition .",
+            "Person 2: Ok , I see ."
+        ],
+        "act": [
+            2,
+            1,
+            3,
+            4
+        ],
+        "emotion": [
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    {
+        "question_text": [
+            "Person 1: Is there something wrong ? You look so sad .",
+            "Person 2: My house was robbed last night and the thieves stole all my furniture .",
+            "Person 1: No wonder you look so upset . Have you called the police ?",
+            "Person 2: Yes , I have . But I have to wait ."
+        ],
+        "act": [
+            2,
+            1,
+            2,
+            1
+        ],
+        "emotion": [
+            6,
+            0,
+            0,
+            0
+        ]
+    },
+    {
+        "question_text": [
+            "Person 1: Can you tell me how to apply for a job on the Internet ?",
+            "Person 2: You just need to send an application .",
+            "Person 1: Do I have to send one by e-mail ?",
+            "Person 2: Yes . You are expected to know the e-mail address of the company ."
+        ],
+        "act": [
+            2,
+            1,
+            2,
+            3
+        ],
+        "emotion": [
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    {
+        "question_text": [
+            "Person 1: Jack wonders whether Linda likes him or not .",
+            "Person 2: Why doesnt he ask her ?",
+            "Person 1: He is too scared to ask her .",
+            "Person 2: Hes a chicken guy ."
+        ],
+        "act": [
+            1,
+            2,
+            1,
+            1
+        ],
+        "emotion": [
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    {
+        "question_text": [
+            "Person 1: How is your ankle ?",
+            "Person 2: My what ? Oh , that , right as a trivet .",
+            "Person 1: Please be careful next time .",
+            "Person 2: I will , thank you ."
+        ],
+        "act": [
+            2,
+            2,
+            3,
+            4
+        ],
+        "emotion": [
+            0,
+            0,
+            0,
+            4
+        ]
+    },
+    {
+        "question_text": [
+            "Person 1: Farmington ? Would you take a look at these catalogue ads that Roger did ? I don \u2019 t think we can use them .",
+            "Person 2: Hmm . I see what you mean . Have you spoken with Roger ? He usually does better work than this .",
+            "Person 1: I know , Mr . Farmington . But , I \u2019 m not sure that I should bring this up with him . I think it would be better if you spoke to him .",
+            "Person 2: All right . Leave these ads with me . I \u2019 ll speak to him this morning ."
+        ],
+        "act": [
+            3,
+            2,
+            3,
+            4
+        ],
+        "emotion": [
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    {
+        "question_text": [
+            "Person 1: May I speak to Marry ?",
+            "Person 2: Shes in a meeting until noon .",
+            "Person 1: Ok , Ill try her back then .",
+            "Person 2: Ok , thank you ."
+        ],
+        "act": [
+            2,
+            1,
+            1,
+            1
+        ],
+        "emotion": [
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    {
+        "question_text": [
+            "Person 1: What did you usually do as a head nurse ?",
+            "Person 2: I allocate different patients with their consent to different nurses . And I supervise the primary nurses and help nurses carry out their work .",
+            "Person 1: How to maintain a high standard of nursing ?",
+            "Person 2: To maintain a high standard of nursing , we should take experience and education into consideration while considering a nurses level of expertise in caring for various patients ."
+        ],
+        "act": [
+            2,
+            1,
+            2,
+            1
+        ],
+        "emotion": [
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    {
+        "question_text": [
+            "Person 1: You and Bob have finished ?",
+            "Person 2: Yes .",
+            "Person 1: Are you going to be okay ?",
+            "Person 2: Yes , Im used to being on my own ."
+        ],
+        "act": [
+            2,
+            1,
+            2,
+            1
+        ],
+        "emotion": [
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    {
+        "question_text": [
+            "Person 1: Which department do you want to register with ?",
+            "Person 2: I want to see a dentist .",
+            "Person 1: Please pay the registration fee , 10 Yuan .",
+            "Person 2: OK , thank you ."
+        ],
+        "act": [
+            2,
+            1,
+            3,
+            4
+        ],
+        "emotion": [
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    {
+        "question_text": [
+            "Person 1: Linda , do you know Mr.Green ?",
+            "Person 2: No , I dont think so .",
+            "Person 1: Please meet him now .",
+            "Person 2: Thanks ."
+        ],
+        "act": [
+            1,
+            1,
+            3,
+            4
+        ],
+        "emotion": [
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    {
+        "question_text": [
+            "Person 1: The murderer was sentenced to life imprisonment .",
+            "Person 2: It \u2019 s severe punishment , I think .",
+            "Person 1: Yeah , because he just killed a man in cold blood .",
+            "Person 2: No wonder ."
+        ],
+        "act": [
+            1,
+            1,
+            1,
+            1
+        ],
+        "emotion": [
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    {
+        "question_text": [
+            "Person 1: Is the table free ?",
+            "Person 2: No , sir . Would you rather sit near the dance floor ?",
+            "Person 1: I dont think so . Is that table all right ?",
+            "Person 2: Thats free ."
+        ],
+        "act": [
+            2,
+            3,
+            2,
+            1
+        ],
+        "emotion": [
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    {
+        "question_text": [
+            "Person 1: Happy Mother \u2019 s Day , Mom !",
+            "Person 2: Thanks ! These are beautiful . You shouldn \u2019 t have !",
+            "Person 1: Of course I should have ! You certainly deserve them ! You put up with all of us .",
+            "Person 2: I forgot what I put up with in that case . I do deserve these flowers ."
+        ],
+        "act": [
+            1,
+            1,
+            1,
+            1
+        ],
+        "emotion": [
+            4,
+            6,
+            0,
+            4
+        ]
+    },
+    {
+        "question_text": [
+            "Person 1: Willy , I dont think we have much butter.Can you buy some ?",
+            "Person 2: Sure , Mum.In a minute .",
+            "Person 1: Heres the money.And get some salt .",
+            "Person 2: Yes , Mum ."
+        ],
+        "act": [
+            3,
+            4,
+            3,
+            4
+        ],
+        "emotion": [
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    {
+        "question_text": [
+            "Person 1: Have some more tea , George .",
+            "Person 2: No , thanks . Ive really got to go now .",
+            "Person 1: Have a nice day !",
+            "Person 2: You , too ."
+        ],
+        "act": [
+            3,
+            4,
+            1,
+            1
+        ],
+        "emotion": [
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    {
+        "question_text": [
+            "Person 1: How about your present pay ?",
+            "Person 2: Basically I get 5,000 RIB every month . It is a well-paid job with satisfying working hours .",
+            "Person 1: What are your salary expectations ?",
+            "Person 2: I require 6,500 RIB per month as a start . This is my bottom line , the minimum salary I can accept ."
+        ],
+        "act": [
+            2,
+            1,
+            2,
+            1
+        ],
+        "emotion": [
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    {
+        "question_text": [
+            "Person 1: Allow me to introduce my self.My name is Jack Black , manager of the company .",
+            "Person 2: How do you do , Mr.Black ? Very happy to see you .",
+            "Person 1: Pleasure is mine.Here  s my card .",
+            "Person 2: Thank you , This is mine ."
+        ],
+        "act": [
+            1,
+            1,
+            3,
+            4
+        ],
+        "emotion": [
+            0,
+            4,
+            4,
+            4
+        ]
+    },
+    {
+        "question_text": [
+            "Person 1: Hi , whatre you reading ?",
+            "Person 2: An old book Death on the Nile.Have you read it ?",
+            "Person 1: Not yet , but I saw the movie.Could I borrow it when you finish reading ?",
+            "Person 2: Sure.But you need to be patient ."
+        ],
+        "act": [
+            2,
+            2,
+            3,
+            4
+        ],
+        "emotion": [
+            0,
+            0,
+            0,
+            4
+        ]
+    },
+    {
+        "question_text": [
+            "Person 1: Hey , whats the matter ?",
+            "Person 2: It doesnt matter . I just feel a little dizzy .",
+            "Person 1: Are you sure that this has nothing to do with sleep ?",
+            "Person 2: I dont know ."
+        ],
+        "act": [
+            2,
+            1,
+            2,
+            1
+        ],
+        "emotion": [
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    {
+        "question_text": [
+            "Person 1: I wish you wouldnt play the TV so loud .",
+            "Person 2: Sorry . Were you trying to sleep ?",
+            "Person 1: Yes , please ask when you want to borrow my records next time .",
+            "Person 2: Im sorry . Youre right . I should have asked ."
+        ],
+        "act": [
+            1,
+            1,
+            3,
+            4
+        ],
+        "emotion": [
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    {
+        "question_text": [
+            "Person 1: Have you seen Harry ?",
+            "Person 2: No . As far as I can remember he was supposed to be on a business trip to Lisbon .",
+            "Person 1: Yes , but he was supposed to be back by now .",
+            "Person 2: Maybe youll call his home ."
+        ],
+        "act": [
+            2,
+            1,
+            1,
+            3
+        ],
+        "emotion": [
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    {
+        "question_text": [
+            "Person 1: Boy ! What a beauty ! I fall in love with her at the first sight .",
+            "Person 2: The beauty under the tree ?",
+            "Person 1: Of course.No girl is more charming .",
+            "Person 2: She is a young man !"
+        ],
+        "act": [
+            1,
+            2,
+            1,
+            1
+        ],
+        "emotion": [
+            4,
+            0,
+            4,
+            0
+        ]
+    },
+    {
+        "question_text": [
+            "Person 1: So how long have you known Mary ?",
+            "Person 2: Only four days .",
+            "Person 1: Only four days ! Thats so short , and you seem so crazy about her .",
+            "Person 2: I know . I cant help thinking about her . Shes always on my mind ."
+        ],
+        "act": [
+            2,
+            1,
+            1,
+            1
+        ],
+        "emotion": [
+            0,
+            0,
+            6,
+            0
+        ]
+    },
+    {
+        "question_text": [
+            "Person 1: Could you recommend something to drink ?",
+            "Person 2: Well , since you have order the roast chicken . I suggest you to order the red wine to go with the main course . It can help you digest the food .",
+            "Person 1: We would also like some alcohol before the main dish .",
+            "Person 2: I think whiskey will be a good choice ."
+        ],
+        "act": [
+            3,
+            4,
+            1,
+            1
+        ],
+        "emotion": [
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    {
+        "question_text": [
+            "Person 1: Bob is getting on in years .",
+            "Person 2: Yeah , Im very worried about his health .",
+            "Person 1: He looks tired all the time .",
+            "Person 2: Hes working too hard ."
+        ],
+        "act": [
+            1,
+            1,
+            1,
+            1
+        ],
+        "emotion": [
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    {
+        "question_text": [
+            "Person 1: Hello , is that 2896919 16 ?",
+            "Person 2: Yes , this is Holiday Inn reservation .",
+            "Person 1: Can you book me a room with a bath for August 28 ?",
+            "Person 2: Yes.Your name , please ?"
+        ],
+        "act": [
+            2,
+            1,
+            3,
+            3
+        ],
+        "emotion": [
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    {
+        "question_text": [
+            "Person 1: Hi , Jim . How are you ? I havent seen you for a while .",
+            "Person 2: Im fine . Ive been out of town . I just got back .",
+            "Person 1: Where were you ?",
+            "Person 2: I was in New York for a wedding ."
+        ],
+        "act": [
+            2,
+            1,
+            2,
+            1
+        ],
+        "emotion": [
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    {
+        "question_text": [
+            "Person 1: Sometimes you look like brains , and sometimes you are simple a Barbie Doll .",
+            "Person 2: I don \u2019 t know whether I am a Barbie Doll or you are one .",
+            "Person 1: Maybe I am a Barbie Doll , but I won \u2019 t do Barbie Doll things .",
+            "Person 2: Well , I am not going to flog a dead horse . Let get down to our brass tasks and tidy these things up ."
+        ],
+        "act": [
+            1,
+            1,
+            1,
+            1
+        ],
+        "emotion": [
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    {
+        "question_text": [
+            "Person 1: Hi , Carlos . What are you doing this afternoon ?",
+            "Person 2: Working . Why ?",
+            "Person 1: Well . I was just wondering if you would come by and give me a hand with the fliers for next week \u2019 s party .",
+            "Person 2: I \u2019 m sorry , Melissa . I really can \u2019 t today . I \u2019 Ve just got too much going on . Maybe tomorrow ."
+        ],
+        "act": [
+            2,
+            1,
+            3,
+            4
+        ],
+        "emotion": [
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    {
+        "question_text": [
+            "Person 1: Whats it made of , could you tell me ?",
+            "Person 2: Linen.It  s ideal for summer wear .",
+            "Person 1: Can it wear well and keep its shape ?",
+            "Person 2: Certainly.It has been specially treated ."
+        ],
+        "act": [
+            3,
+            4,
+            2,
+            1
+        ],
+        "emotion": [
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    {
+        "question_text": [
+            "Person 1: May I help you , sir ?",
+            "Person 2: I want a pair of locus .",
+            "Person 1: Take a look at the ones on display , please .",
+            "Person 2: I need size 41 ."
+        ],
+        "act": [
+            2,
+            3,
+            4,
+            3
+        ],
+        "emotion": [
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    {
+        "question_text": [
+            "Person 1: I feel very miserable . I took the death of my wife very hard , you know .",
+            "Person 2: Cheer up ! Let bygones be bygones .",
+            "Person 1: I \u2019 Ve tried it , not a chance .",
+            "Person 2: It seems you have to take time ."
+        ],
+        "act": [
+            1,
+            3,
+            4,
+            1
+        ],
+        "emotion": [
+            5,
+            0,
+            5,
+            0
+        ]
+    },
+    {
+        "question_text": [
+            "Person 1: I dont understand why some parents keep beefing and complaining about their daughters not being able to follow suit .",
+            "Person 2: Yeah . Li Nas mother has been building a fire under her since her neighbours daughter got married with a Canadian . Shes almost driving Li Na crazy .",
+            "Person 1: If I were Li Na , I would ask her if she had done that .",
+            "Person 2: She a as meek as a lamb . She never goes against anyone or anything . Shes as good as gold , you know ?"
+        ],
+        "act": [
+            1,
+            1,
+            1,
+            1
+        ],
+        "emotion": [
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    {
+        "question_text": [
+            "Person 1: Do you like traveling , Kathy ?",
+            "Person 2: I like traveling for pleasure to get places for vacation for instance . But I don \u2019 t like traveling to work , waiting for buses , or ...",
+            "Person 1: Or getting stuck in traffic jams when you \u2019 re driving .",
+            "Person 2: Exactly ."
+        ],
+        "act": [
+            2,
+            1,
+            1,
+            1
+        ],
+        "emotion": [
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    {
+        "question_text": [
+            "Person 1: Are you a visitor here ?",
+            "Person 2: No . I immigrated here three years ago .",
+            "Person 1: Have you been used to your new life ?",
+            "Person 2: Yes , I love my new life ."
+        ],
+        "act": [
+            2,
+            1,
+            2,
+            1
+        ],
+        "emotion": [
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    {
+        "question_text": [
+            "Person 1: Both Bob and carl will become somebody in the future.Don  t you think so ?",
+            "Person 2: Yeah.But Bobs talent cant to be named on the same day with Carls .",
+            "Person 1: But Bob is more generous and ready to help .",
+            "Person 2: We cannot judge a man totally by that ."
+        ],
+        "act": [
+            3,
+            4,
+            1,
+            1
+        ],
+        "emotion": [
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    {
+        "question_text": [
+            "Person 1: What are you thinking about ?",
+            "Person 2: About my boyfriend .",
+            "Person 1: Again !",
+            "Person 2: You are really a wet blanket ."
+        ],
+        "act": [
+            2,
+            1,
+            1,
+            1
+        ],
+        "emotion": [
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    {
+        "question_text": [
+            "Person 1: What degree have you received ?",
+            "Person 2: I received a bachelors degree .",
+            "Person 1: When and where did you obtain your degree ?",
+            "Person 2: I received my bachelors degree from Peking University in 2004 ."
+        ],
+        "act": [
+            2,
+            1,
+            2,
+            1
+        ],
+        "emotion": [
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    {
+        "question_text": [
+            "Person 1: Excuse me , miss.Should I check in here for taking MS121 to Florence ?",
+            "Person 2: Yes , show me your ticket and passport please .",
+            "Person 1: Here you are . Can I have a seat in the back of the plane ?",
+            "Person 2: No problem . Wish you a nice trip ."
+        ],
+        "act": [
+            2,
+            3,
+            3,
+            4
+        ],
+        "emotion": [
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    {
+        "question_text": [
+            "Person 1: Ms . Montgomery ? Do you have a moment ?",
+            "Person 2: Sure , Brian . What \u2019 s on your mind ?",
+            "Person 1: I \u2019 m a bit upset about this year \u2019 s bonus . I was really expecting a little more . Are there any problems with my work ?",
+            "Person 2: No , not at all , Brian . This year , we \u2019 Ve all had to cut back . I \u2019 m hoping next year \u2019 s going to better . I hope you can understand ."
+        ],
+        "act": [
+            2,
+            2,
+            2,
+            3
+        ],
+        "emotion": [
+            0,
+            0,
+            5,
+            0
+        ]
+    },
+    {
+        "question_text": [
+            "Person 1: Whats your weight ?",
+            "Person 2: 150 pounds .",
+            "Person 1: Do put yourself on a diet , otherwise youll be too fat .",
+            "Person 2: I cant bear eating less ."
+        ],
+        "act": [
+            2,
+            1,
+            3,
+            4
+        ],
+        "emotion": [
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    {
+        "question_text": [
+            "Person 1: I am calling to apply to work in your agency of entry .",
+            "Person 2: OK . Do you have any advantages to work in our entry agency ?",
+            "Person 1: Yes . I know many ambassadors in Chinese Embassy and British Embassy in China .",
+            "Person 2: Wonderful , I will give you a chance of interview ."
+        ],
+        "act": [
+            3,
+            2,
+            1,
+            3
+        ],
+        "emotion": [
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    {
+        "question_text": [
+            "Person 1: I wonder if I could possibly borrow two bikes from the shop tomorrow ? I \u2019 ll take actual care of them . I promise you .",
+            "Person 2: Well . All right , Mark . Just this once . But you have to pick them up yourself . I \u2019 m a very busy man .",
+            "Person 1: Oh , that \u2019 s all right . It \u2019 s very kind of you . Can I come around now ?",
+            "Person 2: I \u2019 d rather you didn \u2019 t come immediately as I said I \u2019 m very busy at the moment . Come after lunch , Mark ."
+        ],
+        "act": [
+            3,
+            4,
+            3,
+            4
+        ],
+        "emotion": [
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    {
+        "question_text": [
+            "Person 1: Happy Birthday ! This is for you , Kate !",
+            "Person 2: Thanks.Miss Zhang .",
+            "Person 1: You know in China we usually dont open presents until the guests leave .",
+            "Person 2: Really ? Ive already opened this one.Say , this is sweet , and its just what I need to go with my new suit.Thank you ever so much ."
+        ],
+        "act": [
+            1,
+            1,
+            1,
+            1
+        ],
+        "emotion": [
+            4,
+            4,
+            0,
+            6
+        ]
+    },
+    {
+        "question_text": [
+            "Person 1: Excuse me , Mr . Emory ?",
+            "Person 2: Yes , Christine ?",
+            "Person 1: Could you tell me where the copier is , please ?",
+            "Person 2: Sure . You just walk down this hallway . The copy room is the second room on the right ."
+        ],
+        "act": [
+            2,
+            2,
+            3,
+            3
+        ],
+        "emotion": [
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    {
+        "question_text": [
+            "Person 1: Could you drive me to the bank ?",
+            "Person 2: Of course , maam . Tell me where to go .",
+            "Person 1: Go down this road and then turn left .",
+            "Person 2: All right . There we go ."
+        ],
+        "act": [
+            3,
+            3,
+            4,
+            4
+        ],
+        "emotion": [
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    {
+        "question_text": [
+            "Person 1: Whats wrong with you ?",
+            "Person 2: I have got a run . Can you tell me where is the restroom ?",
+            "Person 1: Its just around the comer.Would you need some pills ?",
+            "Person 2: No , thank you . I have brought some ."
+        ],
+        "act": [
+            2,
+            2,
+            2,
+            1
+        ],
+        "emotion": [
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    {
+        "question_text": [
+            "Person 1: Do you want to buy something here ?",
+            "Person 2: These shoes are great ! What is the price of this ?",
+            "Person 1: This one is two hundred yuan .",
+            "Person 2: Thats too much !"
+        ],
+        "act": [
+            2,
+            3,
+            1,
+            1
+        ],
+        "emotion": [
+            0,
+            4,
+            0,
+            6
+        ]
+    },
+    {
+        "question_text": [
+            "Person 1: Could you arrange an appointment with Mr . Smith ?",
+            "Person 2: Sorry , Mr . Smith agenda is full today .",
+            "Person 1: How about tomorrow afternoon ?",
+            "Person 2: I \u2019 m not sure , but I will arrange for you and inform you as well ."
+        ],
+        "act": [
+            3,
+            4,
+            3,
+            4
+        ],
+        "emotion": [
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    {
+        "question_text": [
+            "Person 1: Would you mind if I ask you whether you are married or not ?",
+            "Person 2: To be frank , I was married once , and now Im single .",
+            "Person 1: Do you mean you got a divorce ?",
+            "Person 2: Yes , my first marriage was a failure ."
+        ],
+        "act": [
+            2,
+            1,
+            2,
+            1
+        ],
+        "emotion": [
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    {
+        "question_text": [
+            "Person 1: How can I get to Lakeside Park ?",
+            "Person 2: Take the No . 7 bus . Theres a bus stop just over there .",
+            "Person 1: Will it take me straight there ?",
+            "Person 2: Yes . No need to change ."
+        ],
+        "act": [
+            2,
+            1,
+            2,
+            1
+        ],
+        "emotion": [
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    {
+        "question_text": [
+            "Person 1: Oh , man . I had the best supper last night . My wife made a stir-fry and it was amazing !",
+            "Person 2: I love stir fry crispy bitesize vegetables covered in a mixture of soy sauce and oyster sauce . Wilted greens and fresh bean sprouts . Throw in some onion and garlic and ginger ! Mmm ! Mmm ! It \u2019 s almost lunchtime . I would die for a plate of stir fry right now !",
+            "Person 1: Well , you can keep the vegetables , I \u2019 ll take the meat . The stir fry my wife made was really hearty , with chunks of beef and slivers of bell peppers and onion ...",
+            "Person 2: What ? You call that a stir fry ? More meat than vegetables ? That \u2019 s the worst insult you could throw at a Chinese stir fry . What a disgrace to the wok she fried it in ! What you had is equivalent to a fajita without the wrap !"
+        ],
+        "act": [
+            1,
+            3,
+            4,
+            2
+        ],
+        "emotion": [
+            4,
+            4,
+            0,
+            1
+        ]
+    },
+    {
+        "question_text": [
+            "Person 1: It was great meeting you .",
+            "Person 2: Me too .",
+            "Person 1: Maybe we can meet again sometime ?",
+            "Person 2: Of course , but Ill have to go now ."
+        ],
+        "act": [
+            1,
+            1,
+            3,
+            4
+        ],
+        "emotion": [
+            4,
+            4,
+            4,
+            4
+        ]
+    },
+    {
+        "question_text": [
+            "Person 1: Now that we know what kind of music we will play , we have to decide what each of us will do .",
+            "Person 2: Well , I love hip hop dancing , so I should probably dance . Do you know how to rap ?",
+            "Person 1: Oh yeah ! Im a great rapper . And I know all the Vanilla Ice lyrics by heart .",
+            "Person 2: Excellent . Ill start practicing my dance moves ."
+        ],
+        "act": [
+            1,
+            2,
+            1,
+            1
+        ],
+        "emotion": [
+            0,
+            0,
+            4,
+            4
+        ]
+    },
+    {
+        "question_text": [
+            "Person 1: How much is the hat ?",
+            "Person 2: $ 10 .",
+            "Person 1: I have seen this cheaper in other places .",
+            "Person 2: Well , what about $ 8 ? Take it or leave it ."
+        ],
+        "act": [
+            2,
+            1,
+            1,
+            3
+        ],
+        "emotion": [
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    {
+        "question_text": [
+            "Person 1: There will be a parade to celebrate National Day this weekend .",
+            "Person 2: Whats the route ?",
+            "Person 1: From Zhongshan Circus to City Bank .",
+            "Person 2: If only I could join it !"
+        ],
+        "act": [
+            1,
+            2,
+            1,
+            1
+        ],
+        "emotion": [
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    {
+        "question_text": [
+            "Person 1: Well , I \u2019 d better get back to work . I \u2019 Ve got a ton of stuff on my desk !",
+            "Person 2: Me too . I \u2019 ll see you after work , huh ?",
+            "Person 1: Yeah , definitely . I was hoping to catch a ride with you .",
+            "Person 2: Sure . Meet me at five ."
+        ],
+        "act": [
+            1,
+            3,
+            4,
+            1
+        ],
+        "emotion": [
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    {
+        "question_text": [
+            "Person 1: Lets invite Bobbie and John to our party , OK ?",
+            "Person 2: You can never do that .",
+            "Person 1: Why ?",
+            "Person 2: Theres been bad blood between them since Bobbie took away Johns girlfriend ."
+        ],
+        "act": [
+            3,
+            4,
+            2,
+            1
+        ],
+        "emotion": [
+            0,
+            0,
+            6,
             0
         ]
     }

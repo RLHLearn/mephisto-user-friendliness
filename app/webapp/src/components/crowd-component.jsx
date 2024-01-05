@@ -163,8 +163,33 @@ const CrowdComponent = ({ onSubmit, taskData }) => {
                 maxWidth: '800px',
                 wordWrap: 'break-word'
             }}>
-              <p>{question_text}</p>
+
+
+              
+              {Array.isArray(question_text) ? question_text.map((line, index) => <p key={index}>{line}</p>) : <p>{question_text}</p>}
           </div>
+
+
+          <div>
+            {Array.isArray(question_text) ? 
+                question_text.map((line, index) => (
+                    <div key={index}>
+                        <p>{line}</p>
+                        <crowd-radio-group required>
+                            <crowd-radio-button name={`no_emotion_${index}`} value="no_emotion">No Emotion</crowd-radio-button>
+                            <crowd-radio-button name={`anger_${index}`} value="anger">Anger</crowd-radio-button>
+                            <crowd-radio-button name={`disgust_${index}`} value="disgust">Disgust</crowd-radio-button>
+                            <crowd-radio-button name={`fear_${index}`} value="fear">Fear</crowd-radio-button>
+                            <crowd-radio-button name={`happiness_${index}`} value="happiness">Happiness</crowd-radio-button>
+                            <crowd-radio-button name={`sadness_${index}`} value="sadness">Sadness</crowd-radio-button>
+                            <crowd-radio-button name={`surprise_${index}`} value="surprise">Surprise</crowd-radio-button>
+                        </crowd-radio-group>
+                    </div>
+                ))
+                : 
+                <p>{question_text}</p>
+            }
+</div>
         <crowd-radio-group  required>
           <crowd-radio-button name="Mostly_True" value="Mostly_True">Msostly True </crowd-radio-button>
           <crowd-radio-button name="Mostly_False" value="Mostly_False">Mostly False</crowd-radio-button>
@@ -204,7 +229,7 @@ const CrowdComponent = ({ onSubmit, taskData }) => {
 
               </ul>
               <h3>Statement: </h3>
-              <p>{question_text}</p>
+              <p>{Array.isArray(question_text) ? question_text.map((line, index) => <p key={index}>{line}</p>) : <p>{question_text}</p>}</p>
               <h3>Task Instructions</h3>
               <ol>
                   <li>Summary of Analysis: <em>[Provide logical summary here]</em></li>
