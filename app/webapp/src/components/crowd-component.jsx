@@ -239,7 +239,7 @@ const CrowdComponent = ({ onSubmit, taskData }) => {
           {"Instructions"}
         </h1>
         <div style={{ fontSize: '20px', fontWeight: 'bold'  }}>
-          <p>Welcome to this fake news detection task. In this task, you are required to collaborate with a Chat GPT assistant to help you determine whether a given piece of text is fake news.</p>
+          <p>Welcome to this emotion detection task. In this task, you are required to collaborate with a Chat GPT assistant to help you determine the emotion in a given piece of text.</p>
           <ol>
               <li>First, read the text and make your own judgement without interacting with the chat GPT agent.</li>
               <li>Second, take the pre-prepared "Interaction text" and paste it into the chat GPT agent. Record the agent's response.</li>
