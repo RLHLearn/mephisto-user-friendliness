@@ -73,35 +73,27 @@ const CrowdComponent = ({ onSubmit, taskData }) => {
       vetting_5: document.querySelector('crowd-radio-button[name="vetting_5"]').checked,
     };
   
-    const init_judgement = {
-      init_true: document.querySelector('crowd-radio-button[name="init_true"]').checked,
-      init_mostly_true: document.querySelector('crowd-radio-button[name="init_mostly_true"]').checked,
-      init_half_true: document.querySelector('crowd-radio-button[name="init_half_true"]').checked,
-      init_mostly_false: document.querySelector('crowd-radio-button[name="init_mostly_false"]').checked,
-      init_false: document.querySelector('crowd-radio-button[name="init_false"]').checked,
-      init_pants_on_fire: document.querySelector('crowd-radio-button[name="init_pants_on_fire"]').checked,
-    };
-
     const machine_judgement = {
-      machine_true: document.querySelector('crowd-radio-button[name="machine_true"]').checked,
-      machine_mostly_true: document.querySelector('crowd-radio-button[name="machine_mostly_true"]').checked,
-      machine_half_true: document.querySelector('crowd-radio-button[name="machine_half_true"]').checked,
-      machine_mostly_false: document.querySelector('crowd-radio-button[name="machine_mostly_false"]').checked,
-      machine_false: document.querySelector('crowd-radio-button[name="machine_false"]').checked,
-      machine_pants_on_fire: document.querySelector('crowd-radio-button[name="machine_pants_on_fire"]').checked,
-
+      mostly_true: document.querySelector('crowd-radio-button[name="machine_Mostly_True"]').checked,
+      mostly_false: document.querySelector('crowd-radio-button[name="machine_Mostly_False"]').checked,
+      mixed_true_and_false: document.querySelector('crowd-radio-button[name="machine_Mixed_True_and_False"]').checked,
+      no_factual: document.querySelector('crowd-radio-button[name="machine_No_Factual"]').checked,
     };
-  
-  
+    
     const final_judgement = {
-      final_true: document.querySelector('crowd-radio-button[name="final_true"]').checked,
-      final_mostly_true: document.querySelector('crowd-radio-button[name="final_mostly_true"]').checked,
-      final_half_true: document.querySelector('crowd-radio-button[name="final_half_true"]').checked,
-      final_mostly_false: document.querySelector('crowd-radio-button[name="final_mostly_false"]').checked,
-      final_false: document.querySelector('crowd-radio-button[name="final_false"]').checked,
-      final_pants_on_fire: document.querySelector('crowd-radio-button[name="final_pants_on_fire"]').checked,
-
+      mostly_true: document.querySelector('crowd-radio-button[name="final_Mostly_True"]').checked,
+      mostly_false: document.querySelector('crowd-radio-button[name="final_Mostly_False"]').checked,
+      mixed_true_and_false: document.querySelector('crowd-radio-button[name="final_Mixed_True_and_False"]').checked,
+      no_factual: document.querySelector('crowd-radio-button[name="final_No_Factual"]').checked,
     };
+    
+    const init_judgement = {
+      mostly_true: document.querySelector('crowd-radio-button[name="init_Mostly_True"]').checked,
+      mostly_false: document.querySelector('crowd-radio-button[name="init_Mostly_False"]').checked,
+      mixed_true_and_false: document.querySelector('crowd-radio-button[name="init_Mixed_True_and_False"]').checked,
+      no_factual: document.querySelector('crowd-radio-button[name="init_No_Factual"]').checked,
+    };
+    
   
     const submitData = {
       "vetting": vetting,
@@ -166,10 +158,10 @@ const CrowdComponent = ({ onSubmit, taskData }) => {
               <p>{question_text}</p>
           </div>
         <crowd-radio-group  required>
-          <crowd-radio-button name="Mostly_True" value="Mostly_True">Msostly True </crowd-radio-button>
-          <crowd-radio-button name="Mostly_False" value="Mostly_False">Mostly False</crowd-radio-button>
-          <crowd-radio-button name="Mixed_True_and_False" value="Mixed_True_and_False">Mixed True and False</crowd-radio-button>
-          <crowd-radio-button name="No_Factual" value="No_Factual">No Factual Information</crowd-radio-button>
+        <crowd-radio-button name="init_Mostly_True" value="mtrue">Mostly True</crowd-radio-button>
+        <crowd-radio-button name="init_Mostly_False" value="mfalse">Mostly False</crowd-radio-button>
+        <crowd-radio-button name="init_Mixed_True_and_False" value="mixture">Mixed True and False</crowd-radio-button>
+        <crowd-radio-button name="init_No_Factual" value="nofact">No Factual Information</crowd-radio-button>
         </crowd-radio-group>
         </div>
 
@@ -215,10 +207,11 @@ const CrowdComponent = ({ onSubmit, taskData }) => {
             
           
           <crowd-radio-group  required>
-          <crowd-radio-button name="Mostly_True" value="Mostly_True">Mostly True </crowd-radio-button>
-          <crowd-radio-button name="Mostly_False" value="Mostly_False">Mostly False</crowd-radio-button>
-          <crowd-radio-button name="Mixed_True_and_False" value="Mixed_True_and_False">Mixed True and False</crowd-radio-button>
-          <crowd-radio-button name="No_Factual" value="No_Factual">No Factual Information</crowd-radio-button>
+          <crowd-radio-button name="machine_Mostly_True" value="mtrue">Mostly True</crowd-radio-button>
+          <crowd-radio-button name="machine_Mostly_False" value="mfalse">Mostly False</crowd-radio-button>
+          <crowd-radio-button name="machine_Mixed_True_and_False" value="mixture">Mixed True and False</crowd-radio-button>
+          <crowd-radio-button name="machine_No_Factual" value="nofact">No Factual Information</crowd-radio-button>
+
         </crowd-radio-group>
         </div>
 
@@ -230,11 +223,10 @@ const CrowdComponent = ({ onSubmit, taskData }) => {
         <h2>{"Based on your own judgement and anything you may have learned from the LLM agent produce your final answer"}</h2>
 
         <crowd-radio-group  required>
-          <crowd-radio-button name="Mostly_True" value="Mostly_True">Mostly True </crowd-radio-button>
-          <crowd-radio-button name="Mostly_False" value="Mostly_False">Mostly False</crowd-radio-button>
-          <crowd-radio-button name="Mixed_True_and_False" value="Mixed_True_and_False">Mixed True and False</crowd-radio-button>
-          <crowd-radio-button name="No_Factual" value="No_Factual">No Factual Information</crowd-radio-button>
-          <crowd-radio-button name="Uncertain" value="5">Uncertain</crowd-radio-button>
+        <crowd-radio-button name="final_Mostly_True" value="mtrue">Mostly True</crowd-radio-button>
+        <crowd-radio-button name="final_Mostly_False" value="mfalse">Mostly False</crowd-radio-button>
+        <crowd-radio-button name="final_Mixed_True_and_False" value="mixture">Mixed True and False</crowd-radio-button>
+        <crowd-radio-button name="final_No_Factual" value="noface">No Factual Information</crowd-radio-button>
         </crowd-radio-group>
         <h2>{"If your final answer differs from either GPT or your initial answer, please tell us why you made your choice"}</h2>
         <crowd-input name="validation" label="validation" required></crowd-input>
