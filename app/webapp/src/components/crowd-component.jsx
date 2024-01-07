@@ -184,9 +184,9 @@ const CrowdComponent = ({ onSubmit, taskData }) => {
                 wordWrap: 'break-word'
             }}>
               <h2>Interraction Text: Paste this directly into the Chat GPT window</h2>
-              <p>You are tasked with providing logical reasoning to classify a news article's accuracy. Categories range from 'mostly false' to 'mostly true'. Your reasoning should be a comprehensive paragraph of 70-150 words.</p>
-              <p>Write a step-by-step logical summary justifying the conclusion based on the statement only. Provide a thorough analysis and, in borderline cases, seek the user’s perspective for final determination. Conclude with a summary analysis before the final classification.</p>
-              <p>Be sure to collaborate with your partner, and if you need something looked up or clarified, ask for assistance </p>
+              <p>You are tasked with providing logical reasoning to classify a news article's accuracy. Categories range from 'mostly false' to 'mostly true'.</p>
+              <p>For each factual claim and then the article as a whole write a step-by-step logical analysis, evaluating the truthfulness of each statement and the article as awhole. In borderline cases, seek the user’s perspective for final determination. Conclude with a summary analysis before the final classification.</p>
+              <p>Be sure to collaborate with the user, and if you need something looked up or clarified, ask for assistance </p>
               <h3>Categories Defined</h3>
               <ul>
                   <li><strong>MOSTLY TRUE</strong></li>
@@ -200,7 +200,7 @@ const CrowdComponent = ({ onSubmit, taskData }) => {
               <h3>Task Instructions</h3>
               <ol>
                   <li>Summary of Analysis: <em>[Provide logical summary here]</em></li>
-                  <li>Conclusion: <em>[pants-on-fire, false, mostly false, half-true, mostly-true, true]</em></li>
+                  <li>Conclusion: <em>[Mostly false, mixed, mostly True, no Factual statements]</em></li>
                   <li>Questions for Further Clarification: <em>[List questions here if applicable]</em></li>
               </ol>
           </div>
