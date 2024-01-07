@@ -134,10 +134,11 @@ const CrowdComponent = ({ onSubmit, taskData }) => {
 
 
         <h1>
-          {"Instructions"}
+          {"Wikipedia Moderator Forum Language Task: Instructions"}
         </h1>
         <div style={{ fontSize: '20px', fontWeight: 'bold'  }}>
           <p>Welcome to this text classification task. In this task, you are required to collaborate with a Chat GPT assistant to help you determine the characteristics of a given piece of text.</p>
+          <p>Note: The text in this task is taken from Wikipedia moderator forum interractions</p>
           <ol>
               <li>First, read the text and make your own judgement without interacting with the chat GPT agent.</li>
               <li>Second, take the pre-prepared "Interaction text" and paste it into the chat GPT window. Record chat GPT's response.</li>
