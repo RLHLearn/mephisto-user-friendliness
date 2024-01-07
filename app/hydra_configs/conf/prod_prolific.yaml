@@ -16,10 +16,10 @@ mephisto:
     units_per_assignment: 1
   log_level: "debug"
   task:
-    task_name: "llm-user-p"
+    task_name: "FN-GPT"
     task_title: "LLM User Friendliness Task"
     task_description: "This task tests the collaboration between users and LLMs."
-    task_reward: 10
+    task_reward: 30
     task_tags: "static,task,testing"
     max_num_concurrent_units: 100
   provider:
@@ -27,7 +27,7 @@ mephisto:
     prolific_id_option: "url_parameters"
     prolific_workspace_name: "UQ Workspace"
     prolific_project_name: "Big5_LLM"
-    prolific_estimated_completion_time_in_minutes: 15
+    prolific_estimated_completion_time_in_minutes: 3
 #    prolific_allow_list_group_name: "Allow list"
 #    prolific_block_list_group_name: "Block list"
 #    prolific_eligibility_requirements:
