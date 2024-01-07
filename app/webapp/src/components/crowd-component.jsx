@@ -183,15 +183,15 @@ const CrowdComponent = ({ onSubmit, taskData }) => {
                 maxWidth: '800px',
                 wordWrap: 'break-word'
             }}>
-              <h2>Paste this directly into the Chat GPT window</h2>
+              <h2>Interraction Text: Paste this directly into the Chat GPT window</h2>
               <p>You are tasked with providing logical reasoning to classify a news article's accuracy. Categories range from 'mostly false' to 'mostly true'. Your reasoning should be a comprehensive paragraph of 70-150 words.</p>
               <p>Write a step-by-step logical summary justifying the conclusion based on the statement only. Provide a thorough analysis and, in borderline cases, seek the user’s perspective for final determination. Conclude with a summary analysis before the final classification.</p>
               <p>Be sure to collaborate with your partner, and if you need something looked up or clarified, ask for assistance </p>
               <h3>Categories Defined</h3>
               <ul>
-                  <li><strong>MOSTLY TRUE:</strong></li>
-                  <li><strong>MOSTLY FALSE:</strong></li>
-                  <li><strong>MIXED:</strong></li>
+                  <li><strong>MOSTLY TRUE</strong></li>
+                  <li><strong>MOSTLY FALSE</strong></li>
+                  <li><strong>MIXED</strong></li>
                   <li><strong>NO FACTUAL STATEMENT</strong></li>
 
               </ul>
