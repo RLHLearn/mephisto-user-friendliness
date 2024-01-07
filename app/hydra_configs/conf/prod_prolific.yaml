@@ -16,7 +16,7 @@ mephisto:
     units_per_assignment: 1
   log_level: "debug"
   task:
-    task_name: "Hate-GPT"
+    task_name: "Hate-GPT-Pilot"
     task_title: "LLM User Friendliness Task"
     task_description: "This task tests the collaboration between users and LLMs."
     task_reward: 30
