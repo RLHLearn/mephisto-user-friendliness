@@ -1,7 +1,37 @@
 [
     {
-        "ID": "3958ebe7e68e509d",
-        "question_text": "and yeah i suck at wiki formatting.......",
+        "ID": "9bd903c6b29d923f",
+        "question_text": "stupid blocks\nreal cute first you block then you vandalize my comments. do it agan and i will report you, pov pusher.",
+        "toxic": 1,
+        "severe_toxic": 0,
+        "obscene": 1,
+        "threat": 0,
+        "insult": 1,
+        "identity_hate": 0
+    },
+    {
+        "ID": "81587c4dd6944213",
+        "question_text": "Do not threaten me you nazi!! You can't stop me. I hope you are going to be online all day, because I will be! And I will be monitoring this page. You can't block me, I am an admin. So have fun. Latuff is gay, plain and simple, his mom left his dad for a jew. I have reliable sources.",
+        "toxic": 1,
+        "severe_toxic": 0,
+        "obscene": 0,
+        "threat": 0,
+        "insult": 1,
+        "identity_hate": 1
+    },
+    {
+        "ID": "7071a7a118813da2",
+        "question_text": "What the fuck? Ur a dick, urv never even been 2 helensville ya mommas boi!!!",
+        "toxic": 1,
+        "severe_toxic": 0,
+        "obscene": 1,
+        "threat": 0,
+        "insult": 1,
+        "identity_hate": 0
+    },
+    {
+        "ID": "fcc1e21fd7197b00",
+        "question_text": "Eliot Higgins with Garry Kasparov\nYou said  Bellingcat - 'is A rubbish rag of discontented youths that has no place in the realm of learned men' , so I just wanted to share this photo with you, of Eliot Higgins with Kasparov -  Eliot Higgins, founder of Bellingcat with Kasparov and others - you are a vindictive non-entity imo and should spend more time humbly seeking to inform others on this  encyclopedia site with your content , and less time slagging off  people like Higgins who are your  moral and intellectual superiors. just my opinion. you pompous idiot you.92.3.10.9",
         "toxic": 1,
         "severe_toxic": 0,
         "obscene": 0,
@@ -10,18 +40,38 @@
         "identity_hate": 0
     },
     {
-        "ID": "b905c67ac1638a2c",
-        "question_text": "\"\n\nThat's ridiculous!  Have you never read Viz?  Look there's even a wikipedia page on it!  The Fat Slags \u00a0(talk) \n\nI think the last laugh is mine! \u00a0(talk) \"",
+        "ID": "3f6a7c396c55ca20",
+        "question_text": "Eww, I can s m e l l something horrible round here! \n\nEwwww is that you? i can s m e l l you from here, man! peee-yewww!go take a bath or something, fleabag!",
         "toxic": 1,
         "severe_toxic": 0,
         "obscene": 0,
         "threat": 0,
-        "insult": 0,
+        "insult": 1,
         "identity_hate": 0
     },
     {
-        "ID": "e4b3e39b533164e5",
-        "question_text": "Hello \n\nHello, I have just recieved a warning from you, may I advise you to shove it down your cunt. 89.240.204.192",
+        "ID": "17dd103aa83a76ab",
+        "question_text": "hello moto \n\nhello flygayguy649 i hope u get a dick stuck up your ass i am a 13 year old kkk member. and i'll kick your ass so stay away and dont delete my pages. BITCH!!!",
+        "toxic": 1,
+        "severe_toxic": 1,
+        "obscene": 1,
+        "threat": 1,
+        "insult": 1,
+        "identity_hate": 0
+    },
+    {
+        "ID": "e3ca88df1edf3e74",
+        "question_text": ".\n\n Dont \nThreaten me you little faggot. Ill come to your house and slit your mother's throat. God knows if you are a wikipeida admin you still live with her. Im going to sexually abuse her after. Good day sir",
+        "toxic": 1,
+        "severe_toxic": 0,
+        "obscene": 1,
+        "threat": 1,
+        "insult": 1,
+        "identity_hate": 1
+    },
+    {
+        "ID": "feb04c8ced10a902",
+        "question_text": "Why block away kind sir..This is a dynamic IP and I am leaving here shortly..Do the deed fu*kwit. You are a puppet on my string.....",
         "toxic": 0,
         "severe_toxic": 0,
         "obscene": 1,
@@ -30,13 +80,23 @@
         "identity_hate": 0
     },
     {
-        "ID": "59efcbfbfc3a0641",
-        "question_text": "You just make me laugh \n\nHAHAHAHAHAHA so you are some aussie bitch hiding behind a computer and changing what i write, im half abo half lebo so i am the truth u cannot face but your girlfriend faces every night ;)",
-        "toxic": 1,
+        "ID": "5de253e8c8171561",
+        "question_text": "Kill Feldspar \n\nFeldspar is a blathering idiot that should be publicly executed for his attempted use of force in place of honest debate to reconcile differences in opinion. Forever small minded psuedointellectuals such as he hide behind anti violence laws and become masters at manipulation, abuse of rules, and all manner of passive aggressive means to force others to accept their views. Antiviolence laws are obviously not designed to protect such behavior, rather they are designed to encourage open mindedness towards others viewpoints with the understanding that noone wins when people use force back and forth to overcome each others' opinions.",
+        "toxic": 0,
         "severe_toxic": 0,
         "obscene": 1,
+        "threat": 1,
+        "insult": 0,
+        "identity_hate": 0
+    },
+    {
+        "ID": "073b0064f3ec42d6",
+        "question_text": "\"back the fuck off. Take your 12 year old ass and buy some fucking Webkinz and stop trying to involve yourself in something you don't understand and act like some Internet tough guy. If I get another post from you, I'll track down your parents and have a talk with them.\n, 2008\n\n\"",
+        "toxic": 1,
+        "severe_toxic": 1,
+        "obscene": 1,
         "threat": 0,
-        "insult": 1,
+        "insult": 0,
         "identity_hate": 0
     }
 ]
