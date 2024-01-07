@@ -100,11 +100,14 @@ const CrowdComponent = ({ onSubmit, taskData }) => {
       final_identity_hate: document.querySelector('crowd-radio-button[name="final_identity_hate"]').checked,
     };
   
+    const validation =  document.querySelector(`crowd-input[name="validation"]`).value;
+
     const submitData = {
       "vetting": vetting,
       "initial": init_judgement,
       "machine":machine_judgement,
-      "final":final_judgement
+      "final":final_judgement,
+      "validation":validation
     };
   
     onSubmit?.(submitData);
@@ -146,7 +149,7 @@ const CrowdComponent = ({ onSubmit, taskData }) => {
       </div>
 
         <h1>
-          {"Step 1: Personal Judgement "}
+          {"Step 1: Personal Judgement (select all that apply)"}
         </h1> 
 
         <div>
@@ -175,7 +178,7 @@ const CrowdComponent = ({ onSubmit, taskData }) => {
       
 
         <h1>
-          {"Step 2: Machine Answer"}
+          {"Step 2: Machine Answer (select all that apply)"}
         </h1> 
 
         <div>
@@ -191,8 +194,9 @@ const CrowdComponent = ({ onSubmit, taskData }) => {
                 wordWrap: 'break-word'
             }}>
               <h2>Paste this directly into the Chat GPT window</h2>
-              <p>You are tasked with providing logical reasoning to determine the various toxicity, offensiveness and obscene characteristics of a piece of text.you are asked to select all options that apply and provide reasoning should be a comprehensive paragraph of 70-150 words.</p>
-              <p>Write a step-by-step logical summary justifying the conclusion based on the statement only. Provide a thorough analysis for each attribute and, in borderline cases, seek the user’s perspective for final determination. Conclude with a summary analysis before the final classification.</p>
+              <p>You are tasked with providing logical reasoning to determine the various toxicity, offensiveness and obscene characteristics of a piece of text.</p>
+              <p>For each attribute provide a step by step analysis to determine if it applies to the text.</p>
+              <p>In borderline cases, seek the user’s perspective for final determination. Conclude with a summary analysis and final labels.</p>
               <p>Be sure to collaborate with the user, and if you need something looked up or clarified, ask for assistance </p>
               <h3>Attributes: provide yes/no for each</h3>
               <ul>
@@ -225,7 +229,7 @@ const CrowdComponent = ({ onSubmit, taskData }) => {
         </div>
 
         <h1>
-          {"Step 3: Final Answer"}
+          {"Step 3: Final Answer (select all that apply)"}
         </h1> 
 
         <div>
