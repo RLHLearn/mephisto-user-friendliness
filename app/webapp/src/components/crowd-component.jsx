@@ -94,12 +94,14 @@ const CrowdComponent = ({ onSubmit, taskData }) => {
       no_factual: document.querySelector('crowd-radio-button[name="init_No_Factual"]').checked,
     };
     
-  
+    const validation =  document.querySelector(`crowd-input[name="validation"]`).value;
+
     const submitData = {
       "vetting": vetting,
       "initial": init_judgement,
       "machine":machine_judgement,
-      "final":final_judgement
+      "final":final_judgement,
+      "validation":validation
     };
   
     onSubmit?.(submitData);
