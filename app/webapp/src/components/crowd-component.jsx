@@ -239,7 +239,7 @@ const CrowdComponent = ({ onSubmit, taskData }) => {
           {"Instructions"}
         </h1>
         <div style={{ fontSize: '20px', fontWeight: 'bold'  }}>
-          <p>Welcome to this emotion detection task. In this task, you are required to collaborate with a Chat GPT assistant to help you determine the emotion in a given piece of text.</p>
+          <p>Welcome to this emotion detection task. In this task, you are required to collaborate with a Chat GPT assistant to help you determine the emotion in each line of a conversation.</p>
           <ol>
               <li>First, read the text and make your own judgement without interacting with the chat GPT agent.</li>
               <li>Second, take the pre-prepared "Interaction text" and paste it into the chat GPT agent. Record the agent's response.</li>
@@ -315,7 +315,7 @@ const CrowdComponent = ({ onSubmit, taskData }) => {
             }}>
               <h2>Paste this directly into the Chat GPT window</h2>
               <p>You are tasked with analysing the emotions experessed in each line of a dialogue.</p>
-              <p>For each line in this dialogue, provide an emotion judgement, and a brief validation.</p>
+              <p>For each line in this dialogue, provide an emotion judgement, and a brief explaination.</p>
               <p>If there are any rows you are uncertain of, or you need any assistance ask questions </p>
               <h3>Categories Defined</h3>
               <h3>Emotion Categories Defined</h3>
