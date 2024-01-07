@@ -196,6 +196,8 @@ const CrowdComponent = ({ onSubmit, taskData }) => {
       init_surprise_3: document.querySelector('crowd-radio-button[name="init_surprise_3"]').checked,
     };
 
+
+    
     const submitData = {
       "vetting": vetting,
       "final_0": final_judgement_0,
