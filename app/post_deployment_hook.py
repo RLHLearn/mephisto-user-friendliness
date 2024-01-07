@@ -1,7 +1,7 @@
 import os
 
 APP_NAME = os.getenv('APP_NAME', 'temp')
-APP_ENV = os.getenv('APP_ENV', 'dev')
+APP_ENV = os.getenv('APP_ENV', 'prod')
 def handle(*args):
     # run clean_up.sh script, the script is in the same directory as this file
     print("Running post deployment hook")
