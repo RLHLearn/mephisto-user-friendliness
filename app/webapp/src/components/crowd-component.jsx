@@ -196,6 +196,7 @@ const CrowdComponent = ({ onSubmit, taskData }) => {
             }}>
               <h2>Paste this directly into the Chat GPT window</h2>
               <p>You are tasked with providing logical reasoning to determine the various toxicity, offensiveness and obscene characteristics of a piece of text.</p>
+              <p>The text samples are taken from the Wikipedia moderator forums</p>
               <p>For each attribute provide a step by step analysis to determine if it applies to the text.</p>
               <p>In borderline cases, seek the user’s perspective for final determination. Conclude with a summary analysis and final labels.</p>
               <p>Be sure to collaborate with the user, and if you need something looked up or clarified, ask for assistance </p>
