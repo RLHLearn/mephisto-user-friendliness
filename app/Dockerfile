@@ -35,7 +35,7 @@ RUN git config --global --add safe.directory '*'
 RUN echo -e "$DOTNETRC" > /root/.netrc
 
 RUN mephisto register "$MTURK_TYPE" name="$MTURK_NAME" access_key_id="$MTURK_ACCESS_KEY_ID" secret_access_key="$MTURK_SECRET_ACCESS_KEY"
-RUN mephisto register prolific name=prolific api_key="$PROLIFIC_API_KEY"
+RUN mephist register prolific name=prolific api_key="$PROLIFIC_API_KEY"
 
 RUN aws configure --profile mpt set aws_access_key_id $AWS_ACCESS_KEY_ID
 RUN aws configure --profile mpt set aws_secret_access_key $AWS_SECRET_ACCESS_KEY
