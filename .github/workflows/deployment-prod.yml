@@ -2,10 +2,10 @@ name: Deployment - Prod
 on:
   push:
     branches:
-      - dep-prod-exp2-hate-GPT-pilot
+      - dep-prod-exp-2-hate-GPT-pilot
   pull_request:
     branches:
-      - dep-prod-exp2-hate-GPT-pilot
+      - dep-prod-exp-2-hate-GPT-pilot
 
 env:
   MTURK_NAME: my_mturk_user
