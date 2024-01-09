@@ -19,7 +19,7 @@ import post_deployment_hook as post
 import pre_deployment_hook as pre
 import os, signal
 
-env = "prod"
+env = os.environ.get("APP_ENV", "")
 
 default_config_file = "dev.yaml"
 # default_config_file = "dev_ec2.yaml"
