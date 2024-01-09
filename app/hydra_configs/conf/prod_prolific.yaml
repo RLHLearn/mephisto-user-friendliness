@@ -16,7 +16,7 @@ mephisto:
     units_per_assignment: 3
   log_level: "debug"
   task:
-    task_name: "FN-GPT-pilot"
+    task_name: "FN-GPT-full"
     task_title: "LLM User Friendliness Task"
     task_description: "This task tests the collaboration between users and LLMs."
     task_reward: 50
