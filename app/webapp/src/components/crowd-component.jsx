@@ -196,8 +196,9 @@ const CrowdComponent = ({ onSubmit, taskData }) => {
       init_surprise_3: document.querySelector('crowd-radio-button[name="init_surprise_3"]').checked,
     };
 
+    const validation =  document.querySelector(`crowd-input[name="validation"]`).value;
 
-    
+
     const submitData = {
       "vetting": vetting,
       "final_0": final_judgement_0,
@@ -211,7 +212,8 @@ const CrowdComponent = ({ onSubmit, taskData }) => {
       "init_0": init_judgement_0,
       "init_1": init_judgement_1,
       "init_2": init_judgement_2,
-      "init_3": init_judgement_3
+      "init_3": init_judgement_3,
+      "validation":validation
     };
   
     onSubmit?.(submitData);
