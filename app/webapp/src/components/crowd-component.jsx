@@ -384,7 +384,9 @@ const CrowdComponent = ({ onSubmit, taskData }) => {
                 : 
                 <p>{question_text}</p>
             }
-          </div>
+          <h2>{"If your final answer differs from either GPT or your initial answer, please tell us why you made your choice"}</h2>
+        <crowd-input name="validation" label="validation" required></crowd-input>
+        </div>
         </crowd-form>
 
       </>
