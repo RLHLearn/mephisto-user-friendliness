@@ -53,13 +53,13 @@ const FullInstructions = () => (
 
 
 
-
 const CrowdComponent = ({ onSubmit, taskData }) => {
   const imageUrl = taskData.imageUrl;
   const question_text = taskData.question_text;
   const subjects = taskData.subjects;
   const speaker = taskData.speaker;
   const context = taskData.context;
+  const article_text = taskData.article_text;
 
 
 
@@ -74,24 +74,21 @@ const CrowdComponent = ({ onSubmit, taskData }) => {
     };
   
     const machine_judgement = {
-      mostly_true: document.querySelector('crowd-radio-button[name="machine_Mostly_True"]').checked,
-      mostly_false: document.querySelector('crowd-radio-button[name="machine_Mostly_False"]').checked,
-      mixed_true_and_false: document.querySelector('crowd-radio-button[name="machine_Mixed_True_and_False"]').checked,
-      no_factual: document.querySelector('crowd-radio-button[name="machine_No_Factual"]').checked,
+      fake: document.querySelector('crowd-radio-button[name="machine_fake"]').checked,
+      real: document.querySelector('crowd-radio-button[name="machine_real"]').checked,
+      satire: document.querySelector('crowd-radio-button[name="machine_satire"]').checked,
     };
     
     const final_judgement = {
-      mostly_true: document.querySelector('crowd-radio-button[name="final_Mostly_True"]').checked,
-      mostly_false: document.querySelector('crowd-radio-button[name="final_Mostly_False"]').checked,
-      mixed_true_and_false: document.querySelector('crowd-radio-button[name="final_Mixed_True_and_False"]').checked,
-      no_factual: document.querySelector('crowd-radio-button[name="final_No_Factual"]').checked,
+      fake: document.querySelector('crowd-radio-button[name="final_fake"]').checked,
+      real: document.querySelector('crowd-radio-button[name="final_real"]').checked,
+      satire: document.querySelector('crowd-radio-button[name="final_satire"]').checked,
     };
     
     const init_judgement = {
-      mostly_true: document.querySelector('crowd-radio-button[name="init_Mostly_True"]').checked,
-      mostly_false: document.querySelector('crowd-radio-button[name="init_Mostly_False"]').checked,
-      mixed_true_and_false: document.querySelector('crowd-radio-button[name="init_Mixed_True_and_False"]').checked,
-      no_factual: document.querySelector('crowd-radio-button[name="init_No_Factual"]').checked,
+      fake: document.querySelector('crowd-radio-button[name="init_fake"]').checked,
+      real: document.querySelector('crowd-radio-button[name="init_real"]').checked,
+      satire: document.querySelector('crowd-radio-button[name="init_satire"]').checked,
     };
     
     const validation =  document.querySelector(`crowd-input[name="validation"]`).value;
@@ -150,20 +147,21 @@ const CrowdComponent = ({ onSubmit, taskData }) => {
         <h2>{"Make your own judgement as to whether the following is fake news"}</h2>
           
         <div style={{ 
-                border: '1px solid black', 
-                padding: '10px', 
-                margin: '10px', 
-                backgroundColor: '#f0f0f0',
-                maxWidth: '800px',
-                wordWrap: 'break-word'
-            }}>
-              <p>{question_text}</p>
+              border: '1px solid black', 
+              padding: '10px', 
+              margin: '10px', 
+              backgroundColor: '#f0f0f0',
+              maxWidth: '800px',
+              wordWrap: 'break-word'
+          }}>
+              <h3>{question_text}</h3>
+              <p>{article_text}</p>
           </div>
+
         <crowd-radio-group  required>
-        <crowd-radio-button name="init_Mostly_True" value="mtrue">Mostly True</crowd-radio-button>
-        <crowd-radio-button name="init_Mostly_False" value="mfalse">Mostly False</crowd-radio-button>
-        <crowd-radio-button name="init_Mixed_True_and_False" value="mixture">Mixed True and False</crowd-radio-button>
-        <crowd-radio-button name="init_No_Factual" value="nofact">No Factual Information</crowd-radio-button>
+        <crowd-radio-button name="init_real" value="real">Real News</crowd-radio-button>
+        <crowd-radio-button name="init_fake" value="fake">Fake News</crowd-radio-button>
+        <crowd-radio-button name="init_satire" value="satire">Satire</crowd-radio-button>
         </crowd-radio-group>
         </div>
 
@@ -186,34 +184,32 @@ const CrowdComponent = ({ onSubmit, taskData }) => {
                 wordWrap: 'break-word'
             }}>
               <h2>Interraction Text: Paste this directly into the Chat GPT window</h2>
-              <p>You are tasked with providing logical reasoning to classify a news article's accuracy. Categories range from 'mostly false' to 'mostly true'.</p>
-              <p>For each factual claim and then the article as a whole write a step-by-step logical analysis, evaluating the truthfulness of each statement and the article as awhole. In borderline cases, seek the user’s perspective for final determination. Conclude with a summary analysis before the final classification.</p>
+              <p>You are tasked with providing logical reasoning to classify a news article title as fake news, real news or satire.</p>
+              <p>Write a step-by-step logical analysis, evaluating different aspects of the title for linguistic, factual or emotional clues which may help in the judgement. In borderline cases, seek the user’s perspective for final determination. Conclude with a summary analysis before the final classification.</p>
               <p>Be sure to collaborate with the user, and if you need something looked up or clarified, ask for assistance </p>
               <h3>Categories Defined</h3>
               <ul>
-                  <li><strong>MOSTLY TRUE</strong></li>
-                  <li><strong>MOSTLY FALSE</strong></li>
-                  <li><strong>MIXED</strong></li>
-                  <li><strong>NO FACTUAL STATEMENT</strong></li>
+                  <li><strong>Real News</strong></li>
+                  <li><strong>Fake News</strong></li>
+                  <li><strong>Satire</strong></li>
 
               </ul>
               <h3>Statement: </h3>
-              <p>{question_text}</p>
+              <h3>{question_text}</h3>
+              <p>{article_text}</p>
               <h3>Task Instructions</h3>
               <ol>
                   <li>Summary of Analysis: <em>[Provide logical summary here]</em></li>
-                  <li>Conclusion: <em>[Mostly false, mixed, mostly True, no Factual statements]</em></li>
+                  <li>Conclusion: <em>[Real News, Fake News, Satire]</em></li>
                   <li>Questions for Further Clarification: <em>[List questions here if applicable]</em></li>
               </ol>
           </div>
             
           
           <crowd-radio-group  required>
-          <crowd-radio-button name="machine_Mostly_True" value="mtrue">Mostly True</crowd-radio-button>
-          <crowd-radio-button name="machine_Mostly_False" value="mfalse">Mostly False</crowd-radio-button>
-          <crowd-radio-button name="machine_Mixed_True_and_False" value="mixture">Mixed True and False</crowd-radio-button>
-          <crowd-radio-button name="machine_No_Factual" value="nofact">No Factual Information</crowd-radio-button>
-
+        <crowd-radio-button name="machine_real" value="real">Real News</crowd-radio-button>
+        <crowd-radio-button name="machine_fake" value="fake">Fake News</crowd-radio-button>
+        <crowd-radio-button name="machine_satire" value="satire">Satire</crowd-radio-button>
         </crowd-radio-group>
         </div>
 
@@ -225,10 +221,9 @@ const CrowdComponent = ({ onSubmit, taskData }) => {
         <h2>{"Based on your own judgement and anything you may have learned from the LLM agent produce your final answer"}</h2>
 
         <crowd-radio-group  required>
-        <crowd-radio-button name="final_Mostly_True" value="mtrue">Mostly True</crowd-radio-button>
-        <crowd-radio-button name="final_Mostly_False" value="mfalse">Mostly False</crowd-radio-button>
-        <crowd-radio-button name="final_Mixed_True_and_False" value="mixture">Mixed True and False</crowd-radio-button>
-        <crowd-radio-button name="final_No_Factual" value="noface">No Factual Information</crowd-radio-button>
+        <crowd-radio-button name="final_real" value="real">Real News</crowd-radio-button>
+        <crowd-radio-button name="final_fake" value="fake">Fake News</crowd-radio-button>
+        <crowd-radio-button name="final_satire" value="satire">Satire</crowd-radio-button>
         </crowd-radio-group>
         <h2>{"If your final answer differs from either GPT or your initial answer, please tell us why you made your choice"}</h2>
         <crowd-input name="validation" label="validation" required></crowd-input>

@@ -2,10 +2,10 @@ name: Deployment - Prod
 on:
   push:
     branches:
-      - dep-prod-exp-2-fn-GPT-full-2
+      - dep-prod-exp-2-FN-GPT-full-3
   pull_request:
     branches:
-      - dep-prod-exp-2-fn-GPT-full-2
+      - dep-prod-exp-2-FN-GPT-full-3
 
 env:
   MTURK_NAME: my_mturk_user
@@ -13,7 +13,7 @@ env:
   USER_EMAIL: jaythaiduong.huynh@uq.edu.au
   USER_NAME: jaythaiduong.huynh
   REPO_DIR: ~/${{ github.event.repository.name }}-${{ github.ref_name }}
-  APP_NAME: dep-prod-exp-2-FN-GPT-pilot
+  APP_NAME: dep-prod-exp-2-FN-GPT-full-3
   APP_ENV: prod
   AWS_REGION: ap-southeast-2
   SVLD_VERSION: main

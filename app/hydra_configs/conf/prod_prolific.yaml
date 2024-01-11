@@ -13,13 +13,13 @@ mephisto:
     task_source: ${task_dir}/webapp/build/bundle.js
     link_task_source: false
     extra_source_dir: ${task_dir}/webapp/src/static
-    units_per_assignment: 3
+    units_per_assignment: 1
   log_level: "debug"
   task:
-    task_name: "FN-GPT-full-2"
-    task_title: "FN-GPT-full-2"
+    task_name: "FN-GPT-full-3-pilot"
+    task_title: "FN-GPT-full-3-pilot"
     task_description: "This task tests the collaboration between users and LLMs."
-    task_reward: 50
+    task_reward: 30
     task_tags: "static,task,testing"
     max_num_concurrent_units: 100
   provider:
