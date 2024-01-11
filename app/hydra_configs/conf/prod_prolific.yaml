@@ -16,8 +16,8 @@ mephisto:
     units_per_assignment: 1
   log_level: "debug"
   task:
-    task_name: "FN-GPT-full-3-pilot"
-    task_title: "FN-GPT-full-3-pilot"
+    task_name: "FN-GPT-full-3"
+    task_title: "FN-GPT-full-3"
     task_description: "This task tests the collaboration between users and LLMs."
     task_reward: 30
     task_tags: "static,task,testing"
