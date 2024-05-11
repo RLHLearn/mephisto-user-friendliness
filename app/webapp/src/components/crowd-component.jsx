@@ -233,6 +233,20 @@ const CrowdComponent = ({ onSubmit, taskData }) => {
         </crowd-radio-group>
         </div>
 
+        <div style={{ 
+              border: '1px solid black', 
+              padding: '10px', 
+              margin: '10px', 
+              backgroundColor: '#f0f0f0',
+              wordWrap: 'break-word'
+          }}>   
+        <h2>{"Final Step: Discuss your experiecne"}</h2>
+        <p>Please finish off the task by discussing your expereince, that of interracting with GPT to complete the task, the quirks of prompting GPT and any other notes you might have.</p>
+
+        <crowd-input name="user_perceptions" label="user_perceptions" required></crowd-input>
+
+        </div>
+        
         </crowd-form>
         </div>
       </>
