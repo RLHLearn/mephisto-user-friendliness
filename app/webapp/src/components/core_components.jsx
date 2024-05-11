@@ -49,7 +49,7 @@ function OnboardingComponent({onSubmit}) {
 }
 
 function LoadingScreen() {
-  return <Directions>Loading...</Directions>;
+  return <Directions>Loading... hit refresh if taking too long</Directions>;
 }
 
 function Directions({children}) {
@@ -64,18 +64,41 @@ function Directions({children}) {
   );
 }
 
-function SimpleFrontend({taskData, fullData, isOnboarding, onSubmit, onError, getAgentRegistration}) {
-  const data = {success: true};
+function SimpleFrontend({ taskData, fullData, isOnboarding, onSubmit, onError, getAgentRegistration }) {
+  const data = { success: true };
 
   return (
     <>
       <div style={{ display: 'flex', width: '80%', height: '100vh', marginLeft: '10%' }}>
-        <div style={{ flex: '50%', backgroundColor: 'white' }}>
-          <CrowdComponent taskData={taskData} onSubmit={onSubmit}/>
+        <div style={{ flex: '50%', height: '100%', backgroundColor: 'white', overflow: 'auto' }}>
+          <CrowdComponent taskData={taskData} onSubmit={onSubmit} />
         </div>
-        {<div style={{ flex: '40%', backgroundColor: 'white' }}>
-            <ChatGPT fullData={fullData} getAgentRegistration={getAgentRegistration}/>
-        </div>}
+        <div style={{ flex: '50%', height: '100%', display: 'flex', flexDirection: 'column' }}>
+          <div style={{
+              border: '1px solid black',
+              padding: '10px',
+              margin: '10px',
+              backgroundColor: '#f0f0f0',
+              wordWrap: 'break-word',
+              maxHeight: '25vh', // Limits the height to 20% of the total height of the viewport
+              overflow: 'auto'
+          }}>
+            <h1>Prompt Template</h1>
+            <h2>Modify this template and copy-paste it into Chat GPT to help your experimentation</h2>
+            <textarea
+              name="prompt"
+              style={{ width: '100%', height: '100px' }} // Adjust as needed
+              placeholder="Use this space to work on your prompt, paste it into GPT below when you're ready"
+              required
+            />
+            <p>[{taskData.question_text}]</p>
+            <p>[{taskData.article_text}]</p>
+            <p>ensure your response concludes with one: ["Fake News", "Satire", "Real News"]</p>
+          </div>
+          <div style={{ flex: '1', overflow: 'auto' }}> {/* This ensures ChatGPT uses the remaining space */}
+            <ChatGPT fullData={fullData} getAgentRegistration={getAgentRegistration} />
+          </div>
+        </div>
       </div>
     </>
   );

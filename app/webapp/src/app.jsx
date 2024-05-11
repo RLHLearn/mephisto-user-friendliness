@@ -102,7 +102,7 @@ function MainApp() {
     );
   }
   if (isLoading || !initialTaskData) {
-    return <LoadingScreen />;
+    return <h1>{"Loading, if too slow hit refresh"}</h1>;
   }
   if (isOnboarding) {
     return <OnboardingComponent onSubmit={handleSubmit} />;
