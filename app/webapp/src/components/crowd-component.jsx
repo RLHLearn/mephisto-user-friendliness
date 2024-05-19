@@ -105,7 +105,7 @@ const CrowdComponent = ({ onSubmit, taskData }) => {
               backgroundColor: '#f0f0f0',
               wordWrap: 'break-word'
           }}>    
-          <h1>Introduction</h1>
+          <h1 style={{ fontSize: '24px', fontWeight: 'bold', marginBottom: '10px' }}>Introduction</h1>
           <p>Welcome to this creative prompt writing task.</p>
           <p>The way we ask Chat GPT to do something [a prompt] can have a large impact on how it performs. We are trying to find new and creative ways to prompt Chat GPT.</p>
           <p>There are lots of experiments out there where researchers have tried to write better prompts, but there's no research where crowd-workers have been invited into this process</p>
@@ -136,7 +136,7 @@ const CrowdComponent = ({ onSubmit, taskData }) => {
               wordWrap: 'break-word'
           }}>   
   
-        <h1>
+        <h1 style={{ fontSize: '24px', fontWeight: 'bold', marginBottom: '10px' }}>
           {"Step 1: Initial Interaction"}
         </h1> 
 
@@ -156,7 +156,7 @@ const CrowdComponent = ({ onSubmit, taskData }) => {
           </div>
 
 
-        <h2>{"Record your prompt"}</h2>
+        <h2 style={{ fontSize: '24px', fontWeight: 'bold', marginBottom: '10px' }}>{"Record your prompt"}</h2>
         <crowd-input name="initial_prompt" label="initial_prompt" required></crowd-input>
 
         <h2>{"Record Chat GPT's Answer"}</h2>
@@ -178,10 +178,10 @@ const CrowdComponent = ({ onSubmit, taskData }) => {
               wordWrap: 'break-word'
           }}>
 
-        <h1>
+        <h1 style={{ fontSize: '24px', fontWeight: 'bold', marginBottom: '10px' }}>
           {"Step 2: Inspiration"}
         </h1>
-        <h2>{"Read through these example prompts, they will help give you ideas for creative ways you can prompt"}</h2>
+        <h2 style={{ fontSize: '24px', fontWeight: 'bold', marginBottom: '10px' }}>{"Read through these example prompts, they will help give you ideas for creative ways you can prompt"}</h2>
 
       <div>
       <ExamplePrompts />
@@ -197,11 +197,11 @@ const CrowdComponent = ({ onSubmit, taskData }) => {
               wordWrap: 'break-word'
           }}>   
 
-        <h1>
+        <h1 style={{ fontSize: '24px', fontWeight: 'bold', marginBottom: '10px' }}>
           {"Step 3: Brainstorming"}
         </h1> 
 
-     <h2>{"Experiment with Chat GPT to write creative and effective prompts"}</h2>
+     <h2 style={{ fontSize: '24px', fontWeight: 'bold', marginBottom: '10px' }}>{"Experiment with Chat GPT to write creative and effective prompts"}</h2>
 
         <h3>{"Brainstormed and Tested Prompt 1"}</h3>
         <crowd-input name="Brainstormed_Prompt_1" label="Brainstormed_Prompt_1" required></crowd-input>
@@ -221,7 +221,7 @@ const CrowdComponent = ({ onSubmit, taskData }) => {
               backgroundColor: '#f0f0f0',
               wordWrap: 'break-word'
           }}>   
-        <h1>
+        <h1 style={{ fontSize: '24px', fontWeight: 'bold', marginBottom: '10px' }}>
           {"Step 4: Bring it together and write the best prompt you can"}
         </h1> 
 
@@ -240,7 +240,7 @@ const CrowdComponent = ({ onSubmit, taskData }) => {
               backgroundColor: '#f0f0f0',
               wordWrap: 'break-word'
           }}>   
-        <h2>{"Final Step: Discuss your experiecne"}</h2>
+        <h2 style={{ fontSize: '24px', fontWeight: 'bold', marginBottom: '10px' }}>{"Final Step: Discuss your experiecne"}</h2>
         <p>Please finish off the task by discussing your expereince, that of interracting with GPT to complete the task, the quirks of prompting GPT and any other notes you might have.</p>
 
         <crowd-input name="user_perceptions" label="user_perceptions" required></crowd-input>
