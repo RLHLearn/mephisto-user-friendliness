@@ -1,101 +1,107 @@
 /*
- * Copyright (c) Meta Platforms and its affiliates.
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
+ * Copyright (c) 2017-present, Facebook, Inc.
+ * All rights reserved.
+ * This source code is licensed under the BSD-style license found in the
+ * LICENSE file in the root directory of this source tree. An additional grant
+ * of patent rights can be found in the PATENTS file in the same directory.
  */
 
 import React from 'react';
+import CrowdComponent from './crowd-component.jsx';
 import {
     ChatGPT,
 } from "./ChatGPT.jsx";
 
 function OnboardingComponent({onSubmit}) {
-    return (
-        <div>
-            <Directions>
-                This component only renders if you have chosen to assign an onboarding
-                qualification for your task. Click the button to move on to the main
-                task.
-            </Directions>
-            <div
-                style={{
-                    width: '100%',
-                    padding: '1.5rem 0',
-                    display: 'flex',
-                    alignItems: 'center',
-                    flexDirection: 'column',
-                }}
-            >
-                <button
-                    className="button is-success"
-                    style={{width: 'fit-content', marginBottom: '0.65rem'}}
-                    onClick={() => onSubmit({success: true})}
-                >
-                    Move to Main Task
-                </button>
-                <button
-                    className="button is-danger"
-                    style={{width: 'fit-content'}}
-                    onClick={() => onSubmit({success: false})}
-                >
-                    Get Blocked
-                </button>
-            </div>
+  return (
+      <div>
+        <Directions>
+          This component only renders if you have chosen to assign an onboarding
+          qualification for your task. Click the button to move on to the main
+          task.
+        </Directions>
+        <div
+            style={{
+              width: '100%',
+              padding: '1.5rem 0',
+              display: 'flex',
+              alignItems: 'center',
+              flexDirection: 'column',
+            }}
+        >
+          <button
+              className="button is-success"
+              style={{width: 'fit-content', marginBottom: '0.65rem'}}
+              onClick={() => onSubmit({success: true})}
+          >
+            Move to Main Task
+          </button>
+          <button
+              className="button is-danger"
+              style={{width: 'fit-content'}}
+              onClick={() => onSubmit({success: false})}
+          >
+            Get Blocked
+          </button>
         </div>
-    );
+      </div>
+  );
 }
 
 function LoadingScreen() {
-    return <Directions>Loading...</Directions>;
+  return <Directions>Loading... hit refresh if taking too long</Directions>;
 }
 
 function Directions({children}) {
-    return (
-        <section className="hero is-light" data-cy="directions-container">
-            <div className="hero-body">
-                <div className="container">
-                    <p className="subtitle is-5">{children}</p>
-                </div>
-            </div>
-        </section>
-    );
+  return (
+      <section className="hero is-light" data-cy="directions-container">
+        <div className="hero-body">
+          <div className="container">
+            <p className="subtitle is-5">{children}</p>
+          </div>
+        </div>
+      </section>
+  );
 }
 
-function SimpleFrontend({taskData, fullData, isOnboarding, onSubmit, onError, getAgentRegistration}) {
-    const [answers, setAnswers] = React.useState({
-        answer1: 'sample1',
-        answer2: '',
-    });
-    const handleInputChange = (event) => {
-        const {name, value} = event.target;
-        setAnswers({...answers, [name]: value});
-    };
-    return (
-        <div className="p-14 grid grid-cols-12">
-            <div className="p-4 col-span-6">
-                <h2 className="text-2xl font-semibold mb-4">This is sample task</h2>
-                <div>
-                    <label htmlFor="answer2"
-                           className="block text-sm font-medium text-gray-700">Input the number you see here to the box below and submit: <strong>{taskData.data.value}</strong></label>
-                    <input
-                        type="text"
-                        id="answer2"
-                        name="answer2"
-                        value={answers.answer2}
-                        onChange={handleInputChange}
-                        className="w-full px-3 py-2 border rounded-lg focus:outline-none focus:ring focus:border-blue-300"
-                    />
-                </div>
-                <button className="btn btn-outline mt-5" onClick={() => {
-                    onSubmit(answers);
-                }}>Submit
-                </button>
-            </div>
-            <div className="p-4 col-span-6 h-96">
-                <ChatGPT fullData={fullData} getAgentRegistration={getAgentRegistration}/>
-            </div>
+function SimpleFrontend({ taskData, fullData, isOnboarding, onSubmit, onError, getAgentRegistration }) {
+  const data = { success: true };
+
+  return (
+    <>
+      <div style={{ display: 'flex', width: '80%', height: '100vh', marginLeft: '10%' }}>
+        <div style={{ flex: '50%', height: '100%', backgroundColor: 'white', overflow: 'auto' }}>
+          <CrowdComponent taskData={taskData} onSubmit={onSubmit} />
         </div>
-    );
+        <div style={{ flex: '50%', height: '100%', display: 'flex', flexDirection: 'column' }}>
+          <div style={{
+              border: '1px solid black',
+              padding: '10px',
+              margin: '10px',
+              backgroundColor: '#f0f0f0',
+              wordWrap: 'break-word',
+              maxHeight: '25vh', // Limits the height to 20% of the total height of the viewport
+              overflow: 'auto'
+          }}>
+            <h1>Prompt Template</h1>
+            <h2>Modify this template and copy-paste it into Chat GPT to help your experimentation</h2>
+            <textarea
+              name="prompt"
+              style={{ width: '100%', height: '100px' }} // Adjust as needed
+              placeholder="Use this space to work on your prompt, paste it into GPT below when you're ready"
+              required
+            />
+            <p>[{taskData.question_text}]</p>
+            <p>[{taskData.article_text}]</p>
+            <p>ensure your response concludes with one: ["Fake News", "Satire", "Real News"]</p>
+          </div>
+          <div style={{ flex: '1', overflow: 'auto' }}> {/* This ensures ChatGPT uses the remaining space */}
+            <ChatGPT fullData={fullData} getAgentRegistration={getAgentRegistration} />
+          </div>
+        </div>
+      </div>
+    </>
+  );
 }
 
 export {LoadingScreen, SimpleFrontend as BaseFrontend, OnboardingComponent};
