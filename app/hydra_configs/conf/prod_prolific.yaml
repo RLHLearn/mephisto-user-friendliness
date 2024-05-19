@@ -19,7 +19,7 @@ mephisto:
     task_name: "mpt-p"
     task_title: "mpt-p Task"
     task_description: "This is a simple test of static Prolific tasks."
-    task_reward: 10
+    task_reward: 150
     task_tags: "static,task,testing"
     max_num_concurrent_units: 10
   provider:
@@ -27,7 +27,7 @@ mephisto:
     prolific_id_option: "url_parameters"
     prolific_workspace_name: "UQ Workspace"
     prolific_project_name: "Big5_LLM"
-    prolific_estimated_completion_time_in_minutes: 1
+    prolific_estimated_completion_time_in_minutes: 15
 #    prolific_allow_list_group_name: "Allow list"
 #    prolific_block_list_group_name: "Block list"
 #    prolific_eligibility_requirements:
