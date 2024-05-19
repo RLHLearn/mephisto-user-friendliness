@@ -12,7 +12,7 @@ env:
   USER_EMAIL: jaythaiduong.huynh@uq.edu.au
   USER_NAME: jaythaiduong.huynh
   REPO_DIR: ~/${{ github.event.repository.name }}-${{ github.ref_name }}
-  APP_NAME: dep-prod-exp-2-FN
+  APP_NAME: dep-prod-exp-3-FN
   APP_ENV: prod
   AWS_REGION: ap-southeast-2
   SVLD_VERSION: main
