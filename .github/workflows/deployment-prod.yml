@@ -2,10 +2,10 @@ name: Deployment - Prod
 on:
   push:
     branches:
-      - deployment-prod
+      - new-dep-prod-exp-3-FN
   pull_request:
     branches:
-      - deployment-prod
+      - new-dep-prod-exp-3-FN
 
 env:
   MTURK_NAME: my_mturk_user
