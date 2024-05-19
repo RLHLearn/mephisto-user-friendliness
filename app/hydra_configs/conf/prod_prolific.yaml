@@ -21,7 +21,7 @@ mephisto:
     task_description: "This task tests the collaboration between users and LLMs."
     task_reward: 150
     task_tags: "static,task,testing"
-    max_num_concurrent_units: 200
+    max_num_concurrent_units: 1
   provider:
     prolific_external_study_url: "https://example.com?participant_id={{%PROLIFIC_PID%}}&study_id={{%STUDY_ID%}}&submission_id={{%SESSION_ID%}}"
     prolific_id_option: "url_parameters"

@@ -5,7 +5,7 @@ on:
       - dep-prod-exp-3-FN
   pull_request:
     branches:
-      - dep-prod-exp-3-FN-GPT
+      - dep-prod-exp-3-FN
 env:
   MTURK_NAME: my_mturk_user
   MTURK_TYPE: mturk
