@@ -16,12 +16,12 @@ mephisto:
     units_per_assignment: 1
   log_level: "debug"
   task:
-    task_name: "mpt-p"
-    task_title: "mpt-p Task"
-    task_description: "This is a simple test of static Prolific tasks."
+    task_name:  "FN-GPT-Create-1"
+    task_title: "FN-GPT-Create-1"
+    task_description: "This task tests the collaboration between users and LLMs."
     task_reward: 150
     task_tags: "static,task,testing"
-    max_num_concurrent_units: 10
+    max_num_concurrent_units: 1
   provider:
     prolific_external_study_url: "https://example.com?participant_id={{%PROLIFIC_PID%}}&study_id={{%STUDY_ID%}}&submission_id={{%SESSION_ID%}}"
     prolific_id_option: "url_parameters"
