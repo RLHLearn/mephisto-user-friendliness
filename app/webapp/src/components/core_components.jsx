@@ -78,7 +78,7 @@ function SimpleFrontend({ taskData, fullData, isOnboarding, onSubmit, onError, g
               border: '1px solid black',
               padding: '10px',
               margin: '10px',
-              backgroundColor: '#f0f0f0',
+              backgroundColor: '#f0f0f1',
               wordWrap: 'break-word',
               maxHeight: '25vh', // Limits the height to 20% of the total height of the viewport
               overflow: 'auto'
