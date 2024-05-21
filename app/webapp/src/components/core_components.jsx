@@ -91,8 +91,8 @@ function SimpleFrontend({ taskData, fullData, isOnboarding, onSubmit, onError, g
               placeholder="Use this space to work on your prompt, paste it into GPT below when you're ready"
               required
             />
-            <p>[{taskData.question_text}]</p>
-            <p>select all that apply: [toxic, severe toxic, obscene, threat, insult, identity hate]</p>
+            {Array.isArray(taskData.question_text) ? taskData.question_text.map((line, index) => <p key={index}>{line}</p>) : <p>{taskData.question_text}</p>}
+            <p>Choose one emotion for each statement. There are 4 statements: [no emotion, anger, disgust, surprise, fear, happiness, sadness, surprise]</p>
           </div>
           <div style={{ flex: '1', overflow: 'auto' }}> {/* This ensures ChatGPT uses the remaining space */}
             <ChatGPT fullData={fullData} getAgentRegistration={getAgentRegistration} />

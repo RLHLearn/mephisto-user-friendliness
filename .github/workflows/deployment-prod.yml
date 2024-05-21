@@ -2,10 +2,10 @@ name: Deployment - Prod
 on:
   push:
     branches:
-      - new-dep-prod-exp-3-toxic
+      - new-dep-prod-exp-3-hate
   pull_request:
     branches:
-      - new-dep-prod-exp-3-toxic
+      - new-dep-prod-exp-3-hate
 
 env:
   MTURK_NAME: my_mturk_user
