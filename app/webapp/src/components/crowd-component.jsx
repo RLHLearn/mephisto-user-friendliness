@@ -126,10 +126,10 @@ const CrowdComponent = ({ onSubmit, taskData }) => {
 
           <p>You will do this in the following steps:</p>
           <ol>
-              <li>Interact with Chat GPT how you might normally. Record both your prompt and also Chat GPT's answer.</li>
-              <li>Read some of the materials we have provided. You are not required to use these methods, they are provided as inspiration only</li>
-              <li>Brainstorm and test at least three novel prompts, please be as creative as possible, try to come up with new ways of interacting with Chat GPT, creative ways to ask it to do the task etc. Try not to just reassemble the examples given</li>
-              <li>Once you are done brainstorming, please record your best and final prompt. It may be as long as you like, and may incorperate ideas from as many of the inspiration texts as you like</li>
+              <li>1. Interact with Chat GPT how you might normally. Record both your prompt and also Chat GPT's answer.</li>
+              <li>2. Read some of the materials we have provided. You are not required to use these methods, they are provided as inspiration only</li>
+              <li>3. Brainstorm and test at least three novel prompts, please be as creative as possible, try to come up with new ways of interacting with Chat GPT, creative ways to ask it to do the task etc. Try not to just reassemble the examples given</li>
+              <li>4. Once you are done brainstorming, please record your best and final prompt. It may be as long as you like, and may incorperate ideas from as many of the inspiration texts as you like</li>
           </ol>
           </div>
 
@@ -157,7 +157,7 @@ const CrowdComponent = ({ onSubmit, taskData }) => {
               backgroundColor: '#f0f0f0',
               wordWrap: 'break-word'
           }}>
-             <h2>Example Text:</h2>
+             <h2>Problem Text:</h2>
               <p>{question_text}</p>
           </div>
 
