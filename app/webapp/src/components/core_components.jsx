@@ -78,7 +78,7 @@ function SimpleFrontend({ taskData, fullData, isOnboarding, onSubmit, onError, g
               border: '1px solid black',
               padding: '10px',
               margin: '10px',
-              backgroundColor: '#f0f0f1',
+              backgroundColor: '#f0f0f0',
               wordWrap: 'break-word',
               maxHeight: '25vh', // Limits the height to 20% of the total height of the viewport
               overflow: 'auto'
@@ -92,8 +92,7 @@ function SimpleFrontend({ taskData, fullData, isOnboarding, onSubmit, onError, g
               required
             />
             <p>[{taskData.question_text}]</p>
-            <p>[{taskData.article_text}]</p>
-            <p>ensure your response concludes with one: ["Fake News", "Satire", "Real News"]</p>
+            <p>select all that apply: [toxic, severe toxic, obscene, threat, insult, identity hate]</p>
           </div>
           <div style={{ flex: '1', overflow: 'auto' }}> {/* This ensures ChatGPT uses the remaining space */}
             <ChatGPT fullData={fullData} getAgentRegistration={getAgentRegistration} />
