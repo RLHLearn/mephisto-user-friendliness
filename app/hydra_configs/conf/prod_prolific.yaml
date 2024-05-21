@@ -19,15 +19,15 @@ mephisto:
     task_name:  "new-dep-prod-exp-3-FN"
     task_title: "new-dep-prod-exp-3-FN"
     task_description: "This task tests the collaboration between users and LLMs."
-    task_reward: 150
+    task_reward: 200
     task_tags: "static,task,testing"
-    max_num_concurrent_units: 1
+    max_num_concurrent_units: 15
   provider:
     prolific_external_study_url: "https://example.com?participant_id={{%PROLIFIC_PID%}}&study_id={{%STUDY_ID%}}&submission_id={{%SESSION_ID%}}"
     prolific_id_option: "url_parameters"
     prolific_workspace_name: "UQ Workspace"
     prolific_project_name: "Big5_LLM"
-    prolific_estimated_completion_time_in_minutes: 15
+    prolific_estimated_completion_time_in_minutes: 20
 #    prolific_allow_list_group_name: "Allow list"
 #    prolific_block_list_group_name: "Block list"
 #    prolific_eligibility_requirements:
