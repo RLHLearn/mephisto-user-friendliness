@@ -140,8 +140,8 @@ const CrowdComponent = ({ onSubmit, taskData }) => {
         </h1> 
 
         <h1 style={{ fontSize: '16px', fontWeight: 'bold', marginBottom: '10px', border: '1px solid black', padding: '10px' }}>
-          {question_text}
-       
+        <h3>{question_text}</h3>
+        <p>{article_text}</p>       
         </h1>
       <div>
       <ExamplePrompts />
@@ -163,9 +163,9 @@ const CrowdComponent = ({ onSubmit, taskData }) => {
 
         <h2 style={{ fontSize: '24px', fontWeight: 'bold', marginBottom: '10px' }}>{"Record Chat GPT's Answer (select all that apply)"}</h2>
         <crowd-radio-group  required>
-        <crowd-radio-button name="init_real" value="real">Real News</crowd-radio-button>
-        <crowd-radio-button name="init_fake" value="fake">Fake News</crowd-radio-button>
-        <crowd-radio-button name="init_satire" value="satire">Satire</crowd-radio-button>
+        <crowd-radio-button name="final_real" value="real">Real News</crowd-radio-button>
+        <crowd-radio-button name="final_fake" value="fake">Fake News</crowd-radio-button>
+        <crowd-radio-button name="final_satire" value="satire">Satire</crowd-radio-button>
         </crowd-radio-group>
         </div>
 

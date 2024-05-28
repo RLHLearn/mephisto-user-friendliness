@@ -92,6 +92,7 @@ function SimpleFrontend({ taskData, fullData, isOnboarding, onSubmit, onError, g
               required
             />
             <p>Task text: {taskData.question_text}</p>
+            <p>{taskData.article_text}</p>
           </div>
           <div style={{ flex: '1', overflow: 'auto' }}> {/* This ensures ChatGPT uses the remaining space */}
             <ChatGPT fullData={fullData} getAgentRegistration={getAgentRegistration} />
