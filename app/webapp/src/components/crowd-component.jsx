@@ -2,47 +2,47 @@ import React, { useState } from 'react';
 
 
 
+
 const ExamplePrompts = () => {
   return (
-    <div style={{ padding: '20px', fontFamily: 'Arial, sans-serif' }}>
-      <ol>
-        <li>
-          <strong>MINIMUM STANDARD:</strong>
-          <p>"Select all that apply to this text: Toxic, Severe Toxic, Obscene, Threat, Insult, Identity Hate."</p>
-        </li>
-        <li>
-          <strong>Structured Response:</strong>
-          <p>"ChatGPT, analyze this text and structure your response by first summarizing its content, then list the key phrases that indicate its type of toxicity, and conclude with your assessment categorizing the specific types of toxicity present."</p>
-        </li>
-        <li>
-          <strong>Chain of Thought:</strong>
-          <p>"Let's approach this step-by-step. Examine the text and discuss your reasoning for each type of toxicity identified, considering the language intensity, context, and any targeted groups."</p>
-        </li>
-        <li>
-          <strong>Knowledge Generation:</strong>
-          <p>"First, outline the key characteristics of each toxicity type: Toxic, Severe Toxic, Obscene, Threat, Insult, Identity Hate. Then, apply this framework to the text below to determine which categories apply."</p>
-        </li>
-        <li>
-          <strong>Persona-Based:</strong>
-          <p>"Imagine you are a social media moderator specializing in community safety. Analyze this text and determine the types of toxicity present, based on your expertise."</p>
-        </li>
-        <li>
-          <strong>Probabilistic Assessment:</strong>
-          <p>"Assess the likelihood that this text falls into each category of toxicity. Assign a probability to each type and ensure your totals add up to 100%."</p>
-        </li>
-        <li>
-          <strong>Multi-Expert Debate:</strong>
-          <p>"Imagine three experts: a psychologist, a linguist, and a legal expert. Each has a different perspective on the types of toxicity present in the text. Conduct a mock debate where each expert argues their position based on the text."</p>
-        </li>
-        <li>
-          <strong>Collaborative Improvement:</strong>
-          <p>"After generating your initial analysis, I'd like you to help me refine the prompt for better accuracy in detecting toxicity. What changes would you suggest to improve the way we analyze and categorize toxic language?"</p>
-        </li>
-      </ol>
-    </div>
+  <div style={{ padding: '20px', fontFamily: 'Arial, sans-serif' }}>
+  <ol>
+  <li>
+  <strong>MINIMUM STANDARD:</strong>
+  <p>Select all that apply to this text: Toxic, Severe Toxic, Obscene, Threat, Insult, Identity Hate.</p>
+  </li>
+  <li>
+  <strong>Structured Response:</strong>
+  <p>ChatGPT, analyze this text and structure your response by first summarizing its content, then list the key phrases that indicate its type of toxicity, and conclude with your assessment categorizing the specific types of toxicity present.</p>
+  </li>
+  <li>
+  <strong>Chain of Thought:</strong>
+  <p>Let's approach this step-by-step. Examine the text and discuss your reasoning for each type of toxicity identified, considering the language intensity, context, and any targeted groups.</p>
+  </li>
+  <li>
+  <strong>Knowledge Generation:</strong>
+  <p>First, outline the key characteristics of each toxicity type: Toxic, Severe Toxic, Obscene, Threat, Insult, Identity Hate. Then, apply this framework to the text below to determine which categories apply.</p>
+  </li>
+  <li>
+  <strong>Persona-Based:</strong>
+  <p>Imagine you are a social media moderator specializing in community safety. Analyze this text and determine the types of toxicity present, based on your expertise.</p>
+  </li>
+  <li>
+  <strong>Probabilistic Assessment:</strong>
+  <p>Assess the likelihood that this text falls into each category of toxicity. Assign a probability to each type and ensure your totals add up to 100%.</p>
+  </li>
+  <li>
+  <strong>Multi-Expert Debate:</strong>
+  <p>Imagine three experts: a psychologist, a linguist, and a legal expert. Each has a different perspective on the types of toxicity present in the text. Conduct a mock debate where each expert argues their position based on the text.</p>
+  </li>
+  <li>
+  <strong>Collaborative Improvement:</strong>
+  <p>After generating your initial analysis, I'd like you to help me refine the prompt for better accuracy in detecting toxicity. What changes would you suggest to improve the way we analyze and categorize toxic language?</p>
+  </li>
+  </ol>
+  </div>
   );
-};
-
+  };
 
 
 
@@ -62,9 +62,11 @@ const CrowdComponent = ({ onSubmit, taskData }) => {
 
   
     const brainstorming = {
+      init_prompt: document.querySelector(`crowd-input[name="initial_prompt"]`).value,
       one: document.querySelector(`crowd-input[name="Brainstormed_Prompt_1"]`).value,
       two: document.querySelector(`crowd-input[name="Brainstormed_Prompt_2"]`).value,
       three: document.querySelector(`crowd-input[name="Brainstormed_Prompt_3"]`).value,
+      final_prompt: document.querySelector(`crowd-input[name="initial_prompt"]`).value,
     };
     
     const init_judgement = {
@@ -78,7 +80,6 @@ const CrowdComponent = ({ onSubmit, taskData }) => {
     
     
     const final_judgement = {
-      final_toxic: document.querySelector('crowd-radio-button[name="final_toxic"]').checked,
       final_severe_toxic: document.querySelector('crowd-radio-button[name="final_severe_toxic"]').checked,
       final_obscene: document.querySelector('crowd-radio-button[name="final_obscene"]').checked,
       final_threat: document.querySelector('crowd-radio-button[name="final_threat"]').checked,
