@@ -161,12 +161,26 @@ const CrowdComponent = ({ onSubmit, taskData }) => {
         </h1> 
         <crowd-input name="Final_prompt" label="Final_Prompt" required></crowd-input>
 
-        <h2 style={{ fontSize: '24px', fontWeight: 'bold', marginBottom: '10px' }}>{"Record Chat GPT's Answer (select all that apply)"}</h2>
-        <crowd-radio-group  required>
-        <crowd-radio-button name="final_real" value="real">Real News</crowd-radio-button>
-        <crowd-radio-button name="final_fake" value="fake">Fake News</crowd-radio-button>
-        <crowd-radio-button name="final_satire" value="satire">Satire</crowd-radio-button>
-        </crowd-radio-group>
+        <div>
+            {Array.isArray(question_text) ? 
+                question_text.map((line, index) => (
+                    <div key={index}>
+                        <p>{line}</p>
+                        <crowd-radio-group required>
+                        <crowd-radio-button name={`init_no_emotion_${index}`} value="no_emotion">No Emotion</crowd-radio-button>
+                        <crowd-radio-button name={`init_anger_${index}`} value="anger">Anger</crowd-radio-button>
+                        <crowd-radio-button name={`init_disgust_${index}`} value="disgust">Disgust</crowd-radio-button>
+                        <crowd-radio-button name={`init_fear_${index}`} value="fear">Fear</crowd-radio-button>
+                        <crowd-radio-button name={`init_happiness_${index}`} value="happiness">Happiness</crowd-radio-button>
+                        <crowd-radio-button name={`init_sadness_${index}`} value="sadness">Sadness</crowd-radio-button>
+                        <crowd-radio-button name={`init_surprise_${index}`} value="surprise">Surprise</crowd-radio-button>
+                    </crowd-radio-group>
+                    </div>
+                ))
+                : 
+                <p>{question_text}</p>
+            }
+          </div>
         </div>
 
         <div style={{ 
