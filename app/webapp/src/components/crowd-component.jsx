@@ -135,7 +135,7 @@ const CrowdComponent = ({ onSubmit, taskData }) => {
         <h1 style={{ fontSize: '24px', fontWeight: 'bold', marginBottom: '10px' }}>
           {"1. Guidelines"}
         </h1>
-        <h2>{"Read these guidelines and the drafting space to write a creative prompt to get Chat GPT to detect Toxic langauge in the example text. "}</h2>
+        <h2>{"Read these guidelines and the drafting space to write a creative prompt to get Chat GPT to detect fake news or satire in the example text. "}</h2>
        <p> </p>
         <h1 style={{ fontSize: '16px', fontWeight: 'bold', marginBottom: '10px' }}>
           {"Example Text:"}
@@ -165,12 +165,9 @@ const CrowdComponent = ({ onSubmit, taskData }) => {
 
         <h2 style={{ fontSize: '24px', fontWeight: 'bold', marginBottom: '10px' }}>{"Record Chat GPT's Answer (select all that apply)"}</h2>
         <crowd-radio-group  required>
-          <div><crowd-radio-button name="final_toxic" value="toxic">Toxic</crowd-radio-button></div>
-          <div><crowd-radio-button name="final_severe_toxic" value="severe_toxic">Severe Toxic</crowd-radio-button></div>
-          <div><crowd-radio-button name="final_obscene" value="obscene">Obscene</crowd-radio-button></div>
-          <div><crowd-radio-button name="final_threat" value="threat">Threat</crowd-radio-button></div>
-          <div><crowd-radio-button name="final_insult" value="insult">Insult</crowd-radio-button></div>
-          <div><crowd-radio-button name="final_identity_hate" value="identity_hate">Identity Hate</crowd-radio-button></div>
+        <crowd-radio-button name="init_real" value="real">Real News</crowd-radio-button>
+        <crowd-radio-button name="init_fake" value="fake">Fake News</crowd-radio-button>
+        <crowd-radio-button name="init_satire" value="satire">Satire</crowd-radio-button>
         </crowd-radio-group>
         </div>
 
