@@ -1,50 +1,202 @@
 [
     {
-        "question_text": "BREAKING! CONGRESS ADMITS CIA MOVING TO BAN FREE SPEECH IN AMERICA",
-        "article_text": "Alex Jones breaks down the total absurdity of the king and queen of fake news, Brian Williams and Hillary Clinton, declaring an all out attack on what they deem to be fake news.\nDespite Williams losing his job with NBC\u2019s Nightly News last year for spreading fake news and Clinton being caught lying about an attack on a Bosnia trip \u2013 not to mention voting for a war that killed thousands that was based on fake news \u2013 they continue to push forward in their attempt to shut down the alternative press that is rapidly growing and pushing out the faltering mainstream media.\nAs the EU demands censorship of fake news, Reddit, Facebook and others have begun blocking Infowars and other alternative media.\nIt is now alarmingly evident that there truly is a war on for your mind.\n",
-        "label": "fake",
-        "ID": "25"
+        "question_text": [
+            "Person 1: Is Water Shrinking Festival official ?",
+            "Person 2: No , most of the traditional festivals of the minority nationalities are not official .",
+            "Person 1: Dont you think these festivals are more interesting !",
+            "Person 2: What an idea !"
+        ],
+        "act": [
+            2,
+            1,
+            2,
+            1
+        ],
+        "emotion": [
+            0,
+            0,
+            4,
+            4
+        ]
     },
     {
-        "question_text": "Another Russian Politician Has Been Assassinated",
-        "article_text": "Russian diplomat Petr Polshikov, 56, has been found dead from gunshot wounds to the head at his flat in Moscow\u2019s Balaklavsky Prospekt, according to local media. Polshikov is a head figure in the Latin American department of the Russian foreign ministry, and served as an ambassador to Bolivia. His murder comes after Russian ambassador to Turkey, Andrei Karlov, was killed by an off-duty police officer at an art gala.\n\nIn Polshikov\u2019s shooting, investigators found two empty bullet shells in the diplomat\u2019s flat. A gun was also found in the flat\u2019s bathroom under the sink.\n\nSo far, the no murderer or suspects have been apprehended. The reason for the assassination is currently uncertain, as Russian authorities are examining all possible theories and leads to Polshikov\u2019s death. The sole individual at the scene during Polshikov\u2019s murder was his wife.",
-        "label": "fake",
-        "ID": "66"
+        "question_text": [
+            "Person 1: I \u2019 d like to talk to you for a second , please .",
+            "Person 2: Okay , Mark , What \u2019 s up ?",
+            "Person 1: I \u2019 d like to know why you \u2019 re always taking credit for work we \u2019 Ve done together like that line in the new Ice Cream ad ?",
+            "Person 2: That was my line , Mark . I know we worked on the ad together , but that was definitely my line ."
+        ],
+        "act": [
+            3,
+            2,
+            2,
+            3
+        ],
+        "emotion": [
+            0,
+            0,
+            1,
+            1
+        ]
     },
     {
-        "question_text": "Ontario Liberals give up, let each school choose their own sex-ed curriculum",
-        "article_text": "Aisha Alfa reports on the Kathleen Wynne government\u2019s plan to let each school set their own sex ed curriculum, and the wildly different lesson plans that the school boards have come up with.",
-        "label": "satire",
-        "ID": "289"
+        "question_text": [
+            "Person 1: Do you like snakes ?",
+            "Person 2: Of course not . Im afraid of them .",
+            "Person 1: I mean , do you like snake meat ?",
+            "Person 2: Im afraid Ill feel sick at the sight of it ."
+        ],
+        "act": [
+            2,
+            1,
+            2,
+            1
+        ],
+        "emotion": [
+            0,
+            3,
+            0,
+            2
+        ]
     },
     {
-        "question_text": "James Comey Quickly Reopens Clinton Email Investigation For Few More Minutes",
-        "article_text": "WASHINGTON\u2014In a letter addressed to Congress that was quickly followed by a second message retracting the first, FBI director James Comey is said to have briefly reopened the investigation into Hillary Clinton\u2019s emails for several more minutes Friday. \u201cThe FBI has learned of materials pertinent to this case and will be reopening the investigation into Hillary Clinton\u2019s use of a private email server to send classified information,\u201d Comey wrote to the nation\u2019s senators and representatives at 9:18 a.m. before writing another letter at 9:21 a.m. that read \u201cActually, we gave it a quick check, and everything looks fine here. Sorry about that!\u201d At press time, Comey had reportedly reopened the investigation after a new document had come to light.",
-        "label": "satire",
-        "ID": "271"
+        "question_text": [
+            "Person 1: Does the material stand washing ?",
+            "Person 2: Sure.This material is not only washable but also unshrinkable , sun-resistant , crease-resistant , resilient .",
+            "Person 1: Is it drip-dry ?",
+            "Person 2: Yes , you have a good eye for materials ."
+        ],
+        "act": [
+            2,
+            1,
+            2,
+            1
+        ],
+        "emotion": [
+            0,
+            0,
+            0,
+            4
+        ]
     },
     {
-        "question_text": "John Kerry Throws Vine Over Pit Of Quicksand To Save Child Companion",
-        "article_text": "PANGSAU, MYANMAR\u2014Thinking quickly to thwart disaster as he ventured deep into the Myanmar rainforest to meet with State Councilor Aung San Suu Kyi, Secretary of State John Kerry threw a vine over a pit of quicksand to save the life of his 12-year-old Moroccan companion, Drumstick, sources confirmed Monday. \u201cGrab on, kid!\u201d said Kerry, flinging the makeshift lifeline he had hacked off a tree with his machete to the rapidly sinking boy, an orphan who reportedly has tagged along with the American diplomat ever since helping him escape from Marrakesh police in 2013 via a series of hidden backstreets. \u201cFor a minute there, I thought I was going to lose you. I don\u2019t know what I would\u2019ve done with all that peace and quiet.\u201d According to sources, the incident marks Drumstick\u2019s closest brush with death since riding in a runaway mine cart in South Africa last year.",
-        "label": "satire",
-        "ID": "202"
+        "question_text": [
+            "Person 1: I dont think the lecture is very interesting .",
+            "Person 2: The lecturer is dull , too .",
+            "Person 1: I feel hes like a talking machine .",
+            "Person 2: I feel the same way ."
+        ],
+        "act": [
+            1,
+            1,
+            1,
+            1
+        ],
+        "emotion": [
+            2,
+            2,
+            2,
+            2
+        ]
     },
     {
-        "question_text": "Before Trump's Presidency, US Privacy Board in Disarray",
-        "article_text": "A federal board responsible for protecting Americans against abuses by spy agencies is in disarray just weeks before President-elect Donald Trump takes office.\n\nThe five-member Privacy and Civil Liberties Oversight Board will have only two remaining members as of Jan. 7 \u2014 and no Democrats even though it is required to operate as an independent, bipartisan agency.\n\nThe vacancies mean it will lack the minimum three members required to conduct business and can work only on ongoing projects. Trump would have to nominate new members, who would have to be confirmed by the Senate.\n\nThe board was revitalized after former National Security Agency contractor Edward Snowden's disclosures on the scope of U.S. spying in 2013. It notably concluded that the NSA's phone surveillance program was unconstitutional.",
-        "label": "real",
-        "ID": "184"
+        "question_text": [
+            "Person 1: You look really wiped out .",
+            "Person 2: I had meetings back to back all morning . Then the printer broke in the middle of putting together the Six Soap presentation , and the phone rang off the hook from the minute I walked into the office .",
+            "Person 1: Not a good day , I hate to tell you that Mr . Emory wants to see the designs for the Polish Paste Ad tomorrow morning .",
+            "Person 2: I can \u2019 t believe it ! I guess I \u2019 ll be here until ten again tonight !"
+        ],
+        "act": [
+            1,
+            1,
+            3,
+            4
+        ],
+        "emotion": [
+            0,
+            0,
+            0,
+            5
+        ]
     },
     {
-        "question_text": "Hillary Clinton Thanks Supporters, Refers to Popular Vote Win in End-of-Year Email",
-        "article_text": "Hillary Clinton thanked her supporters, referring to her popular-vote victory, and wished them a happy holiday season in an end-of-year email sent Monday.\n\nIn the email, Clinton mentioned the rough number of votes she received in the 2016 presidential election and that her popular vote win showed promise.\n\n\"Before this year ends, I want to thank you again for your support of our campaign,\" Clinton wrote in the email. \"While we didn't achieve the outcome we sought, I'm proud of the vision and values we fought for and the nearly 66 million people who voted for them.\"\n\nClinton also encouraged supporters to keep pressing forward saying she believes it is \"our responsibility to keep doing our part to build a better, stronger, and fairer future for our country and the world.\"\n\nBut she did not indicate any specific plans for the future.\n\nNY Attorney General Hinders Trump Plan to Shutter Foundation\nHillary Clinton Officially Wins Popular Vote by Nearly 2.9 Million\n1,000 Roses and Sidewalk Messages in Chalk for Hillary Clinton\nThe email ended with Clinton's well wishes for the new year and said she would be \"in touch\" in 2017.\n\n\"I wish you and your family health, happiness, and continued strength for the New Year and the work ahead,\" she wrote.\n\nShe also expressed her year-end wishes on Twitter.",
-        "label": "real",
-        "ID": "1014"
+        "question_text": [
+            "Person 1: Ben cancelled his trip .",
+            "Person 2: How come ?",
+            "Person 1: Because General , his dog , got sick .",
+            "Person 2: Hes such a mother hen ."
+        ],
+        "act": [
+            1,
+            2,
+            1,
+            1
+        ],
+        "emotion": [
+            0,
+            6,
+            0,
+            0
+        ]
     },
     {
-        "question_text": "Donald Trump taps former Bush aide as top counterterrorism adviser",
-        "article_text": "President-elect Donald Trump has tapped former Bush aide Tom Bossert to serve as assistant to the President for homeland security and counterterrorism, his transition team announced Tuesday.\n\n\u201cTom brings enormous depth and breadth of knowledge and experience to protecting the homeland to our senior White House team,\u201d Mr. Trump said in a statement. \u201cHe has a handle on the complexity of homeland security, counterterrorism, and cybersecurity challenges. He will be an invaluable asset to our Administration.\u201d\n\nThe post will be a return to the White House for Bossert, who previously served as the deputy homeland security advisor to former President George W. Bush. Before that, he spent two years as the White House\u2019s director of infrastructure protection policy.\n\nSince leaving the White House, Bossert has run a national security consulting business and served as a fellow at the Atlantic Council focusing on cybersecurity.\n\nMr. Trump\u2019s transition team said the position for which Bossert was selected has recently been performed by a deputy to the National Security Advisor, but that in Mr. Trump\u2019s administration the job \u201cis being elevated and restored to its independent status.\u201d \n\nLt. Gen. Michael Flynn (ret.) will serve as Mr. Trump\u2019s National Security Advisor.\n\n\u201cI am looking forward to working closely with Gen. Flynn as we together help the President-elect advance the interests of the United States and its allies,\u201d Bossert said in a statement.",
-        "label": "real",
-        "ID": "1007"
+        "question_text": [
+            "Person 1: I didnt see you at Mr . Johnsons class today .",
+            "Person 2: Yeah , I quit .",
+            "Person 1: Why ?",
+            "Person 2: Im fed up with his boring lectures ."
+        ],
+        "act": [
+            1,
+            1,
+            2,
+            1
+        ],
+        "emotion": [
+            0,
+            0,
+            0,
+            2
+        ]
+    },
+    {
+        "question_text": [
+            "Person 1: Hey , Mary , nice to see you again . I heard youre going back home to the U . S ..",
+            "Person 2: Yes . Im leaving tomorrow . I came here just because I want to say good-bye to you .",
+            "Person 1: Youre so thoughtful . Wish you a good trip home . And well miss you .",
+            "Person 2: Ill miss you too , my friends ."
+        ],
+        "act": [
+            1,
+            1,
+            1,
+            1
+        ],
+        "emotion": [
+            0,
+            0,
+            4,
+            4
+        ]
+    },
+    {
+        "question_text": [
+            "Person 1: Do you keep any pets , such as cats , dogs ?",
+            "Person 2: No , Im scared of cats .",
+            "Person 1: Oh , but why ?",
+            "Person 2: I feel theyre dirty ."
+        ],
+        "act": [
+            2,
+            1,
+            2,
+            1
+        ],
+        "emotion": [
+            0,
+            3,
+            0,
+            0
+        ]
     }
 ]
