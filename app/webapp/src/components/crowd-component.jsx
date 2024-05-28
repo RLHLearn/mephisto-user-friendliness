@@ -79,11 +79,9 @@ const CrowdComponent = ({ onSubmit, taskData }) => {
 
     const final_judgement = {
       final_prompt: document.querySelector(`crowd-input[name="Final_prompt"]`).value,
-      final_severe_toxic: document.querySelector('crowd-radio-button[name="final_severe_toxic"]').checked,
-      final_obscene: document.querySelector('crowd-radio-button[name="final_obscene"]').checked,
-      final_threat: document.querySelector('crowd-radio-button[name="final_threat"]').checked,
-      final_insult: document.querySelector('crowd-radio-button[name="final_insult"]').checked,
-      final_identity_hate: document.querySelector('crowd-radio-button[name="final_identity_hate"]').checked,
+      fake: document.querySelector('crowd-radio-button[name="final_fake"]').checked,
+      real: document.querySelector('crowd-radio-button[name="final_real"]').checked,
+      satire: document.querySelector('crowd-radio-button[name="final_satire"]').checked,
       final_perception: document.querySelector(`crowd-input[name="user_perceptions"]`).value,
     };
     
