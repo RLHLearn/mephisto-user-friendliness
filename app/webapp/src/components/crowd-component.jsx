@@ -77,16 +77,58 @@ const CrowdComponent = ({ onSubmit, taskData }) => {
   const onFormSubmit = (e) => {
     e.preventDefault();
 
-    const final_judgement = {
-      final_prompt: document.querySelector(`crowd-input[name="Final_prompt"]`).value,
-      fake: document.querySelector('crowd-radio-button[name="final_fake"]').checked,
-      real: document.querySelector('crowd-radio-button[name="final_real"]').checked,
-      satire: document.querySelector('crowd-radio-button[name="final_satire"]').checked,
+    const final_judgement_0 = {
+      final_no_emotion_0: document.querySelector('crowd-radio-button[name="final_no_emotion_0"]').checked,
+      final_anger_0: document.querySelector('crowd-radio-button[name="final_anger_0"]').checked,
+      final_disgust_0: document.querySelector('crowd-radio-button[name="final_disgust_0"]').checked,
+      final_fear_0: document.querySelector('crowd-radio-button[name="final_fear_0"]').checked,
+      final_happiness_0: document.querySelector('crowd-radio-button[name="final_happiness_0"]').checked,
+      final_sadness_0: document.querySelector('crowd-radio-button[name="final_sadness_0"]').checked,
+      final_surprise_0: document.querySelector('crowd-radio-button[name="final_surprise_0"]').checked,
+    };
+    
+    const final_judgement_1 = {
+      final_no_emotion_1: document.querySelector('crowd-radio-button[name="final_no_emotion_1"]').checked,
+      final_anger_1: document.querySelector('crowd-radio-button[name="final_anger_1"]').checked,
+      final_disgust_1: document.querySelector('crowd-radio-button[name="final_disgust_1"]').checked,
+      final_fear_1: document.querySelector('crowd-radio-button[name="final_fear_1"]').checked,
+      final_happiness_1: document.querySelector('crowd-radio-button[name="final_happiness_1"]').checked,
+      final_sadness_1: document.querySelector('crowd-radio-button[name="final_sadness_1"]').checked,
+      final_surprise_1: document.querySelector('crowd-radio-button[name="final_surprise_1"]').checked,
+    };
+    
+    const final_judgement_2 = {
+      final_no_emotion_2: document.querySelector('crowd-radio-button[name="final_no_emotion_2"]').checked,
+      final_anger_2: document.querySelector('crowd-radio-button[name="final_anger_2"]').checked,
+      final_disgust_2: document.querySelector('crowd-radio-button[name="final_disgust_2"]').checked,
+      final_fear_2: document.querySelector('crowd-radio-button[name="final_fear_2"]').checked,
+      final_happiness_2: document.querySelector('crowd-radio-button[name="final_happiness_2"]').checked,
+      final_sadness_2: document.querySelector('crowd-radio-button[name="final_sadness_2"]').checked,
+      final_surprise_2: document.querySelector('crowd-radio-button[name="final_surprise_2"]').checked,
+    };
+    
+    const final_judgement_3 = {
+      final_no_emotion_3: document.querySelector('crowd-radio-button[name="final_no_emotion_3"]').checked,
+      final_anger_3: document.querySelector('crowd-radio-button[name="final_anger_3"]').checked,
+      final_disgust_3: document.querySelector('crowd-radio-button[name="final_disgust_3"]').checked,
+      final_fear_3: document.querySelector('crowd-radio-button[name="final_fear_3"]').checked,
+      final_happiness_3: document.querySelector('crowd-radio-button[name="final_happiness_3"]').checked,
+      final_sadness_3: document.querySelector('crowd-radio-button[name="final_sadness_3"]').checked,
+      final_surprise_3: document.querySelector('crowd-radio-button[name="final_surprise_3"]').checked,
+    };
+
+
+
+    const final_discussion = {
       final_perception: document.querySelector(`crowd-input[name="user_perceptions"]`).value,
     };
     
     const submitData = {
-      "final":final_judgement,
+      "final_0":final_judgement_0,
+      "final_1":final_judgement_1,
+      "final_2":final_judgement_2,
+      "final_3":final_judgement_3,
+      "final_prompt":final_discussion
     };
   
     onSubmit?.(submitData);
