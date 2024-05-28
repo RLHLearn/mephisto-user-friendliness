@@ -80,19 +80,18 @@ function SimpleFrontend({ taskData, fullData, isOnboarding, onSubmit, onError, g
               margin: '10px',
               backgroundColor: '#f0f0f0',
               wordWrap: 'break-word',
-              maxHeight: '25vh', // Limits the height to 20% of the total height of the viewport
+              maxHeight: '40vh', // Limits the height to 20% of the total height of the viewport
               overflow: 'auto'
           }}>
-            <h1>Prompt Template</h1>
-            <h2>Modify this template and copy-paste it into Chat GPT to help your experimentation</h2>
+            <h1 style={{ fontSize: '24px', fontWeight: 'bold', marginBottom: '10px' }} >2. Drafting Space </h1>
+            <h2>Work on your prompt in this space, we provide the task example text for easy copy and paste into Chat GPT</h2>
             <textarea
               name="prompt"
-              style={{ width: '100%', height: '100px' }} // Adjust as needed
+              style={{ width: '100%', height: '300px' }} // Adjust as needed
               placeholder="Use this space to work on your prompt, paste it into GPT below when you're ready"
               required
             />
-            <p>[{taskData.question_text}]</p>
-            <p>select all that apply: [toxic, severe toxic, obscene, threat, insult, identity hate]</p>
+            <p>Task text: {taskData.question_text}</p>
           </div>
           <div style={{ flex: '1', overflow: 'auto' }}> {/* This ensures ChatGPT uses the remaining space */}
             <ChatGPT fullData={fullData} getAgentRegistration={getAgentRegistration} />
