@@ -91,8 +91,10 @@ function SimpleFrontend({ taskData, fullData, isOnboarding, onSubmit, onError, g
               placeholder="Use this space to work on your prompt, paste it into GPT below when you're ready"
               required
             />
-            <p>Task text: {taskData.question_text}</p>
-            <p>{taskData.article_text}</p>
+            <p>Task text: {Array.isArray(taskData.question_text) ? taskData.question_text.map((line, index) => <p key={index}>{line}</p>) : <p>{taskData.question_text}</p>}
+            
+</p>
+
           </div>
           <div style={{ flex: '1', overflow: 'auto' }}> {/* This ensures ChatGPT uses the remaining space */}
             <ChatGPT fullData={fullData} getAgentRegistration={getAgentRegistration} />

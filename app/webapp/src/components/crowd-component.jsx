@@ -140,8 +140,8 @@ const CrowdComponent = ({ onSubmit, taskData }) => {
         </h1> 
 
         <h1 style={{ fontSize: '16px', fontWeight: 'bold', marginBottom: '10px', border: '1px solid black', padding: '10px' }}>
-        <h3>{question_text}</h3>
-        <p>{article_text}</p>       
+        {Array.isArray(question_text) ? question_text.map((line, index) => <p key={index}>{line}</p>) : <p>{question_text}</p>}
+       
         </h1>
       <div>
       <ExamplePrompts />
@@ -167,13 +167,13 @@ const CrowdComponent = ({ onSubmit, taskData }) => {
                     <div key={index}>
                         <p>{line}</p>
                         <crowd-radio-group required>
-                        <crowd-radio-button name={`init_no_emotion_${index}`} value="no_emotion">No Emotion</crowd-radio-button>
-                        <crowd-radio-button name={`init_anger_${index}`} value="anger">Anger</crowd-radio-button>
-                        <crowd-radio-button name={`init_disgust_${index}`} value="disgust">Disgust</crowd-radio-button>
-                        <crowd-radio-button name={`init_fear_${index}`} value="fear">Fear</crowd-radio-button>
-                        <crowd-radio-button name={`init_happiness_${index}`} value="happiness">Happiness</crowd-radio-button>
-                        <crowd-radio-button name={`init_sadness_${index}`} value="sadness">Sadness</crowd-radio-button>
-                        <crowd-radio-button name={`init_surprise_${index}`} value="surprise">Surprise</crowd-radio-button>
+                        <crowd-radio-button name={`final_no_emotion_${index}`} value="no_emotion">No Emotion</crowd-radio-button>
+                        <crowd-radio-button name={`final_anger_${index}`} value="anger">Anger</crowd-radio-button>
+                        <crowd-radio-button name={`final_disgust_${index}`} value="disgust">Disgust</crowd-radio-button>
+                        <crowd-radio-button name={`final_fear_${index}`} value="fear">Fear</crowd-radio-button>
+                        <crowd-radio-button name={`final_happiness_${index}`} value="happiness">Happiness</crowd-radio-button>
+                        <crowd-radio-button name={`final_sadness_${index}`} value="sadness">Sadness</crowd-radio-button>
+                        <crowd-radio-button name={`final_surprise_${index}`} value="surprise">Surprise</crowd-radio-button>
                     </crowd-radio-group>
                     </div>
                 ))
