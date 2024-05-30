@@ -128,5 +128,15 @@
     "threat": 1,
     "insult": 1,
     "identity_hate": 1
+    },
+    {
+    "ID": "b00f1c06c8a7e11e",
+    "question_text": "Pansy. There are MULTIPLE sources reporting the shot down of a French Warplane. Stop censoring wikipedia you asshole. You claim that Libya is manipulating reports, but not concidering the same from the coalition?? You're also not taking into account that YOU are manipulating reports, by cencoring information here. So suck it. - AGSman61",
+    "toxic": 1,
+    "severe_toxic": 0,
+    "obscene": 1,
+    "threat": 0,
+    "insult": 0,
+    "identity_hate": 0
 }
 ]
