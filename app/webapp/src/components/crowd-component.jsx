@@ -135,7 +135,7 @@ const CrowdComponent = ({ onSubmit, taskData }) => {
         <h1 style={{ fontSize: '24px', fontWeight: 'bold', marginBottom: '10px' }}>
           {"1. Guidelines"}
         </h1>
-        <h2>{"Read these guidelines and the drafting space to write a creative prompt to get Chat GPT to detect Toxic langauge in the example text. "}</h2>
+        <h2>{"Read these guidelines and the drafting space to write a creative prompt to get Chat GPT to detect elements of Toxic langauge in the example text. "}</h2>
        <p> </p>
         <h1 style={{ fontSize: '16px', fontWeight: 'bold', marginBottom: '10px' }}>
           {"Example Text:"}

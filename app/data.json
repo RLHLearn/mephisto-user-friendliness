@@ -1,12 +1,22 @@
 [
     {
-        "ID": "9e6b70e0db26315b",
-        "question_text": "A misery= You have made my life a misery on Wikipedia, and now you're gonna pay for it you disgusting, ignorant and stupid bastard. ",
+        "ID": "a68341be909282c9",
+        "question_text": "Only a sad loser janitor would think that being a janitor is better than being banned from wikipedia. LOL. Why you so bitter? Were you so incompetent that they fired you as a janitor too?",
         "toxic": 1,
         "severe_toxic": 0,
-        "obscene": 1,
-        "threat": 1,
-        "insult": 1,
+        "obscene": 0,
+        "threat": 0,
+        "insult": 0,
+        "identity_hate": 0
+    },
+    {
+        "ID": "a68341be909282c9",
+        "question_text": "Only a sad loser janitor would think that being a janitor is better than being banned from wikipedia. LOL. Why you so bitter? Were you so incompetent that they fired you as a janitor too?",
+        "toxic": 1,
+        "severe_toxic": 0,
+        "obscene": 0,
+        "threat": 0,
+        "insult": 0,
         "identity_hate": 0
     }
   ]
