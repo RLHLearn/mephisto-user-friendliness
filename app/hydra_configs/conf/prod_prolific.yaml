@@ -19,7 +19,7 @@ mephisto:
     task_name:  "new-dep-prod-exp-3-sent-2"
     task_title: "new-dep-prod-exp-3-sent-2"
     task_description: "This task tests the collaboration between users and LLMs."
-    task_reward: 80
+    task_reward: 85
     task_tags: "static,task,testing"
     max_num_concurrent_units: 15
   provider:
