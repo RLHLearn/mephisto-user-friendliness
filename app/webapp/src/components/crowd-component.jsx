@@ -115,6 +115,8 @@ const CrowdComponent = ({ onSubmit, taskData }) => {
           <p>Welcome to this creative prompt writing task.</p>
           <p>The way we ask Chat GPT to do something [a prompt] can have a large impact on how it performs. We are trying to find new and creative ways to prompt Chat GPT.</p>
           <p>Your task is to read the guidelines and write a creative prompt for the detection of toxic language given some example text. Please be as creative as possible and test your prompt with Chat GPT by providing both the prompt and the example text to Chat GPT, record Chat GPT's response    
+          <p>Please ensure your prompt is clear on the possible labels, and on the fact that as many as apply are to be selected. The labels are [toxic, severe toxic, obscene, insult, threat, identity hate]</p>
+          
           </p>
 
           <p>You may follow as many or as few of the guidelines as you like in writing your prommpt, and as long as you like, we only seek creativity and performance.</p>
