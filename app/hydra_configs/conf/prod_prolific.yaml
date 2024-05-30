@@ -7,7 +7,7 @@ mephisto:
   architect:
     _architect_type: ec2
     profile_name: mpt
-    subdomain: "new-dep-prod-exp-3-FN-2.mpt"
+    subdomain: "new-dep-prod-exp-3-FN-3.mpt"
   blueprint:
     data_json: ${task_dir}/data.json
     task_source: ${task_dir}/webapp/build/bundle.js
@@ -16,8 +16,8 @@ mephisto:
     units_per_assignment: 1
   log_level: "debug"
   task:
-    task_name:  "new-dep-prod-exp-3-FN-2"
-    task_title: "new-dep-prod-exp-3-FN-2"
+    task_name:  "new-dep-prod-exp-3-FN-3"
+    task_title: "new-dep-prod-exp-3-FN-3"
     task_description: "This task tests the collaboration between users and LLMs."
     task_reward: 100
     task_tags: "static,task,testing"
