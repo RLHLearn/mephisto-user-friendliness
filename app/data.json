@@ -138,5 +138,35 @@
     "threat": 0,
     "insult": 0,
     "identity_hate": 0
+    },
+    {
+    "ID": "1f5115274e080a68",
+    "question_text": "Access Denied to the pursuit of truth \n\nBigee and Piano01 - do you have anything better to do with your time? - I was developing a fully comprehensive work on the Northern Territory Police, largely for my own education as I am undergoing recruitment. Because of your shortsighted pedantic and stupid attitude now there is virtually no information available at one source for anyone seeking it. You people are real morons. You have cleaned up nothing - its downright vandalism. May you both have a concealed disease that manifests itself as lukemia or AIDS.",
+    "toxic": 1,
+    "severe_toxic": 0,
+    "obscene": 0,
+    "threat": 0,
+    "insult": 0,
+    "identity_hate": 0
+    },
+    {
+    "ID": "893c7f18ec81728c",
+    "question_text": "=I got pissed\nthis mulatto fuck has been pestering me for the past year and all he does is try to get under my skin. i fuckin hate this motherfuckin shitskin faggot. sorry for attacking it, but it should fuckin die! i hate shaka",
+    "toxic": 1,
+    "severe_toxic": 1,
+    "obscene": 1,
+    "threat": 0,
+    "insult": 1,
+    "identity_hate": 1
+    },
+    {
+    "ID": "69a4007174fdcdf3",
+    "question_text": "Because this guy has no life and likes to f*ck around with people's hard work. Just retaliate against him, so he stops messing up people's legitimate pages.",
+    "toxic": 1,
+    "severe_toxic": 0,
+    "obscene": 1,
+    "threat": 0,
+    "insult": 1,
+    "identity_hate": 0
 }
 ]
